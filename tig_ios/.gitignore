@@ -1,0 +1,57 @@
+
+ObjcUML/*
+*.js
+*.css
+*.mp4
+
+# TIGPlayer\.xcworkspace/
+# *.xcscheme
+# TIGPlayerExample.xcodeproj/project.pbxproj
+# TIGPlayerExample.xcodeproj/xcuserdata/tang.xcuserdatad/xcschemes/xcschememanagement.plist
+# TIGPlayer.xcodeproj/xcuserdata/tang.xcuserdatad/xcschemes/xcschememanagement.plist
+# Pods/Target Support Files/Pods-TIGPlayerExample/Pods-TIGPlayerExample.debugforlocal.xcconfig
+# Pods/Target Support Files/Pods-TIGPlayerExample/Pods-TIGPlayerExample-frameworks.sh
+# Pods/Target Support Files/Pods-TIGPlayer/Pods-TIGPlayer.debugforlocal.xcconfig
+# Pods/Pods.xcodeproj/xcuserdata/tang.xcuserdatad/xcschemes/xcschememanagement.plist
+# Pods/Pods.xcodeproj/project.pbxproj
+# Pods/Manifest.lock
+# Pods/Local Podspecs/TIGPlayer.podspec.json
+# Podfile.lock
+
+# macのあれ
+.DS_Store
+
+# Xcodeのビルドファイル
+DerivedData/
+build/
+
+# XCodeのプライベート設定 (ウィンドウサイズ、ブックマーク、ブレイクポイントetc)
+# (デフォルト設定ファイルは除く)
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+
+# ビルドのカスタムscheme
+xcuserdata
+
+# Xcode起動の度に編集される UserInterfaceState.xcuserstateなど
+*.xcuserstate
+
+# VCSのメタデータが含まれ、コミットしてしまうとmergeが困難になるなどの問題が発生する
+# http://stackoverflow.com/questions/18340453/should-xccheckout-files-in-xcode5-be-ignored-under-vcs
+*.xccheckout
+
+# 手動で廃止（deprecate）したクラスのファイルがここへ移動する（同じ名前のクラスを定義しようとしたときなど）
+# http://stackoverflow.com/questions/1153211/whats-that-classes-1-moved-aside-directory-in-my-classes-directory
+*.moved-aside
+
+# CocoaPods (最低限 Podsfile と Podfile.lock があれば再生成できる)
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#Pods/

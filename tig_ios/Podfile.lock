@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
+  - Fabric (1.7.6)
+  - ObjectMapper (2.2.6)
+  - PromiseKit (4.2.0):
+    - PromiseKit/Foundation (= 4.2.0)
+    - PromiseKit/QuartzCore (= 4.2.0)
+    - PromiseKit/UIKit (= 4.2.0)
+  - PromiseKit/CorePromise (4.2.0)
+  - PromiseKit/Foundation (4.2.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.2.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.2.0):
+    - PromiseKit/CorePromise
+  - Realm (2.7.0):
+    - Realm/Headers (= 2.7.0)
+  - Realm/Headers (2.7.0)
+  - RealmSwift (2.7.0):
+    - Realm (= 2.7.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SwiftyJSON (3.1.4)
+  - TIGPlayer (0.9.30):
+    - Alamofire (= 4.4.0)
+    - ObjectMapper (= 2.2.6)
+    - PromiseKit (= 4.2.0)
+    - RealmSwift (= 2.7.0)
+    - SDWebImage (= 3.8.2)
+    - SwiftyJSON (= 3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (= 4.4.0)
+  - Crashlytics
+  - Fabric
+  - ObjectMapper (= 2.2.6)
+  - PromiseKit (= 4.2.0)
+  - RealmSwift (= 2.7.0)
+  - SDWebImage (= 3.8.2)
+  - SwiftyJSON (= 3.1.4)
+  - TIGPlayer (from `/Users/hiro-kobayashi/Desktop/tig_ios/TIGPlayer.podspec`)
+
+EXTERNAL SOURCES:
+  TIGPlayer:
+    :path: /Users/hiro-kobayashi/Desktop/tig_ios/TIGPlayer.podspec
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
+  Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
+  ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
+  PromiseKit: 08dfb783c161ddcd95b7912421f14c5113fd8318
+  Realm: 07e5d3a9e0e41d65fd5f9f05150ed6295d0f093b
+  RealmSwift: 6d06425d3900c86473c4f323bf6949b43fca22bc
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TIGPlayer: a90d912e4a7ff6acb4c059f6bd27f936498ae182
+
+PODFILE CHECKSUM: b92c3fb5a34713c1870af861ac2480482ce99395
+
+COCOAPODS: 1.4.0

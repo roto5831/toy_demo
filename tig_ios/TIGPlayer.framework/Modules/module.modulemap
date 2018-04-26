@@ -1,0 +1,11 @@
+framework module TIGPlayer {
+  umbrella header "TIGPlayer.h"
+
+  export *
+  module * { export * }
+}
+
+module TIGPlayer.Swift {
+    header "TIGPlayer-Swift.h"
+    requires objc
+}

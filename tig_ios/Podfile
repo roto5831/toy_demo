@@ -1,0 +1,39 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.2'
+
+use_frameworks!
+workspace 'TIGPlayer'
+def tigframework_pods
+    pod 'Alamofire',    '4.4.0'
+    pod 'SwiftyJSON',   '3.1.4'
+    pod 'RealmSwift',   '2.7.0'
+    pod 'ObjectMapper', '2.2.6'
+    pod 'SDWebImage',   '3.8.2'
+    pod 'PromiseKit',   '4.2.0'
+    pod 'TIGPlayer', :path => File.expand_path('../../tig_ios/TIGPlayer.podspec', __FILE__)
+end
+
+target 'TIGPlayerExample' do
+    pod 'Fabric'
+    pod 'Crashlytics'
+    project 'TIGPlayerExample.xcodeproj'
+    tigframework_pods
+end
+
+target 'TIGPlayerSDKExample' do
+    project 'TIGPlayerSDKExample.xcodeproj'
+    tigframework_pods
+end
+
+target 'TIGPlayer' do
+    project 'TIGPlayer.xcodeproj'
+    tigframework_pods
+end
+
+post_install do | installer |
+    require 'fileutils'
+    FileUtils.cp_r('Pods/Target Support Files/Pods-TIGPlayer/Pods-TIGPlayer-acknowledgements.plist', 'Settings.bundle/Acknowledgements.plist', :remove_destination => true)
+end
+
+
+

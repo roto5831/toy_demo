@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="p88-xF-P3h">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tutorial View Controller-->
+        <scene sceneID="yEK-7o-nWY">
+            <objects>
+                <viewController id="p88-xF-P3h" userLabel="Tutorial View Controller" customClass="TutorialViewController" customModule="TIG" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e67-v2-cSF"/>
+                        <viewControllerLayoutGuide type="bottom" id="eaY-0b-sMT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qCG-iB-Z36">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1xA-fy-Nfi">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <segue destination="1vG-N8-mf6" kind="embed" id="qWI-ay-a5m"/>
+                                </connections>
+                            </containerView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ZZb-Jx-Pgq">
+                                <rect key="frame" x="16" y="290" width="635" height="37"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZd-fJ-7cq" userLabel="Next">
+                                <rect key="frame" x="0.0" y="339" width="667" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="次へ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showNext:" destination="p88-xF-P3h" eventType="touchUpInside" id="oCh-nB-Bg1"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="利用規約に同意して" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoS-tS-oke">
+                                <rect key="frame" x="255.5" y="319" width="156" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ZZb-Jx-Pgq" secondAttribute="trailing" constant="16" id="Av4-Vd-ukz"/>
+                            <constraint firstItem="hoS-tS-oke" firstAttribute="centerX" secondItem="1xA-fy-Nfi" secondAttribute="centerX" id="IKV-Dc-dTe"/>
+                            <constraint firstItem="ZZb-Jx-Pgq" firstAttribute="leading" secondItem="qCG-iB-Z36" secondAttribute="leading" constant="16" id="Iof-Ue-FBO"/>
+                            <constraint firstItem="aZd-fJ-7cq" firstAttribute="top" secondItem="ZZb-Jx-Pgq" secondAttribute="bottom" constant="12" id="UMc-at-lB1"/>
+                            <constraint firstItem="aZd-fJ-7cq" firstAttribute="leading" secondItem="qCG-iB-Z36" secondAttribute="leading" id="cxV-x2-KY4"/>
+                            <constraint firstItem="1xA-fy-Nfi" firstAttribute="leading" secondItem="aZd-fJ-7cq" secondAttribute="leading" id="flX-mi-DAi"/>
+                            <constraint firstItem="1xA-fy-Nfi" firstAttribute="top" secondItem="qCG-iB-Z36" secondAttribute="top" id="htR-cc-dxC"/>
+                            <constraint firstItem="1xA-fy-Nfi" firstAttribute="bottom" secondItem="eaY-0b-sMT" secondAttribute="top" id="mE2-af-Kwq"/>
+                            <constraint firstItem="aZd-fJ-7cq" firstAttribute="bottom" secondItem="eaY-0b-sMT" secondAttribute="top" id="oRc-kz-Agt"/>
+                            <constraint firstItem="1xA-fy-Nfi" firstAttribute="trailing" secondItem="aZd-fJ-7cq" secondAttribute="trailing" id="tcy-4m-tYm"/>
+                            <constraint firstItem="aZd-fJ-7cq" firstAttribute="top" secondItem="hoS-tS-oke" secondAttribute="bottom" id="vxc-xC-3sI"/>
+                            <constraint firstItem="aZd-fJ-7cq" firstAttribute="trailing" secondItem="qCG-iB-Z36" secondAttribute="trailing" id="zLe-Bk-rXi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nextButton" destination="aZd-fJ-7cq" id="1lv-Cx-faV"/>
+                        <outlet property="pageContainerView" destination="1xA-fy-Nfi" id="Whk-ry-kGn"/>
+                        <outlet property="pageControl" destination="ZZb-Jx-Pgq" id="OIl-35-yeZ"/>
+                        <outlet property="termsLinkLabel" destination="hoS-tS-oke" id="PNU-E7-vjN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z7Z-JY-jQR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1349.7751124437782" y="114.40000000000001"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="pbc-Xx-NAo">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="1vG-N8-mf6" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0M1-p4-rMv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-535" y="116"/>
+        </scene>
+        <!--Tutorial First Page View Controller-->
+        <scene sceneID="WNb-Zu-UZW">
+            <objects>
+                <viewController storyboardIdentifier="TutorialFirstPageViewController" id="Zim-o9-mxT" customClass="TutorialFirstPageViewController" customModule="TIG" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BRP-zT-hay"/>
+                        <viewControllerLayoutGuide type="bottom" id="iVF-qg-Qa2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="B8k-LK-hVb">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XeZ-1X-XqR" userLabel="playerView">
+                                <rect key="frame" x="156" y="10" width="355" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <accessibility key="accessibilityConfiguration" identifier="TutorialFirst"/>
+                    </view>
+                    <connections>
+                        <outlet property="playerLayerView" destination="XeZ-1X-XqR" id="OKa-xI-7fu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v3u-jS-20v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1348" y="828.93553223388312"/>
+        </scene>
+        <!--Tutorial Second Page View Controller-->
+        <scene sceneID="x0U-ua-rzD">
+            <objects>
+                <viewController storyboardIdentifier="TutorialSecondPageViewController" id="qAq-Jg-7jq" customClass="TutorialSecondPageViewController" customModule="TIG" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bLR-HJ-6Fy"/>
+                        <viewControllerLayoutGuide type="bottom" id="gMw-n0-lT2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ODa-DG-vdW">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fOU-76-lje" userLabel="playerView">
+                                <rect key="frame" x="156" y="10" width="355" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="playerLayerView" destination="fOU-76-lje" id="qav-jJ-LEm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cfw-Rx-US0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-536.79999999999995" y="827.13643178410803"/>
+        </scene>
+        <!--Tutorial Third Page View Controller-->
+        <scene sceneID="nFy-qv-4SJ">
+            <objects>
+                <viewController storyboardIdentifier="TutorialThirdPageViewController" id="mte-RK-wwz" customClass="TutorialThirdPageViewController" customModule="TIG" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ps9-eT-BM6"/>
+                        <viewControllerLayoutGuide type="bottom" id="JCk-rh-exP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FsW-04-3Wv">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="60a-Qx-g8r" userLabel="playerView">
+                                <rect key="frame" x="156" y="10" width="355" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="playerLayerView" destination="60a-Qx-g8r" id="aiP-lA-Xb0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14L-Pw-dtw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189.59999999999999" y="827.13643178410803"/>
+        </scene>
+    </scenes>
+</document>

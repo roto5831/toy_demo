@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		99145C661E1CD5B900891B06 /* ExportFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 99145C671E1CD5B900891B06 /* Build configuration list for PBXAggregateTarget "ExportFramework" */;
+			buildPhases = (
+				99145C6A1E1CD5BE00891B06 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ExportFramework;
+			productName = ExportFramework;
+		};
+		99145C771E1CDF2200891B06 /* Cleanup Whitespace */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 99145C7A1E1CDF2200891B06 /* Build configuration list for PBXAggregateTarget "Cleanup Whitespace" */;
+			buildPhases = (
+				99145C7B1E1CDF2700891B06 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Cleanup Whitespace";
+			productName = "Cleanup Whitespace";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24D576E11F6B7C600002F5AB /* TIGPlayer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D576E01F6B7C600002F5AB /* TIGPlayer.xcassets */; };
+		24EC995A1FAB03150009C184 /* TIGPlayerTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC99591FAB03150009C184 /* TIGPlayerTitleLabel.swift */; };
+		414002DA1EE675B400C8DCAD /* TIGObjectRenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414002D91EE675B400C8DCAD /* TIGObjectRenderView.swift */; };
+		4156B13C1F01F4C900C12E9B /* TIGPlayerVideoshotPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4156B13B1F01F4C900C12E9B /* TIGPlayerVideoshotPreview.swift */; };
+		416F3FBC1F0CAEF400405323 /* RippleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416F3FBB1F0CAEF400405323 /* RippleGenerator.swift */; };
+		4175A6321EFBD03900FD211A /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175A6311EFBD03900FD211A /* DeviceInfo.swift */; };
+		417F5A7D1F0DF35400AF2BE7 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417F5A7C1F0DF35400AF2BE7 /* Content.swift */; };
+		41907C8D1F2AC06100339ABA /* TIGAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41907C8C1F2AC06100339ABA /* TIGAnalytics.swift */; };
+		41980EA11F21BF4200635EF5 /* TIGStockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41980EA01F21BF4200635EF5 /* TIGStockButton.swift */; };
+		419B83051F84AFBB00CDD7DF /* DictonaryUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B83041F84AFBB00CDD7DF /* DictonaryUtil.swift */; };
+		41A6E76F1F209227005DF934 /* TIGPlayerModeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6E76E1F209227005DF934 /* TIGPlayerModeButton.swift */; };
+		41F5C1861ECC4A910048D9AB /* PersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5C1851ECC4A910048D9AB /* PersistentManager.swift */; };
+		41F5C1881ECC4A9F0048D9AB /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5C1871ECC4A9F0048D9AB /* Mode.swift */; };
+		41FC22F21EE7905C00401F68 /* ArrayUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC22F11EE7905C00401F68 /* ArrayUtil.swift */; };
+		481A91391F7A01C40051122E /* TIGPlayerSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A91381F7A01C40051122E /* TIGPlayerSDK.swift */; };
+		4894B42B1FBEF1AF00C58F17 /* TIGPlayerShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894B42A1FBEF1AF00C58F17 /* TIGPlayerShareButton.swift */; };
+		48E7F17F1FA6494C00F2535B /* RectUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E7F17D1FA646ED00F2535B /* RectUtil.swift */; };
+		48E7F1801FA6496900F2535B /* MetaPageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C6E451F85DA2600D7A02E /* MetaPageManager.swift */; };
+		48F4C6961FB0E800001111DF /* TIGStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F4C6941FB0E800001111DF /* TIGStockView.swift */; };
+		48F4C6971FB0E800001111DF /* TIGObjectStockPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F4C6951FB0E800001111DF /* TIGObjectStockPointer.swift */; };
+		8DF98FF93963A169273E7AE6 /* Pods_TIGPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB40F2CCBACA5CC5B173ABE3 /* Pods_TIGPlayer.framework */; };
+		951C6E8A1EDD38FA00BBB99C /* TIGPlayerControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C6E891EDD38FA00BBB99C /* TIGPlayerControlButton.swift */; };
+		951C6E8E1EDD5AFB00BBB99C /* TIGPlayerControlBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C6E8D1EDD5AFB00BBB99C /* TIGPlayerControlBar.swift */; };
+		953FFF2D1EA98CEF00728DFD /* TIGStockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953FFF2C1EA98CEF00728DFD /* TIGStockListView.swift */; };
+		954064211E75506C00947B16 /* TIGPlayerWipeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954064071E75506C00947B16 /* TIGPlayerWipeContainer.swift */; };
+		954064221E75506C00947B16 /* TIGPlayerWipeContainerRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954064081E75506C00947B16 /* TIGPlayerWipeContainerRootViewController.swift */; };
+		954064231E75506C00947B16 /* TIGPlayerWipeContainerRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954064091E75506C00947B16 /* TIGPlayerWipeContainerRootViewController.xib */; };
+		954064251E75506C00947B16 /* TIGPlayerLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540640B1E75506C00947B16 /* TIGPlayerLoading.swift */; };
+		954064261E75506C00947B16 /* TIGPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540640D1E75506C00947B16 /* TIGPlayer.swift */; };
+		954064291E75506C00947B16 /* TIGPlayerThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954064101E75506C00947B16 /* TIGPlayerThumbnail.swift */; };
+		9540642A1E75506C00947B16 /* TIGPlayerTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954064111E75506C00947B16 /* TIGPlayerTransport.swift */; };
+		9540642B1E75506C00947B16 /* TIGPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954064121E75506C00947B16 /* TIGPlayerView.swift */; };
+		9540642D1E75506C00947B16 /* TIGPlayerWideControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954064151E75506C00947B16 /* TIGPlayerWideControlView.swift */; };
+		9540642E1E75506C00947B16 /* TIGPlayerWideControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954064161E75506C00947B16 /* TIGPlayerWideControlView.xib */; };
+		9540642F1E75506C00947B16 /* TIGPlayerWipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954064171E75506C00947B16 /* TIGPlayerWipeView.swift */; };
+		954064301E75506C00947B16 /* TIGPlayerWipeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954064181E75506C00947B16 /* TIGPlayerWipeView.xib */; };
+		954064311E75506C00947B16 /* TIGPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 954064191E75506C00947B16 /* TIGPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		954064321E75506C00947B16 /* AVPlayer+TIGPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540641B1E75506C00947B16 /* AVPlayer+TIGPlayer.swift */; };
+		954064331E75506C00947B16 /* AVPlayerItem+TIGPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540641C1E75506C00947B16 /* AVPlayerItem+TIGPlayer.swift */; };
+		954064351E75506C00947B16 /* TIGPlayerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540641E1E75506C00947B16 /* TIGPlayerUtils.swift */; };
+		954064361E75506C00947B16 /* Timer+TIGEZPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540641F1E75506C00947B16 /* Timer+TIGEZPlayer.swift */; };
+		956161D91EF9073E00141188 /* TIGPlayerMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956161D81EF9073E00141188 /* TIGPlayerMenuButton.swift */; };
+		956161DF1EF915BE00141188 /* TIGPlayerTimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956161DE1EF915BE00141188 /* TIGPlayerTimeLabel.swift */; };
+		957067071ECDF8BF006AA9F3 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957067061ECDF8BF006AA9F3 /* ApiClient.swift */; };
+		9591202D1EB03909006451ED /* TIGObjectThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591202C1EB03909006451ED /* TIGObjectThumbnail.swift */; };
+		95A829F21EEAAC7800E42FD6 /* TIGGradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A829F11EEAAC7800E42FD6 /* TIGGradientColor.swift */; };
+		95AD9BA91EADB6B100A6FC37 /* TIGNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AD9BA81EADB6B100A6FC37 /* TIGNotification.swift */; };
+		95AD9BB01EADC7CF00A6FC37 /* TIGStockListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AD9BAF1EADC7CF00A6FC37 /* TIGStockListCell.swift */; };
+		95B3BC531EA74F4400754B56 /* TIGObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B3BC521EA74F4400754B56 /* TIGObjectView.swift */; };
+		95B9A1EE1F00F4DB00314AE3 /* TIGPlayerWipeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B9A1ED1F00F4DB00314AE3 /* TIGPlayerWipeButton.swift */; };
+		95C130301EB1C44D00E83213 /* ModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1302F1EB1C44D00E83213 /* ModeManager.swift */; };
+		95CA42521EA7073100F08C1D /* TIGObjectMoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CA42511EA7073100F08C1D /* TIGObjectMoveView.swift */; };
+		95CDB67B1E975AB800AE3BB8 /* TIGObjectAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDB67A1E975AB800AE3BB8 /* TIGObjectAreaView.swift */; };
+		95CE20821E95E16F002673D2 /* TIGConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE20811E95E16F002673D2 /* TIGConstants.swift */; };
+		95FC5EA61EA6FECC008F8C19 /* TIGObjectMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA07311EA6EA1500234140 /* TIGObjectMarkView.swift */; };
+		95FD4E691ED41F38007ABF87 /* TIGLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FD4E681ED41F38007ABF87 /* TIGLog.swift */; };
+		F5D739921EAF49AB00BED370 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D739911EAF49AB00BED370 /* Item.swift */; };
+		F5D739941EAF49E200BED370 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D739931EAF49E200BED370 /* Meta.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24D576E01F6B7C600002F5AB /* TIGPlayer.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = TIGPlayer.xcassets; path = TIGPlayer/TIGPlayer.xcassets; sourceTree = "<group>"; };
+		24EC99591FAB03150009C184 /* TIGPlayerTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIGPlayerTitleLabel.swift; sourceTree = "<group>"; };
+		414002D91EE675B400C8DCAD /* TIGObjectRenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGObjectRenderView.swift; sourceTree = "<group>"; };
+		4156B13B1F01F4C900C12E9B /* TIGPlayerVideoshotPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerVideoshotPreview.swift; sourceTree = "<group>"; };
+		416F3FBB1F0CAEF400405323 /* RippleGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleGenerator.swift; sourceTree = "<group>"; };
+		4175A6311EFBD03900FD211A /* DeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		417C6E451F85DA2600D7A02E /* MetaPageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaPageManager.swift; sourceTree = "<group>"; };
+		417F5A7C1F0DF35400AF2BE7 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		41907C8C1F2AC06100339ABA /* TIGAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGAnalytics.swift; sourceTree = "<group>"; };
+		41980EA01F21BF4200635EF5 /* TIGStockButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGStockButton.swift; sourceTree = "<group>"; };
+		419B83041F84AFBB00CDD7DF /* DictonaryUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictonaryUtil.swift; sourceTree = "<group>"; };
+		41A6E76E1F209227005DF934 /* TIGPlayerModeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerModeButton.swift; sourceTree = "<group>"; };
+		41F5C1851ECC4A910048D9AB /* PersistentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentManager.swift; sourceTree = "<group>"; };
+		41F5C1871ECC4A9F0048D9AB /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		41FC22F11EE7905C00401F68 /* ArrayUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayUtil.swift; sourceTree = "<group>"; };
+		481A91381F7A01C40051122E /* TIGPlayerSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIGPlayerSDK.swift; sourceTree = "<group>"; };
+		4894B42A1FBEF1AF00C58F17 /* TIGPlayerShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerShareButton.swift; sourceTree = "<group>"; };
+		48E7F17D1FA646ED00F2535B /* RectUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectUtil.swift; sourceTree = "<group>"; };
+		48F4C6941FB0E800001111DF /* TIGStockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGStockView.swift; sourceTree = "<group>"; };
+		48F4C6951FB0E800001111DF /* TIGObjectStockPointer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGObjectStockPointer.swift; sourceTree = "<group>"; };
+		951C6E891EDD38FA00BBB99C /* TIGPlayerControlButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerControlButton.swift; sourceTree = "<group>"; };
+		951C6E8D1EDD5AFB00BBB99C /* TIGPlayerControlBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerControlBar.swift; sourceTree = "<group>"; };
+		953FFF2C1EA98CEF00728DFD /* TIGStockListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGStockListView.swift; sourceTree = "<group>"; };
+		954064071E75506C00947B16 /* TIGPlayerWipeContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerWipeContainer.swift; sourceTree = "<group>"; };
+		954064081E75506C00947B16 /* TIGPlayerWipeContainerRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerWipeContainerRootViewController.swift; sourceTree = "<group>"; };
+		954064091E75506C00947B16 /* TIGPlayerWipeContainerRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIGPlayerWipeContainerRootViewController.xib; sourceTree = "<group>"; };
+		9540640B1E75506C00947B16 /* TIGPlayerLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerLoading.swift; sourceTree = "<group>"; };
+		9540640D1E75506C00947B16 /* TIGPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayer.swift; sourceTree = "<group>"; };
+		954064101E75506C00947B16 /* TIGPlayerThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerThumbnail.swift; sourceTree = "<group>"; };
+		954064111E75506C00947B16 /* TIGPlayerTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerTransport.swift; sourceTree = "<group>"; };
+		954064121E75506C00947B16 /* TIGPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerView.swift; sourceTree = "<group>"; };
+		954064131E75506C00947B16 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954064151E75506C00947B16 /* TIGPlayerWideControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerWideControlView.swift; sourceTree = "<group>"; };
+		954064161E75506C00947B16 /* TIGPlayerWideControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIGPlayerWideControlView.xib; sourceTree = "<group>"; };
+		954064171E75506C00947B16 /* TIGPlayerWipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerWipeView.swift; sourceTree = "<group>"; };
+		954064181E75506C00947B16 /* TIGPlayerWipeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIGPlayerWipeView.xib; sourceTree = "<group>"; };
+		954064191E75506C00947B16 /* TIGPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIGPlayer.h; sourceTree = "<group>"; };
+		9540641B1E75506C00947B16 /* AVPlayer+TIGPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+TIGPlayer.swift"; sourceTree = "<group>"; };
+		9540641C1E75506C00947B16 /* AVPlayerItem+TIGPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayerItem+TIGPlayer.swift"; sourceTree = "<group>"; };
+		9540641E1E75506C00947B16 /* TIGPlayerUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerUtils.swift; sourceTree = "<group>"; };
+		9540641F1E75506C00947B16 /* Timer+TIGEZPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Timer+TIGEZPlayer.swift"; sourceTree = "<group>"; };
+		956161D81EF9073E00141188 /* TIGPlayerMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerMenuButton.swift; sourceTree = "<group>"; };
+		956161DE1EF915BE00141188 /* TIGPlayerTimeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerTimeLabel.swift; sourceTree = "<group>"; };
+		9564CCA71EE13143001F1B02 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		957067061ECDF8BF006AA9F3 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		9591202C1EB03909006451ED /* TIGObjectThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGObjectThumbnail.swift; sourceTree = "<group>"; };
+		95A829F11EEAAC7800E42FD6 /* TIGGradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGGradientColor.swift; sourceTree = "<group>"; };
+		95AD9BA81EADB6B100A6FC37 /* TIGNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGNotification.swift; sourceTree = "<group>"; };
+		95AD9BAF1EADC7CF00A6FC37 /* TIGStockListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGStockListCell.swift; sourceTree = "<group>"; };
+		95B3BC521EA74F4400754B56 /* TIGObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGObjectView.swift; sourceTree = "<group>"; };
+		95B9A1ED1F00F4DB00314AE3 /* TIGPlayerWipeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGPlayerWipeButton.swift; sourceTree = "<group>"; };
+		95C1302F1EB1C44D00E83213 /* ModeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeManager.swift; sourceTree = "<group>"; };
+		95CA42511EA7073100F08C1D /* TIGObjectMoveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGObjectMoveView.swift; sourceTree = "<group>"; };
+		95CDB67A1E975AB800AE3BB8 /* TIGObjectAreaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGObjectAreaView.swift; sourceTree = "<group>"; };
+		95CE20811E95E16F002673D2 /* TIGConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGConstants.swift; sourceTree = "<group>"; };
+		95FA07311EA6EA1500234140 /* TIGObjectMarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGObjectMarkView.swift; sourceTree = "<group>"; };
+		95FD4E681ED41F38007ABF87 /* TIGLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIGLog.swift; sourceTree = "<group>"; };
+		995E79171DD99D5A006CE7E9 /* TIGPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TIGPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B830B9D2EBF4D70FEA193E9D /* Pods-TIGPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIGPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TIGPlayer/Pods-TIGPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		BB40F2CCBACA5CC5B173ABE3 /* Pods_TIGPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIGPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72A1908476A1BD5851D4770 /* Pods-TIGPlayer.debugforlocal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIGPlayer.debugforlocal.xcconfig"; path = "Pods/Target Support Files/Pods-TIGPlayer/Pods-TIGPlayer.debugforlocal.xcconfig"; sourceTree = "<group>"; };
+		E779D262548163CE5D442512 /* Pods-TIGPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIGPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TIGPlayer/Pods-TIGPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		F5D739911EAF49AB00BED370 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F5D739931EAF49E200BED370 /* Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		995E79131DD99D5A006CE7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF98FF93963A169273E7AE6 /* Pods_TIGPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		419381CC1F2B00060078119A /* TIGPlayerWide */ = {
+			isa = PBXGroup;
+			children = (
+				954064151E75506C00947B16 /* TIGPlayerWideControlView.swift */,
+				954064161E75506C00947B16 /* TIGPlayerWideControlView.xib */,
+			);
+			name = TIGPlayerWide;
+			sourceTree = "<group>";
+		};
+		951C6E931EDD758300BBB99C /* TIGControlBottom */ = {
+			isa = PBXGroup;
+			children = (
+				951C6E8D1EDD5AFB00BBB99C /* TIGPlayerControlBar.swift */,
+				951C6E891EDD38FA00BBB99C /* TIGPlayerControlButton.swift */,
+				956161DE1EF915BE00141188 /* TIGPlayerTimeLabel.swift */,
+				4156B13B1F01F4C900C12E9B /* TIGPlayerVideoshotPreview.swift */,
+			);
+			name = TIGControlBottom;
+			sourceTree = "<group>";
+		};
+		954064041E75506C00947B16 /* TIGPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F5D739901EAF499D00BED370 /* Model */,
+				9540640C1E75506C00947B16 /* Core */,
+				954064141E75506C00947B16 /* Skin */,
+				9540641A1E75506C00947B16 /* Utiles */,
+				954064131E75506C00947B16 /* Info.plist */,
+				954064191E75506C00947B16 /* TIGPlayer.h */,
+			);
+			path = TIGPlayer;
+			sourceTree = "<group>";
+		};
+		954064061E75506C00947B16 /* Componet */ = {
+			isa = PBXGroup;
+			children = (
+				954064071E75506C00947B16 /* TIGPlayerWipeContainer.swift */,
+				954064081E75506C00947B16 /* TIGPlayerWipeContainerRootViewController.swift */,
+				954064091E75506C00947B16 /* TIGPlayerWipeContainerRootViewController.xib */,
+				9540640B1E75506C00947B16 /* TIGPlayerLoading.swift */,
+				4894B42A1FBEF1AF00C58F17 /* TIGPlayerShareButton.swift */,
+			);
+			name = Componet;
+			path = ../Componet;
+			sourceTree = "<group>";
+		};
+		9540640C1E75506C00947B16 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9540640D1E75506C00947B16 /* TIGPlayer.swift */,
+				481A91381F7A01C40051122E /* TIGPlayerSDK.swift */,
+				954064101E75506C00947B16 /* TIGPlayerThumbnail.swift */,
+				954064111E75506C00947B16 /* TIGPlayerTransport.swift */,
+				954064121E75506C00947B16 /* TIGPlayerView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		954064141E75506C00947B16 /* Skin */ = {
+			isa = PBXGroup;
+			children = (
+				419381CC1F2B00060078119A /* TIGPlayerWide */,
+				95AD9BAE1EADC77400A6FC37 /* TIGStock */,
+				95B9A1EC1F00F49A00314AE3 /* TIGPlayerWipe */,
+				954064061E75506C00947B16 /* Componet */,
+				95A829F31EEAB82600E42FD6 /* TIGControlTop */,
+				951C6E931EDD758300BBB99C /* TIGControlBottom */,
+				95AD9BAD1EADC73500A6FC37 /* TIGObject */,
+			);
+			path = Skin;
+			sourceTree = "<group>";
+		};
+		9540641A1E75506C00947B16 /* Utiles */ = {
+			isa = PBXGroup;
+			children = (
+				416F3FBB1F0CAEF400405323 /* RippleGenerator.swift */,
+				4175A6311EFBD03900FD211A /* DeviceInfo.swift */,
+				957067061ECDF8BF006AA9F3 /* ApiClient.swift */,
+				95CE20811E95E16F002673D2 /* TIGConstants.swift */,
+				41F5C1851ECC4A910048D9AB /* PersistentManager.swift */,
+				95C1302F1EB1C44D00E83213 /* ModeManager.swift */,
+				95AD9BA81EADB6B100A6FC37 /* TIGNotification.swift */,
+				9540641B1E75506C00947B16 /* AVPlayer+TIGPlayer.swift */,
+				9540641C1E75506C00947B16 /* AVPlayerItem+TIGPlayer.swift */,
+				9540641E1E75506C00947B16 /* TIGPlayerUtils.swift */,
+				9540641F1E75506C00947B16 /* Timer+TIGEZPlayer.swift */,
+				95FD4E681ED41F38007ABF87 /* TIGLog.swift */,
+				41FC22F11EE7905C00401F68 /* ArrayUtil.swift */,
+				419B83041F84AFBB00CDD7DF /* DictonaryUtil.swift */,
+				95A829F11EEAAC7800E42FD6 /* TIGGradientColor.swift */,
+				41907C8C1F2AC06100339ABA /* TIGAnalytics.swift */,
+				48E7F17D1FA646ED00F2535B /* RectUtil.swift */,
+				417C6E451F85DA2600D7A02E /* MetaPageManager.swift */,
+			);
+			path = Utiles;
+			sourceTree = "<group>";
+		};
+		95A829F31EEAB82600E42FD6 /* TIGControlTop */ = {
+			isa = PBXGroup;
+			children = (
+				956161D81EF9073E00141188 /* TIGPlayerMenuButton.swift */,
+				24EC99591FAB03150009C184 /* TIGPlayerTitleLabel.swift */,
+				41A6E76E1F209227005DF934 /* TIGPlayerModeButton.swift */,
+			);
+			name = TIGControlTop;
+			sourceTree = "<group>";
+		};
+		95AD9BAD1EADC73500A6FC37 /* TIGObject */ = {
+			isa = PBXGroup;
+			children = (
+				48F4C6951FB0E800001111DF /* TIGObjectStockPointer.swift */,
+				9591202C1EB03909006451ED /* TIGObjectThumbnail.swift */,
+				95B3BC521EA74F4400754B56 /* TIGObjectView.swift */,
+				95FA07311EA6EA1500234140 /* TIGObjectMarkView.swift */,
+				95CDB67A1E975AB800AE3BB8 /* TIGObjectAreaView.swift */,
+				95CA42511EA7073100F08C1D /* TIGObjectMoveView.swift */,
+				414002D91EE675B400C8DCAD /* TIGObjectRenderView.swift */,
+			);
+			name = TIGObject;
+			sourceTree = "<group>";
+		};
+		95AD9BAE1EADC77400A6FC37 /* TIGStock */ = {
+			isa = PBXGroup;
+			children = (
+				48F4C6941FB0E800001111DF /* TIGStockView.swift */,
+				953FFF2C1EA98CEF00728DFD /* TIGStockListView.swift */,
+				95AD9BAF1EADC7CF00A6FC37 /* TIGStockListCell.swift */,
+				41980EA01F21BF4200635EF5 /* TIGStockButton.swift */,
+			);
+			name = TIGStock;
+			sourceTree = "<group>";
+		};
+		95B9A1EC1F00F49A00314AE3 /* TIGPlayerWipe */ = {
+			isa = PBXGroup;
+			children = (
+				95B9A1ED1F00F4DB00314AE3 /* TIGPlayerWipeButton.swift */,
+				954064171E75506C00947B16 /* TIGPlayerWipeView.swift */,
+				954064181E75506C00947B16 /* TIGPlayerWipeView.xib */,
+			);
+			name = TIGPlayerWipe;
+			sourceTree = "<group>";
+		};
+		995E790D1DD99D5A006CE7E9 = {
+			isa = PBXGroup;
+			children = (
+				24D576E01F6B7C600002F5AB /* TIGPlayer.xcassets */,
+				954064041E75506C00947B16 /* TIGPlayer */,
+				995E79181DD99D5A006CE7E9 /* Products */,
+				9C1A58DB592EF9FB8062D6B9 /* Pods */,
+				E85EEC5E833CA8363EA5505F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		995E79181DD99D5A006CE7E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				995E79171DD99D5A006CE7E9 /* TIGPlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C1A58DB592EF9FB8062D6B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E779D262548163CE5D442512 /* Pods-TIGPlayer.debug.xcconfig */,
+				D72A1908476A1BD5851D4770 /* Pods-TIGPlayer.debugforlocal.xcconfig */,
+				B830B9D2EBF4D70FEA193E9D /* Pods-TIGPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E85EEC5E833CA8363EA5505F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9564CCA71EE13143001F1B02 /* SystemConfiguration.framework */,
+				BB40F2CCBACA5CC5B173ABE3 /* Pods_TIGPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5D739901EAF499D00BED370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41F5C1871ECC4A9F0048D9AB /* Mode.swift */,
+				F5D739911EAF49AB00BED370 /* Item.swift */,
+				F5D739931EAF49E200BED370 /* Meta.swift */,
+				417F5A7C1F0DF35400AF2BE7 /* Content.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		995E79141DD99D5A006CE7E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954064311E75506C00947B16 /* TIGPlayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		995E79161DD99D5A006CE7E9 /* TIGPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995E791F1DD99D5A006CE7E9 /* Build configuration list for PBXNativeTarget "TIGPlayer" */;
+			buildPhases = (
+				0A561108C8CA9DF0405FD2A5 /* [CP] Check Pods Manifest.lock */,
+				995E79121DD99D5A006CE7E9 /* Sources */,
+				995E79131DD99D5A006CE7E9 /* Frameworks */,
+				995E79141DD99D5A006CE7E9 /* Headers */,
+				995E79151DD99D5A006CE7E9 /* Resources */,
+				38873121EC81ACFF24620A5D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TIGPlayer;
+			productName = EZPlayer;
+			productReference = 995E79171DD99D5A006CE7E9 /* TIGPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		995E790E1DD99D5A006CE7E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MMizogaki;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MMizogaki;
+				TargetAttributes = {
+					99145C661E1CD5B900891B06 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					99145C771E1CDF2200891B06 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					995E79161DD99D5A006CE7E9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZL8VS52N9K;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 995E79111DD99D5A006CE7E9 /* Build configuration list for PBXProject "TIGPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 995E790D1DD99D5A006CE7E9;
+			productRefGroup = 995E79181DD99D5A006CE7E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				995E79161DD99D5A006CE7E9 /* TIGPlayer */,
+				99145C661E1CD5B900891B06 /* ExportFramework */,
+				99145C771E1CDF2200891B06 /* Cleanup Whitespace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		995E79151DD99D5A006CE7E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954064231E75506C00947B16 /* TIGPlayerWipeContainerRootViewController.xib in Resources */,
+				9540642E1E75506C00947B16 /* TIGPlayerWideControlView.xib in Resources */,
+				24D576E11F6B7C600002F5AB /* TIGPlayer.xcassets in Resources */,
+				954064301E75506C00947B16 /* TIGPlayerWipeView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A561108C8CA9DF0405FD2A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TIGPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38873121EC81ACFF24620A5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIGPlayer/Pods-TIGPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99145C6A1E1CD5BE00891B06 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\n\n# Constants\nSF_TARGET_NAME=${PROJECT_NAME}\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Take build target\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\necho \"Please choose iPhone simulator as the build target.\"\nexit 1\nfi\n\nIPHONE_DEVICE_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos\n\n# Build the other (non-simulator) platform\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" CONFIGURATION_BUILD_DIR=\"${IPHONE_DEVICE_BUILD_DIR}/arm64\" SYMROOT=\"${SYMROOT}\" ARCHS='arm64' VALID_ARCHS='arm64' $ACTION\n\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\"  CONFIGURATION_BUILD_DIR=\"${IPHONE_DEVICE_BUILD_DIR}/armv7\" SYMROOT=\"${SYMROOT}\" ARCHS='armv7 armv7s' VALID_ARCHS='armv7 armv7s' $ACTION\n\n# Copy the framework structure to the universal folder (clean it first)\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}\"\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\"\n\n# Smash them together to combine all architectures\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"\n";
+		};
+		99145C7B1E1CDF2700891B06 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\ndirectories=(TIGPlayerExample TIGIXITPlayer)\n\nfor directory in \"${directories[@]}\"\ndo\necho \"Cleaning whitespace in directory: $directory\"\nfind $directory -iregex '.*\\.swift' -exec sed -E -i '' -e 's/[[:blank:]]*$//' {} \\;\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		995E79121DD99D5A006CE7E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F5C1881ECC4A9F0048D9AB /* Mode.swift in Sources */,
+				41F5C1861ECC4A910048D9AB /* PersistentManager.swift in Sources */,
+				954064351E75506C00947B16 /* TIGPlayerUtils.swift in Sources */,
+				95CE20821E95E16F002673D2 /* TIGConstants.swift in Sources */,
+				951C6E8E1EDD5AFB00BBB99C /* TIGPlayerControlBar.swift in Sources */,
+				954064321E75506C00947B16 /* AVPlayer+TIGPlayer.swift in Sources */,
+				4894B42B1FBEF1AF00C58F17 /* TIGPlayerShareButton.swift in Sources */,
+				417F5A7D1F0DF35400AF2BE7 /* Content.swift in Sources */,
+				954064331E75506C00947B16 /* AVPlayerItem+TIGPlayer.swift in Sources */,
+				956161D91EF9073E00141188 /* TIGPlayerMenuButton.swift in Sources */,
+				95FC5EA61EA6FECC008F8C19 /* TIGObjectMarkView.swift in Sources */,
+				48F4C6961FB0E800001111DF /* TIGStockView.swift in Sources */,
+				F5D739921EAF49AB00BED370 /* Item.swift in Sources */,
+				95CDB67B1E975AB800AE3BB8 /* TIGObjectAreaView.swift in Sources */,
+				95CA42521EA7073100F08C1D /* TIGObjectMoveView.swift in Sources */,
+				954064291E75506C00947B16 /* TIGPlayerThumbnail.swift in Sources */,
+				957067071ECDF8BF006AA9F3 /* ApiClient.swift in Sources */,
+				F5D739941EAF49E200BED370 /* Meta.swift in Sources */,
+				951C6E8A1EDD38FA00BBB99C /* TIGPlayerControlButton.swift in Sources */,
+				954064361E75506C00947B16 /* Timer+TIGEZPlayer.swift in Sources */,
+				48F4C6971FB0E800001111DF /* TIGObjectStockPointer.swift in Sources */,
+				41980EA11F21BF4200635EF5 /* TIGStockButton.swift in Sources */,
+				954064251E75506C00947B16 /* TIGPlayerLoading.swift in Sources */,
+				9540642D1E75506C00947B16 /* TIGPlayerWideControlView.swift in Sources */,
+				95B9A1EE1F00F4DB00314AE3 /* TIGPlayerWipeButton.swift in Sources */,
+				4175A6321EFBD03900FD211A /* DeviceInfo.swift in Sources */,
+				95A829F21EEAAC7800E42FD6 /* TIGGradientColor.swift in Sources */,
+				95B3BC531EA74F4400754B56 /* TIGObjectView.swift in Sources */,
+				481A91391F7A01C40051122E /* TIGPlayerSDK.swift in Sources */,
+				954064261E75506C00947B16 /* TIGPlayer.swift in Sources */,
+				95FD4E691ED41F38007ABF87 /* TIGLog.swift in Sources */,
+				9591202D1EB03909006451ED /* TIGObjectThumbnail.swift in Sources */,
+				41907C8D1F2AC06100339ABA /* TIGAnalytics.swift in Sources */,
+				954064211E75506C00947B16 /* TIGPlayerWipeContainer.swift in Sources */,
+				41A6E76F1F209227005DF934 /* TIGPlayerModeButton.swift in Sources */,
+				95C130301EB1C44D00E83213 /* ModeManager.swift in Sources */,
+				95AD9BA91EADB6B100A6FC37 /* TIGNotification.swift in Sources */,
+				953FFF2D1EA98CEF00728DFD /* TIGStockListView.swift in Sources */,
+				4156B13C1F01F4C900C12E9B /* TIGPlayerVideoshotPreview.swift in Sources */,
+				414002DA1EE675B400C8DCAD /* TIGObjectRenderView.swift in Sources */,
+				48E7F1801FA6496900F2535B /* MetaPageManager.swift in Sources */,
+				419B83051F84AFBB00CDD7DF /* DictonaryUtil.swift in Sources */,
+				41FC22F21EE7905C00401F68 /* ArrayUtil.swift in Sources */,
+				48E7F17F1FA6494C00F2535B /* RectUtil.swift in Sources */,
+				95AD9BB01EADC7CF00A6FC37 /* TIGStockListCell.swift in Sources */,
+				9540642B1E75506C00947B16 /* TIGPlayerView.swift in Sources */,
+				416F3FBC1F0CAEF400405323 /* RippleGenerator.swift in Sources */,
+				24EC995A1FAB03150009C184 /* TIGPlayerTitleLabel.swift in Sources */,
+				956161DF1EF915BE00141188 /* TIGPlayerTimeLabel.swift in Sources */,
+				9540642F1E75506C00947B16 /* TIGPlayerWipeView.swift in Sources */,
+				954064221E75506C00947B16 /* TIGPlayerWipeContainerRootViewController.swift in Sources */,
+				9540642A1E75506C00947B16 /* TIGPlayerTransport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		99145C681E1CD5B900891B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99145C691E1CD5B900891B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99145C781E1CDF2200891B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99145C791E1CDF2200891B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		995E791D1DD99D5A006CE7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		995E791E1DD99D5A006CE7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		995E79201DD99D5A006CE7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E779D262548163CE5D442512 /* Pods-TIGPlayer.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZL8VS52N9K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/TIGPlayer",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RealmSwift",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/TIGPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TIGPlayer/GoogleAnalytics",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PARONYM.TIGPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		995E79211DD99D5A006CE7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B830B9D2EBF4D70FEA193E9D /* Pods-TIGPlayer.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZL8VS52N9K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/TIGPlayer",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RealmSwift",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/TIGPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TIGPlayer/GoogleAnalytics",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PARONYM.TIGPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99145C671E1CD5B900891B06 /* Build configuration list for PBXAggregateTarget "ExportFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99145C681E1CD5B900891B06 /* Debug */,
+				99145C691E1CD5B900891B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99145C7A1E1CDF2200891B06 /* Build configuration list for PBXAggregateTarget "Cleanup Whitespace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99145C781E1CDF2200891B06 /* Debug */,
+				99145C791E1CDF2200891B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995E79111DD99D5A006CE7E9 /* Build configuration list for PBXProject "TIGPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995E791D1DD99D5A006CE7E9 /* Debug */,
+				995E791E1DD99D5A006CE7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995E791F1DD99D5A006CE7E9 /* Build configuration list for PBXNativeTarget "TIGPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995E79201DD99D5A006CE7E9 /* Debug */,
+				995E79211DD99D5A006CE7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 995E790E1DD99D5A006CE7E9 /* Project object */;
+}

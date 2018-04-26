@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5m4-H4-hIg">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Contents List History View Controller-->
+        <scene sceneID="ddi-jp-kPb">
+            <objects>
+                <viewController id="5m4-H4-hIg" customClass="ContentsListHistoryViewController" customModule="TIGPlayerExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="reC-na-V0k">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f7G-BE-fRc">
+                                <rect key="frame" x="20" y="39" width="119" height="26"/>
+                                <state key="normal" image="ContentsListButton">
+                                    <attributedString key="attributedTitle"/>
+                                </state>
+                                <connections>
+                                    <action selector="allContents:" destination="5m4-H4-hIg" eventType="touchUpInside" id="UtL-Xc-OYc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5GP-vj-JHu">
+                                <rect key="frame" x="171" y="39" width="64" height="26"/>
+                                <state key="normal" image="PlayListTitleGray">
+                                    <attributedString key="attributedTitle"/>
+                                </state>
+                                <connections>
+                                    <action selector="playContents:" destination="5m4-H4-hIg" eventType="touchUpInside" id="7cK-Xg-qxK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKU-1R-FMA">
+                                <rect key="frame" x="364" y="40" width="30" height="29"/>
+                                <state key="normal" image="CloseWindow"/>
+                                <connections>
+                                    <action selector="close:" destination="5m4-H4-hIg" eventType="touchUpInside" id="NXc-RZ-Uu3"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="w18-jI-koy">
+                                <rect key="frame" x="20" y="81" width="374" height="655"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="24" minimumInteritemSpacing="10" id="lag-ER-h1A">
+                                    <size key="itemSize" width="696" height="97"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="89a-kK-ElM">
+                                        <rect key="frame" x="-161" y="0.0" width="696" height="97"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="696" height="97"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="5m4-H4-hIg" id="aHo-3f-XEe"/>
+                                    <outlet property="delegate" destination="5m4-H4-hIg" id="LwN-Kv-o2E"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="f7G-BE-fRc" firstAttribute="leading" secondItem="NiC-cG-AqS" secondAttribute="leading" constant="20" id="HZn-g8-2DP"/>
+                            <constraint firstItem="w18-jI-koy" firstAttribute="bottom" secondItem="NiC-cG-AqS" secondAttribute="bottom" id="HZw-qf-foL"/>
+                            <constraint firstItem="w18-jI-koy" firstAttribute="leading" secondItem="NiC-cG-AqS" secondAttribute="leading" constant="20" id="IRS-EY-h4O"/>
+                            <constraint firstItem="NiC-cG-AqS" firstAttribute="trailing" secondItem="nKU-1R-FMA" secondAttribute="trailing" constant="20" id="QP4-Mf-Pgq"/>
+                            <constraint firstItem="nKU-1R-FMA" firstAttribute="top" secondItem="NiC-cG-AqS" secondAttribute="top" constant="20" id="QTT-ax-exX"/>
+                            <constraint firstItem="NiC-cG-AqS" firstAttribute="trailing" secondItem="w18-jI-koy" secondAttribute="trailing" constant="20" id="W0d-xo-oaT"/>
+                            <constraint firstItem="f7G-BE-fRc" firstAttribute="top" secondItem="NiC-cG-AqS" secondAttribute="top" constant="19" id="WMv-hB-PE4"/>
+                            <constraint firstItem="w18-jI-koy" firstAttribute="top" secondItem="f7G-BE-fRc" secondAttribute="bottom" constant="16" id="c2t-Xb-ExG"/>
+                            <constraint firstItem="5GP-vj-JHu" firstAttribute="top" secondItem="NiC-cG-AqS" secondAttribute="top" constant="19" id="kuz-u3-i07"/>
+                            <constraint firstItem="5GP-vj-JHu" firstAttribute="leading" secondItem="f7G-BE-fRc" secondAttribute="trailing" constant="32" id="sp1-Bm-zCg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NiC-cG-AqS"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="w18-jI-koy" id="Yxr-y6-8mP"/>
+                        <outlet property="contentsListButton" destination="f7G-BE-fRc" id="3Ln-et-rGw"/>
+                        <outlet property="playListButton" destination="5GP-vj-JHu" id="mgK-72-qLb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BIw-h9-1mb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-97.010869565217405" y="-10.144927536231885"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CloseWindow" width="30" height="29"/>
+        <image name="ContentsListButton" width="119" height="26"/>
+        <image name="PlayListTitleGray" width="64" height="26"/>
+    </resources>
+</document>

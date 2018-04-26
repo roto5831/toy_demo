@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TIGPlayerSDKExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Oe5-rg-och">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="fgk-Jd-tGf"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="zL4-ss-eh8"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Oe5-rg-och" secondAttribute="trailing" id="3sh-bf-VRl"/>
+                            <constraint firstItem="Oe5-rg-och" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="CT2-u3-lg7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Oe5-rg-och" secondAttribute="bottom" id="EGa-RC-Kk1"/>
+                            <constraint firstItem="Oe5-rg-och" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wf6-wA-Fw6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="table" destination="Oe5-rg-och" id="MN5-kk-xSl"/>
+                        <segue destination="Ohl-Nt-ex0" kind="presentation" identifier="toPlayerController" id="aIP-Mc-VRH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="122.78860569715144"/>
+        </scene>
+        <!--Player View Controller-->
+        <scene sceneID="X8m-Kt-WmI">
+            <objects>
+                <viewController id="Ohl-Nt-ex0" customClass="PlayerViewController" customModule="TIGPlayerSDKExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="M8U-Sg-5fP"/>
+                        <viewControllerLayoutGuide type="bottom" id="8jF-NQ-u9E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XNi-Tb-Luj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gNL-w7-Y7w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="180" y="883"/>
+        </scene>
+    </scenes>
+</document>

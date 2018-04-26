@@ -1,0 +1,6 @@
+framework module Pods_TIGPlayerSDKExample {
+  umbrella header "Pods-TIGPlayerSDKExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

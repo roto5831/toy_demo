@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B3160EA1EF834C9004303E5 /* BackScreenGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3160E91EF834C9004303E5 /* BackScreenGenerator.swift */; };
+		1BA52AEE1EED46C300220182 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BA52AED1EED46C300220182 /* Settings.bundle */; };
+		241F84DD1FC403F100D22E6A /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241F84DC1FC403F100D22E6A /* TutorialViewController.swift */; };
+		2474F7491FC51113001D479A /* AboutAppViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2474F7481FC51113001D479A /* AboutAppViewController.storyboard */; };
+		2474F74B1FC52161001D479A /* AboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2474F74A1FC52161001D479A /* AboutAppViewController.swift */; };
+		24C534F31FC58C03001BD65D /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C534F21FC58C03001BD65D /* SideMenuViewController.swift */; };
+		24D1EA961FAAB50300503C66 /* ContentsShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1EA951FAAB50300503C66 /* ContentsShareButton.swift */; };
+		24E8560F1FC57CF3000BAE6F /* TutorialThirdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C03F0C1FC5775800557CF4 /* TutorialThirdPageViewController.swift */; };
+		24E856101FC57CF8000BAE6F /* TutorialSecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C03F0A1FC5773700557CF4 /* TutorialSecondPageViewController.swift */; };
+		24E856111FC57CFC000BAE6F /* TutorialFirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41DA80B1FC4E0740062C039 /* TutorialFirstPageViewController.swift */; };
+		24E856161FC58286000BAE6F /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241F84D91FC3F9BA00D22E6A /* Tutorial.storyboard */; };
+		417CC3DB20849895007B02A7 /* Tutorial02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 417CC3D9208496DB007B02A7 /* Tutorial02.mp4 */; };
+		417CC3DC20849898007B02A7 /* Tutorial03.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 417CC3DA208496DB007B02A7 /* Tutorial03.mp4 */; };
+		417CC3DD2084989B007B02A7 /* Tutorial01.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 417CC3D8208496BC007B02A7 /* Tutorial01.mp4 */; };
+		4194380C1F4FC9F1003D5F7A /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4194380A1F4FC9F1003D5F7A /* Splash.storyboard */; };
+		4194380E1F4FD1E8003D5F7A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4194380D1F4FD1E8003D5F7A /* SplashViewController.swift */; };
+		48F4C69B1FB1032B001111DF /* ContentsListHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F4C6981FB1032A001111DF /* ContentsListHistoryCell.swift */; };
+		48F4C69C1FB1032B001111DF /* ContentsListHistoryStockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F4C6991FB1032B001111DF /* ContentsListHistoryStockCell.swift */; };
+		48F4C69D1FB1032B001111DF /* ContentsListHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F4C69A1FB1032B001111DF /* ContentsListHistoryViewController.swift */; };
+		48F4C6A41FB10347001111DF /* ContentsListHistoryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F4C69E1FB10347001111DF /* ContentsListHistoryViewController.storyboard */; };
+		48F4C6A51FB10347001111DF /* ContentsListHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48F4C6A01FB10347001111DF /* ContentsListHistoryCell.xib */; };
+		48F4C6A61FB10347001111DF /* ContentsListHistoryStockCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48F4C6A21FB10347001111DF /* ContentsListHistoryStockCell.xib */; };
+		9526C7251ED7DCE5006F5C71 /* NetworkAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9526C7241ED7DCE5006F5C71 /* NetworkAlertController.swift */; };
+		9526C72D1ED8101B006F5C71 /* ContentsListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9526C7271ED8101B006F5C71 /* ContentsListViewController.storyboard */; };
+		9526C72F1ED8101B006F5C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9526C72B1ED8101B006F5C71 /* LaunchScreen.storyboard */; };
+		95B112671E66A85400379B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B112661E66A85400379B50 /* AppDelegate.swift */; };
+		95B1126E1E66A85400379B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B1126D1E66A85400379B50 /* Assets.xcassets */; };
+		95B112841E66AAC300379B50 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B112801E66AAC300379B50 /* MediaItem.swift */; };
+		95B112851E66AAC300379B50 /* MediaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B112811E66AAC300379B50 /* MediaManager.swift */; };
+		95E8677B1ECD32A5009C6066 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E8677A1ECD32A5009C6066 /* SystemConfiguration.framework */; };
+		A499CCEA1FC6FDEF00D596B8 /* SideMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A499CCE91FC6FDEF00D596B8 /* SideMenuViewController.storyboard */; };
+		BD15FA5962D382244C664769 /* Pods_TIGPlayerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E779B476E047BCF7B29FD9F5 /* Pods_TIGPlayerExample.framework */; };
+		C662A0361ED2C3F5000BEBCE /* StockItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662A0351ED2C3F5000BEBCE /* StockItemCell.swift */; };
+		C6EC86821ECD41B400CA82C1 /* ContentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC867E1ECD41B400CA82C1 /* ContentsListViewController.swift */; };
+		C6EC86911ECD434200CA82C1 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC86901ECD434200CA82C1 /* MovieViewController.swift */; };
+		C6EC869B1ECD6EF500CA82C1 /* ContentsListViewController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC869A1ECD6EF500CA82C1 /* ContentsListViewController+UICollectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95B1128A1E66AB2300379B50 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B3160E91EF834C9004303E5 /* BackScreenGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackScreenGenerator.swift; sourceTree = "<group>"; };
+		1BA52AED1EED46C300220182 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		241F84DA1FC3F9BA00D22E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Tutorial.storyboard; sourceTree = "<group>"; };
+		241F84DC1FC403F100D22E6A /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		246153621FBAA7B800E67F11 /* TIGPlayerExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TIGPlayerExample.entitlements; sourceTree = "<group>"; };
+		2474F7481FC51113001D479A /* AboutAppViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AboutAppViewController.storyboard; sourceTree = "<group>"; };
+		2474F74A1FC52161001D479A /* AboutAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppViewController.swift; sourceTree = "<group>"; };
+		24C03F0A1FC5773700557CF4 /* TutorialSecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialSecondPageViewController.swift; sourceTree = "<group>"; };
+		24C03F0C1FC5775800557CF4 /* TutorialThirdPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialThirdPageViewController.swift; sourceTree = "<group>"; };
+		24C534F21FC58C03001BD65D /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		24D1EA951FAAB50300503C66 /* ContentsShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsShareButton.swift; sourceTree = "<group>"; };
+		417CC3D8208496BC007B02A7 /* Tutorial01.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tutorial01.mp4; sourceTree = "<group>"; };
+		417CC3D9208496DB007B02A7 /* Tutorial02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tutorial02.mp4; sourceTree = "<group>"; };
+		417CC3DA208496DB007B02A7 /* Tutorial03.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tutorial03.mp4; sourceTree = "<group>"; };
+		4194380B1F4FC9F1003D5F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Splash.storyboard; sourceTree = "<group>"; };
+		4194380D1F4FD1E8003D5F7A /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashViewController.swift; path = ../SplashViewController.swift; sourceTree = "<group>"; };
+		48F4C6981FB1032A001111DF /* ContentsListHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsListHistoryCell.swift; sourceTree = "<group>"; };
+		48F4C6991FB1032B001111DF /* ContentsListHistoryStockCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsListHistoryStockCell.swift; sourceTree = "<group>"; };
+		48F4C69A1FB1032B001111DF /* ContentsListHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsListHistoryViewController.swift; sourceTree = "<group>"; };
+		48F4C69F1FB10347001111DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ContentsListHistoryViewController.storyboard; sourceTree = "<group>"; };
+		48F4C6A11FB10347001111DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ContentsListHistoryCell.xib; sourceTree = "<group>"; };
+		48F4C6A31FB10347001111DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ContentsListHistoryStockCell.xib; sourceTree = "<group>"; };
+		5911D15B8277A9B62D4D5732 /* Pods-TIGPlayerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIGPlayerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TIGPlayerExample/Pods-TIGPlayerExample.release.xcconfig"; sourceTree = "<group>"; };
+		9125CBB3B2166393922763C7 /* Pods-TIGPlayerExample.debugforlocal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIGPlayerExample.debugforlocal.xcconfig"; path = "Pods/Target Support Files/Pods-TIGPlayerExample/Pods-TIGPlayerExample.debugforlocal.xcconfig"; sourceTree = "<group>"; };
+		9526C7241ED7DCE5006F5C71 /* NetworkAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAlertController.swift; sourceTree = "<group>"; };
+		9526C7281ED8101B006F5C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ContentsListViewController.storyboard; sourceTree = "<group>"; };
+		9526C72C1ED8101B006F5C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95B112631E66A85400379B50 /* TIG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B112661E66A85400379B50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95B1126D1E66A85400379B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95B112721E66A85400379B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B112801E66AAC300379B50 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		95B112811E66AAC300379B50 /* MediaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaManager.swift; sourceTree = "<group>"; };
+		95E8677A1ECD32A5009C6066 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A41DA80B1FC4E0740062C039 /* TutorialFirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialFirstPageViewController.swift; sourceTree = "<group>"; };
+		A499CCE91FC6FDEF00D596B8 /* SideMenuViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenuViewController.storyboard; sourceTree = "<group>"; };
+		C662A0351ED2C3F5000BEBCE /* StockItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockItemCell.swift; sourceTree = "<group>"; };
+		C6EC867E1ECD41B400CA82C1 /* ContentsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsListViewController.swift; sourceTree = "<group>"; };
+		C6EC86901ECD434200CA82C1 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		C6EC869A1ECD6EF500CA82C1 /* ContentsListViewController+UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContentsListViewController+UICollectionView.swift"; sourceTree = "<group>"; };
+		E3C4493A4B2F6E8129EA4941 /* Pods-TIGPlayerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIGPlayerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TIGPlayerExample/Pods-TIGPlayerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		E779B476E047BCF7B29FD9F5 /* Pods_TIGPlayerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIGPlayerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95B112601E66A85400379B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E8677B1ECD32A5009C6066 /* SystemConfiguration.framework in Frameworks */,
+				BD15FA5962D382244C664769 /* Pods_TIGPlayerExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B3160E81EF83473004303E5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1B3160E91EF834C9004303E5 /* BackScreenGenerator.swift */,
+				9526C7241ED7DCE5006F5C71 /* NetworkAlertController.swift */,
+				95B112811E66AAC300379B50 /* MediaManager.swift */,
+				95B112801E66AAC300379B50 /* MediaItem.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		245D0E091F42F40B008A1616 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				417CC3D9208496DB007B02A7 /* Tutorial02.mp4 */,
+				417CC3DA208496DB007B02A7 /* Tutorial03.mp4 */,
+				417CC3D8208496BC007B02A7 /* Tutorial01.mp4 */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		5DC02E979F401D5DC34ED984 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3C4493A4B2F6E8129EA4941 /* Pods-TIGPlayerExample.debug.xcconfig */,
+				5911D15B8277A9B62D4D5732 /* Pods-TIGPlayerExample.release.xcconfig */,
+				9125CBB3B2166393922763C7 /* Pods-TIGPlayerExample.debugforlocal.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9526C7261ED8101B006F5C71 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				2474F7481FC51113001D479A /* AboutAppViewController.storyboard */,
+				48F4C6A01FB10347001111DF /* ContentsListHistoryCell.xib */,
+				48F4C6A21FB10347001111DF /* ContentsListHistoryStockCell.xib */,
+				48F4C69E1FB10347001111DF /* ContentsListHistoryViewController.storyboard */,
+				9526C7271ED8101B006F5C71 /* ContentsListViewController.storyboard */,
+				9526C72B1ED8101B006F5C71 /* LaunchScreen.storyboard */,
+				4194380A1F4FC9F1003D5F7A /* Splash.storyboard */,
+				A499CCE91FC6FDEF00D596B8 /* SideMenuViewController.storyboard */,
+				241F84D91FC3F9BA00D22E6A /* Tutorial.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		95B1125A1E66A85400379B50 = {
+			isa = PBXGroup;
+			children = (
+				1BA52AED1EED46C300220182 /* Settings.bundle */,
+				95B112651E66A85400379B50 /* TIGPlayerExample */,
+				95B112641E66A85400379B50 /* Products */,
+				5DC02E979F401D5DC34ED984 /* Pods */,
+				A9D5D30ACF6D1F22FCBA9F17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95B112641E66A85400379B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95B112631E66A85400379B50 /* TIG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95B112651E66A85400379B50 /* TIGPlayerExample */ = {
+			isa = PBXGroup;
+			children = (
+				246153621FBAA7B800E67F11 /* TIGPlayerExample.entitlements */,
+				95B112661E66A85400379B50 /* AppDelegate.swift */,
+				95B1126D1E66A85400379B50 /* Assets.xcassets */,
+				9526C7261ED8101B006F5C71 /* Base.lproj */,
+				2474F74A1FC52161001D479A /* AboutAppViewController.swift */,
+				48F4C6981FB1032A001111DF /* ContentsListHistoryCell.swift */,
+				48F4C6991FB1032B001111DF /* ContentsListHistoryStockCell.swift */,
+				48F4C69A1FB1032B001111DF /* ContentsListHistoryViewController.swift */,
+				C6EC867E1ECD41B400CA82C1 /* ContentsListViewController.swift */,
+				C6EC869A1ECD6EF500CA82C1 /* ContentsListViewController+UICollectionView.swift */,
+				24D1EA951FAAB50300503C66 /* ContentsShareButton.swift */,
+				C6EC86901ECD434200CA82C1 /* MovieViewController.swift */,
+				4194380D1F4FD1E8003D5F7A /* SplashViewController.swift */,
+				C662A0351ED2C3F5000BEBCE /* StockItemCell.swift */,
+				24C534F21FC58C03001BD65D /* SideMenuViewController.swift */,
+				241F84DC1FC403F100D22E6A /* TutorialViewController.swift */,
+				A41DA80B1FC4E0740062C039 /* TutorialFirstPageViewController.swift */,
+				24C03F0A1FC5773700557CF4 /* TutorialSecondPageViewController.swift */,
+				24C03F0C1FC5775800557CF4 /* TutorialThirdPageViewController.swift */,
+				95B112721E66A85400379B50 /* Info.plist */,
+				245D0E091F42F40B008A1616 /* Resource */,
+				1B3160E81EF83473004303E5 /* Util */,
+			);
+			path = TIGPlayerExample;
+			sourceTree = "<group>";
+		};
+		A9D5D30ACF6D1F22FCBA9F17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95E8677A1ECD32A5009C6066 /* SystemConfiguration.framework */,
+				E779B476E047BCF7B29FD9F5 /* Pods_TIGPlayerExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95B112621E66A85400379B50 /* TIGPlayerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B112751E66A85400379B50 /* Build configuration list for PBXNativeTarget "TIGPlayerExample" */;
+			buildPhases = (
+				D5A65D75E9EA941033109263 /* [CP] Check Pods Manifest.lock */,
+				95B1125F1E66A85400379B50 /* Sources */,
+				95B112601E66A85400379B50 /* Frameworks */,
+				95B112611E66A85400379B50 /* Resources */,
+				95B1128A1E66AB2300379B50 /* Embed Frameworks */,
+				956B83B81E6E7F0F00465188 /* ShellScript */,
+				73E1725481BA0DC1337050E1 /* [CP] Embed Pods Frameworks */,
+				67DA4DDB00096B9E558B0ABD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TIGPlayerExample;
+			productName = TIGPlayerExample;
+			productReference = 95B112631E66A85400379B50 /* TIG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95B1125B1E66A85400379B50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MMizogaki;
+				TargetAttributes = {
+					95B112621E66A85400379B50 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GP38CUQBN7;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 95B1125E1E66A85400379B50 /* Build configuration list for PBXProject "TIGPlayerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95B1125A1E66A85400379B50;
+			productRefGroup = 95B112641E66A85400379B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95B112621E66A85400379B50 /* TIGPlayerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95B112611E66A85400379B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A499CCEA1FC6FDEF00D596B8 /* SideMenuViewController.storyboard in Resources */,
+				48F4C6A61FB10347001111DF /* ContentsListHistoryStockCell.xib in Resources */,
+				417CC3DD2084989B007B02A7 /* Tutorial01.mp4 in Resources */,
+				2474F7491FC51113001D479A /* AboutAppViewController.storyboard in Resources */,
+				48F4C6A41FB10347001111DF /* ContentsListHistoryViewController.storyboard in Resources */,
+				24E856161FC58286000BAE6F /* Tutorial.storyboard in Resources */,
+				1BA52AEE1EED46C300220182 /* Settings.bundle in Resources */,
+				417CC3DC20849898007B02A7 /* Tutorial03.mp4 in Resources */,
+				9526C72D1ED8101B006F5C71 /* ContentsListViewController.storyboard in Resources */,
+				4194380C1F4FC9F1003D5F7A /* Splash.storyboard in Resources */,
+				9526C72F1ED8101B006F5C71 /* LaunchScreen.storyboard in Resources */,
+				48F4C6A51FB10347001111DF /* ContentsListHistoryCell.xib in Resources */,
+				95B1126E1E66A85400379B50 /* Assets.xcassets in Resources */,
+				417CC3DB20849895007B02A7 /* Tutorial02.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67DA4DDB00096B9E558B0ABD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIGPlayerExample/Pods-TIGPlayerExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73E1725481BA0DC1337050E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TIGPlayerExample/Pods-TIGPlayerExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TIGPlayer/TIGPlayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TIGPlayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIGPlayerExample/Pods-TIGPlayerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956B83B81E6E7F0F00465188 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_VERSION=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" $PRODUCT_SETTINGS_PATH)\n/usr/libexec/PlistBuddy -c \"Set :PreferenceSpecifiers:1:DefaultValue ${APP_VERSION}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Settings.bundle/Root.plist\"\n\nBUILD_NUMBER=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" $PRODUCT_SETTINGS_PATH)\n/usr/libexec/PlistBuddy -c \"Set :PreferenceSpecifiers:2:DefaultValue ${BUILD_NUMBER}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Settings.bundle/Root.plist\"\n\n\"${PODS_ROOT}/Fabric/run\" 7af436cb24940b8e31cc43075d4da44bc6619ede fc7aa1031880667c5d43e2bd8112bdaff18743ba0380daea69fa4bc9ce9cbeb9";
+		};
+		D5A65D75E9EA941033109263 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TIGPlayerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95B1125F1E66A85400379B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9526C7251ED7DCE5006F5C71 /* NetworkAlertController.swift in Sources */,
+				C6EC86821ECD41B400CA82C1 /* ContentsListViewController.swift in Sources */,
+				2474F74B1FC52161001D479A /* AboutAppViewController.swift in Sources */,
+				C6EC869B1ECD6EF500CA82C1 /* ContentsListViewController+UICollectionView.swift in Sources */,
+				24E856101FC57CF8000BAE6F /* TutorialSecondPageViewController.swift in Sources */,
+				24E856111FC57CFC000BAE6F /* TutorialFirstPageViewController.swift in Sources */,
+				95B112851E66AAC300379B50 /* MediaManager.swift in Sources */,
+				C662A0361ED2C3F5000BEBCE /* StockItemCell.swift in Sources */,
+				48F4C69D1FB1032B001111DF /* ContentsListHistoryViewController.swift in Sources */,
+				C6EC86911ECD434200CA82C1 /* MovieViewController.swift in Sources */,
+				241F84DD1FC403F100D22E6A /* TutorialViewController.swift in Sources */,
+				95B112671E66A85400379B50 /* AppDelegate.swift in Sources */,
+				48F4C69C1FB1032B001111DF /* ContentsListHistoryStockCell.swift in Sources */,
+				95B112841E66AAC300379B50 /* MediaItem.swift in Sources */,
+				24C534F31FC58C03001BD65D /* SideMenuViewController.swift in Sources */,
+				48F4C69B1FB1032B001111DF /* ContentsListHistoryCell.swift in Sources */,
+				1B3160EA1EF834C9004303E5 /* BackScreenGenerator.swift in Sources */,
+				24D1EA961FAAB50300503C66 /* ContentsShareButton.swift in Sources */,
+				4194380E1F4FD1E8003D5F7A /* SplashViewController.swift in Sources */,
+				24E8560F1FC57CF3000BAE6F /* TutorialThirdPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		241F84D91FC3F9BA00D22E6A /* Tutorial.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241F84DA1FC3F9BA00D22E6A /* Base */,
+			);
+			name = Tutorial.storyboard;
+			sourceTree = "<group>";
+		};
+		4194380A1F4FC9F1003D5F7A /* Splash.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4194380B1F4FC9F1003D5F7A /* Base */,
+			);
+			name = Splash.storyboard;
+			sourceTree = "<group>";
+		};
+		48F4C69E1FB10347001111DF /* ContentsListHistoryViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F4C69F1FB10347001111DF /* Base */,
+			);
+			name = ContentsListHistoryViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		48F4C6A01FB10347001111DF /* ContentsListHistoryCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F4C6A11FB10347001111DF /* Base */,
+			);
+			name = ContentsListHistoryCell.xib;
+			sourceTree = "<group>";
+		};
+		48F4C6A21FB10347001111DF /* ContentsListHistoryStockCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F4C6A31FB10347001111DF /* Base */,
+			);
+			name = ContentsListHistoryStockCell.xib;
+			sourceTree = "<group>";
+		};
+		9526C7271ED8101B006F5C71 /* ContentsListViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9526C7281ED8101B006F5C71 /* Base */,
+			);
+			name = ContentsListViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		9526C72B1ED8101B006F5C71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9526C72C1ED8101B006F5C71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95B112731E66A85400379B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95B112741E66A85400379B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95B112761E66A85400379B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C4493A4B2F6E8129EA4941 /* Pods-TIGPlayerExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TIGPlayerExample/TIGPlayerExample.entitlements;
+				DEVELOPMENT_TEAM = GP38CUQBN7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TIGPlayerExample/Resouce",
+					"$(PROJECT_DIR)/TIGPlayerExample/Resouce/Framework",
+					"$(PROJECT_DIR)/TIGPlayerExample/Framework",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Notifwift",
+				);
+				INFOPLIST_FILE = TIGPlayerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tigmedia12345;
+				PRODUCT_NAME = TIG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95B112771E66A85400379B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5911D15B8277A9B62D4D5732 /* Pods-TIGPlayerExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TIGPlayerExample/TIGPlayerExample.entitlements;
+				DEVELOPMENT_TEAM = GP38CUQBN7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TIGPlayerExample/Resouce",
+					"$(PROJECT_DIR)/TIGPlayerExample/Resouce/Framework",
+					"$(PROJECT_DIR)/TIGPlayerExample/Framework",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Notifwift",
+				);
+				INFOPLIST_FILE = TIGPlayerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tigmedia12345;
+				PRODUCT_NAME = TIG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95B1125E1E66A85400379B50 /* Build configuration list for PBXProject "TIGPlayerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B112731E66A85400379B50 /* Debug */,
+				95B112741E66A85400379B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B112751E66A85400379B50 /* Build configuration list for PBXNativeTarget "TIGPlayerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B112761E66A85400379B50 /* Debug */,
+				95B112771E66A85400379B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95B1125B1E66A85400379B50 /* Project object */;
+}
