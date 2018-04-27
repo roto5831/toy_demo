@@ -16,7 +16,7 @@ open class Router{
     
     open static var workerToolHost:String{
         get{
-            return  "http://54.65.218.178/"
+            return  "http://dev.tigmedia.jp/"
         }
     }
     
@@ -27,7 +27,7 @@ open class Router{
             case .meta:
                 if TIGSDK_Config.metaDomain.isEmpty {
                     #if DEBUG
-                        domain = "api-md.stg.tigmedia.jp/"
+                        domain = "api-md.dev.tigmedia.jp/"
                     #else
                         domain = "api-md.tigmedia.jp/"
                     #endif
@@ -37,7 +37,7 @@ open class Router{
             case .metaNext:
                 if TIGSDK_Config.metaNextDomain.isEmpty {
                     #if DEBUG
-                        domain = "api-mn.stg.tigmedia.jp/"
+                        domain = "api-mn.dev.tigmedia.jp/"
                     #else
                         domain = "api-mn.tigmedia.jp/"
                     #endif
@@ -47,7 +47,7 @@ open class Router{
             case .contentsItem:
                 if TIGSDK_Config.contentsItemDomain.isEmpty {
                     #if DEBUG
-                        domain = "api-ci.stg.tigmedia.jp/"
+                        domain = "api-ci.dev.tigmedia.jp/"
                     #else
                         domain = "api-ci.tigmedia.jp/"
                     #endif
@@ -57,7 +57,7 @@ open class Router{
             case .contentsList:
                 if TIGSDK_Config.contentsListDomain.isEmpty {
                     #if DEBUG
-                        domain = "api-cl.stg.tigmedia.jp/"
+                        domain = "api-cl.dev.tigmedia.jp/"
                     #else
                         domain = "api-cl.tigmedia.jp/"
                     #endif
@@ -71,7 +71,7 @@ open class Router{
                 return "https://\(domain)"
             }else{
                 #if DEBUG
-                    return "https://api-cl.stg.tigmedia.jp/"
+                    return "https://api-cl.dev.tigmedia.jp/"
                 #else
                     return "https://api-cl.tigmedia.jp/"
                 #endif

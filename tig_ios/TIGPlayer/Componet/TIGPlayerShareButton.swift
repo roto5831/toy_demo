@@ -89,7 +89,7 @@ open class TIGPlayerShareButton:UIButton,UIPopoverPresentationControllerDelegate
         var urlStr:String?
         #if DEBUG
             /// ステージング環境
-            urlStr = "https://stg.tigmedia.jp/stg_c/watch?id="
+            urlStr = "https://dev.tigmedia.jp/stg_c/watch?id="
         #else
             /// 本番環境
             urlStr = "https://tigmedia.jp/watch?id="

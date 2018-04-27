@@ -14,7 +14,7 @@ import TIGPlayer
 /// @ACCESS_OPEN
 open class ContentsShareButton:UIButton,UIPopoverPresentationControllerDelegate {
     /// ステージング環境
-    let stagingUrlStr = "https://stg.tigmedia.jp/stg_c/watch?id="
+    let stagingUrlStr = "https://dev.tigmedia.jp/stg_c/watch?id="
     
     /// 本番環境
     let productionUrlStr = "https://tigmedia.jp/watch?id="

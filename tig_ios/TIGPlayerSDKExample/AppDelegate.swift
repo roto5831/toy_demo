@@ -18,10 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         #if DEBUG
-            TIGSDK_Config.metaDomain = "api-md.stg.tigmedia.jp/";
-            TIGSDK_Config.metaNextDomain = "api-mn.stg.tigmedia.jp/";
-            TIGSDK_Config.contentsItemDomain = "api-ci.stg.tigmedia.jp/";
-            TIGSDK_Config.contentsListDomain = "api-cl.stg.tigmedia.jp/";
+            TIGSDK_Config.metaDomain = "api-md.dev.tigmedia.jp/";
+            TIGSDK_Config.metaNextDomain = "api-mn.dev.tigmedia.jp/";
+            TIGSDK_Config.contentsItemDomain = "api-ci.dev.tigmedia.jp/";
+            TIGSDK_Config.contentsListDomain = "api-cl.dev.tigmedia.jp/";
         #else
             TIGSDK_Config.metaDomain = "api-md.tigmedia.jp/";
             TIGSDK_Config.metaNextDomain = "api-mn.tigmedia.jp/";
