@@ -460,8 +460,13 @@ class ContentsListViewController: UIViewController ,UIPageViewControllerDataSour
                         "itemId": box[tappedIndexPath.item].itemId,
                         "url": box[tappedIndexPath.item].itemWebURL
                         ])
-                    
-                    UIApplication.shared.openURL(url as URL)
+//                    UIApplication.shared.openURL(url as URL)
+//                    webviewで表示
+                    let storyboard: UIStoryboard = UIStoryboard(name: "WebViewController", bundle: Bundle.main)
+                    let vc: WebViewController = storyboard.instantiateInitialViewController() as! WebViewController
+                    vc.modalPresentationStyle = .overFullScreen
+                    vc.urlStr = url.absoluteString
+                    self.present(vc, animated: true, completion: nil)
                 }
             }
         }

@@ -23,6 +23,9 @@
 		417CC3DD2084989B007B02A7 /* Tutorial01.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 417CC3D8208496BC007B02A7 /* Tutorial01.mp4 */; };
 		4194380C1F4FC9F1003D5F7A /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4194380A1F4FC9F1003D5F7A /* Splash.storyboard */; };
 		4194380E1F4FD1E8003D5F7A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4194380D1F4FD1E8003D5F7A /* SplashViewController.swift */; };
+		41A510522092C825007F126F /* WebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A510502092C825007F126F /* WebViewController.storyboard */; };
+		41AD72692092BDEA00149950 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD72682092BDEA00149950 /* WebViewController.swift */; };
+		41AD726B2092BEFC00149950 /* ConstraintsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD726A2092BEFC00149950 /* ConstraintsManager.swift */; };
 		48F4C69B1FB1032B001111DF /* ContentsListHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F4C6981FB1032A001111DF /* ContentsListHistoryCell.swift */; };
 		48F4C69C1FB1032B001111DF /* ContentsListHistoryStockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F4C6991FB1032B001111DF /* ContentsListHistoryStockCell.swift */; };
 		48F4C69D1FB1032B001111DF /* ContentsListHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F4C69A1FB1032B001111DF /* ContentsListHistoryViewController.swift */; };
@@ -75,6 +78,9 @@
 		417CC3DA208496DB007B02A7 /* Tutorial03.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tutorial03.mp4; sourceTree = "<group>"; };
 		4194380B1F4FC9F1003D5F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Splash.storyboard; sourceTree = "<group>"; };
 		4194380D1F4FD1E8003D5F7A /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashViewController.swift; path = ../SplashViewController.swift; sourceTree = "<group>"; };
+		41A510512092C825007F126F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = WebViewController.storyboard; sourceTree = "<group>"; };
+		41AD72682092BDEA00149950 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		41AD726A2092BEFC00149950 /* ConstraintsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsManager.swift; sourceTree = "<group>"; };
 		48F4C6981FB1032A001111DF /* ContentsListHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsListHistoryCell.swift; sourceTree = "<group>"; };
 		48F4C6991FB1032B001111DF /* ContentsListHistoryStockCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsListHistoryStockCell.swift; sourceTree = "<group>"; };
 		48F4C69A1FB1032B001111DF /* ContentsListHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsListHistoryViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +129,7 @@
 				9526C7241ED7DCE5006F5C71 /* NetworkAlertController.swift */,
 				95B112811E66AAC300379B50 /* MediaManager.swift */,
 				95B112801E66AAC300379B50 /* MediaItem.swift */,
+				41AD726A2092BEFC00149950 /* ConstraintsManager.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -159,6 +166,7 @@
 				4194380A1F4FC9F1003D5F7A /* Splash.storyboard */,
 				A499CCE91FC6FDEF00D596B8 /* SideMenuViewController.storyboard */,
 				241F84D91FC3F9BA00D22E6A /* Tutorial.storyboard */,
+				41A510502092C825007F126F /* WebViewController.storyboard */,
 			);
 			path = Base.lproj;
 			sourceTree = "<group>";
@@ -204,6 +212,7 @@
 				A41DA80B1FC4E0740062C039 /* TutorialFirstPageViewController.swift */,
 				24C03F0A1FC5773700557CF4 /* TutorialSecondPageViewController.swift */,
 				24C03F0C1FC5775800557CF4 /* TutorialThirdPageViewController.swift */,
+				41AD72682092BDEA00149950 /* WebViewController.swift */,
 				95B112721E66A85400379B50 /* Info.plist */,
 				245D0E091F42F40B008A1616 /* Resource */,
 				1B3160E81EF83473004303E5 /* Util */,
@@ -299,6 +308,7 @@
 				1BA52AEE1EED46C300220182 /* Settings.bundle in Resources */,
 				417CC3DC20849898007B02A7 /* Tutorial03.mp4 in Resources */,
 				9526C72D1ED8101B006F5C71 /* ContentsListViewController.storyboard in Resources */,
+				41A510522092C825007F126F /* WebViewController.storyboard in Resources */,
 				4194380C1F4FC9F1003D5F7A /* Splash.storyboard in Resources */,
 				9526C72F1ED8101B006F5C71 /* LaunchScreen.storyboard in Resources */,
 				48F4C6A51FB10347001111DF /* ContentsListHistoryCell.xib in Resources */,
@@ -399,6 +409,7 @@
 				C6EC86821ECD41B400CA82C1 /* ContentsListViewController.swift in Sources */,
 				2474F74B1FC52161001D479A /* AboutAppViewController.swift in Sources */,
 				C6EC869B1ECD6EF500CA82C1 /* ContentsListViewController+UICollectionView.swift in Sources */,
+				41AD72692092BDEA00149950 /* WebViewController.swift in Sources */,
 				24E856101FC57CF8000BAE6F /* TutorialSecondPageViewController.swift in Sources */,
 				24E856111FC57CFC000BAE6F /* TutorialFirstPageViewController.swift in Sources */,
 				95B112851E66AAC300379B50 /* MediaManager.swift in Sources */,
@@ -412,6 +423,7 @@
 				24C534F31FC58C03001BD65D /* SideMenuViewController.swift in Sources */,
 				48F4C69B1FB1032B001111DF /* ContentsListHistoryCell.swift in Sources */,
 				1B3160EA1EF834C9004303E5 /* BackScreenGenerator.swift in Sources */,
+				41AD726B2092BEFC00149950 /* ConstraintsManager.swift in Sources */,
 				24D1EA961FAAB50300503C66 /* ContentsShareButton.swift in Sources */,
 				4194380E1F4FD1E8003D5F7A /* SplashViewController.swift in Sources */,
 				24E8560F1FC57CF3000BAE6F /* TutorialThirdPageViewController.swift in Sources */,
@@ -435,6 +447,14 @@
 				4194380B1F4FC9F1003D5F7A /* Base */,
 			);
 			name = Splash.storyboard;
+			sourceTree = "<group>";
+		};
+		41A510502092C825007F126F /* WebViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41A510512092C825007F126F /* Base */,
+			);
+			name = WebViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		48F4C69E1FB10347001111DF /* ContentsListHistoryViewController.storyboard */ = {
