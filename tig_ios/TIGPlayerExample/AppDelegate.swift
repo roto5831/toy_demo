@@ -29,16 +29,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // status bar style
 //        UIApplication.shared.statusBarStyle = .lightContent
-        if let contentsIds = self.userDefault.stringArray(forKey: "contentsIds"){
-            contentsIds.forEach{ id in
-                if let items = PersistentManager.getByPrimaryKey(Items.self, primaryKey:id){
-                    for item in (items.list) {
-                        PersistentManager.delete(ItemModel.self, primaryKey: "\(id)\(item.itemId)")
-                    }
-                    PersistentManager.delete(Items.self, primaryKey:id)
-                }
-            }
-        }
         return true
     }
     
@@ -83,6 +73,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if userDefault.bool(forKey: "showTutorial") {
             userDefault.set(false, forKey: "showTutorial")
         }
+        
+        if let contentsIds = self.userDefault.stringArray(forKey: "contentsIds"){
+            contentsIds.forEach{ id in
+                if let items = PersistentManager.getByPrimaryKey(Items.self, primaryKey:id){
+                    for item in (items.list) {
+                        PersistentManager.delete(ItemModel.self, primaryKey: "\(id)\(item.itemId)")
+                    }
+                    PersistentManager.delete(Items.self, primaryKey:id)
+                }
+            }
+        }
+        //analytics集計
     }
     
     /// URL Schemeに設定されたURLを受け取る

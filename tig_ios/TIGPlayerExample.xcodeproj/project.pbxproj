@@ -266,7 +266,7 @@
 				TargetAttributes = {
 					95B112621E66A85400379B50 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = GP38CUQBN7;
+						DevelopmentTeam = QCXR436QQ7;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.SafariKeychain = {
@@ -600,7 +600,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TIGPlayerExample/TIGPlayerExample.entitlements;
-				DEVELOPMENT_TEAM = GP38CUQBN7;
+				DEVELOPMENT_TEAM = QCXR436QQ7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TIGPlayerExample/Resouce",
@@ -614,7 +614,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.tigmedia12345;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.com.segatoys.demo;
 				PRODUCT_NAME = TIG;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -627,7 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TIGPlayerExample/TIGPlayerExample.entitlements;
-				DEVELOPMENT_TEAM = GP38CUQBN7;
+				DEVELOPMENT_TEAM = QCXR436QQ7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TIGPlayerExample/Resouce",
@@ -641,7 +641,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.tigmedia12345;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.com.segatoys.demo;
 				PRODUCT_NAME = TIG;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
