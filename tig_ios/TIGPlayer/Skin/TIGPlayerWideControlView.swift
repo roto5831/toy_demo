@@ -878,20 +878,20 @@ extension TIGPlayerWideControlView: TIGPlayerCustom {
             self.stockAreaView.sliderPoint(sender: self.stockAreaButton)
             self.playerControlButton.setBackGroundToReplay()
             //self.shareButton.display(parentViewAlpha: 0.8, replayViewhidden: !self.showShareButton)
-            self.shareButton.display(parentViewAlpha: 0.8, replayViewhidden: false)
+//            self.shareButton.display(parentViewAlpha: 0.8, replayViewhidden: false)
             self.player(player, showLoading: false)
         case .pause:
             TIGNotification.post(TIGNotification.stop)
-            self.shareButton.display(parentViewAlpha: 1.0, replayViewhidden: true)
+//            self.shareButton.display(parentViewAlpha: 1.0, replayViewhidden: true)
             self.player(player, showLoading: false)
             self.renderView?.renderTigObject(currentTime: self.currentTime.doubleValue)
             self.metaPageManager.toOtherPageIn(second:self.currentTime.doubleValue)
         case .playing:
             self.stockAreaView.closeStockArea(self.stockAreaButton)
-            self.shareButton.display(parentViewAlpha: 1.0, replayViewhidden: true)
+//            self.shareButton.display(parentViewAlpha: 1.0, replayViewhidden: true)
             self.player(player, showLoading: false)
         default:
-            self.shareButton.display(parentViewAlpha: 1.0, replayViewhidden: true)
+//            self.shareButton.display(parentViewAlpha: 1.0, replayViewhidden: true)
             self.player(player, showLoading: true)
         }
     }

@@ -47,7 +47,7 @@ class TIGPlayerWipeButton: UIButton {
         if let controlView = player.controlView as? TIGPlayerWideControlView{
             if controlView.didProgressGetToEnd(slider: controlView.timeSlider){
                 player.stop()
-                controlView.shareButton.display(parentViewAlpha: 0.8, replayViewhidden: false)
+//                controlView.shareButton.display(parentViewAlpha: 0.8, replayViewhidden: false)
             }else{
                 player.play()
             }

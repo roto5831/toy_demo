@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00805BB986ABC54D9C5F1077AC11EE08 /* object_store.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 612BEA6D79D93BE666528A95EF602F5B /* object_store.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		00FC2CF5898FF4BB6A898B3CB1FC2F05 /* TIGPlayerWipeContainerRootViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1193AC08AFA3FF38B208399BE6B356D7 /* TIGPlayerWipeContainerRootViewController.xib */; };
+		00FC2CF5898FF4BB6A898B3CB1FC2F05 /* TIGPlayerWipeContainerRootViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = D9AFBC49CEED744A2AB613857D4E0382 /* TIGPlayerWipeContainerRootViewController.xib */; };
 		037AC0BA54FA36437D6565BB8E3979EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AABF95EDB591EFFA8BC3CAB6F3B2A8 /* UIKit.framework */; };
 		03EE30A3FFD7BF856C008B3DC8139F07 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4345C581B6E13054911EFDCD8C640A /* Mapper.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		04A9EAF23667AB20F1856B4C127E2CCB /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8037AF99F6D30915160F783C118811 /* DateFormatterTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -20,7 +20,7 @@
 		094E2AB995C0B59F7DCCC5946B2E9002 /* RLMRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = C47A2753B48CFBC0DCB54558BABBAB3F /* RLMRealm.h */; };
 		098EB2DAF725FA7EFA0AED3B89B99B5E /* RLMCollection.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5FC5DC86AE66273230FC674E9DB1FF2 /* RLMCollection.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		0A1971AA5F342C80C42D2BE468555D32 /* RLMCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AEC719D1CD6A0D44AB8CD2BC3786C1F /* RLMCollection.h */; };
-		0B31C85C0D6BB0C4E3134B8C7BF48161 /* TIGPlayerWipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2984E18826ADA6454C58F3543220D626 /* TIGPlayerWipeView.swift */; };
+		0B31C85C0D6BB0C4E3134B8C7BF48161 /* TIGPlayerWipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B433E1773A51AB09254C66B938B38C /* TIGPlayerWipeView.swift */; };
 		0C3E252C8CBC57490BB16B6DB9CDCF7F /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DCB2E84F1C80DE6754451A6722B680 /* after.m */; };
 		0CC04672EB50E14FD46AA721ABD2657D /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0425290E586EB01B921A6B013B1906 /* when.swift */; };
 		0DBBD84B10A8DD3F773C0E55663FDAD5 /* RLMAccessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B6A81C89576162AB9EAA165D4F75458 /* RLMAccessor.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -34,10 +34,10 @@
 		14633070FD25E07CD5D701548EE78E69 /* SortDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DAC04482EE5E0885EF3BC5A3D1E828 /* SortDescriptor.swift */; };
 		150DC096BDA527921B27482DEC791E19 /* SwiftVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DD8BBB044AC97ED1CF930F2AD3903D /* SwiftVersion.swift */; };
 		1516D7B84FCB74AB54A78FAF2302A9B0 /* NSError+RLMSync.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0F7902F089472E50DF96425E6DBB52 /* NSError+RLMSync.h */; };
-		1580B0B350BAA498B202DB77B581EA1E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE79903214D0EB3C7BA4D588F82C3C /* Item.swift */; };
+		1580B0B350BAA498B202DB77B581EA1E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31DA474A9D3913290027B5F598E4091 /* Item.swift */; };
 		15E1A36AE871E2B5ADD66E24C7BBFAB1 /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EE189B9D4D09360F8896C0409ECABC /* when.m */; };
 		1689088B3BF9C0CE8AD02A889DE189A3 /* RLMAuthResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A290C657D20E94CEB6D9D4E597D22D /* RLMAuthResponseModel.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		179E3EDE180900863BFEAC8727BD6471 /* TIGPlayerFloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07912B302AF214A4ABDD0434CD537D /* TIGPlayerFloatingButton.swift */; };
+		179E3EDE180900863BFEAC8727BD6471 /* TIGPlayerFloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1432BB3C814A53235F4C9DD4DF1A3EF /* TIGPlayerFloatingButton.swift */; };
 		180ADF9FA985534206A37AD58FB5CD19 /* RLMResults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 474A0E5CD31E14EB02F75D1C87CE4B3B /* RLMResults.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		189E3C74E8B22FFFE510B312FAF0DEEB /* DispatchQueue+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A800DB73A572EB7FD835361A45D3C598 /* DispatchQueue+Promise.swift */; };
 		1975E566995A8A88E0649D7861E5DFF0 /* network_reachability_observer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26A57EA551525618E739D5E4FC62609C /* network_reachability_observer.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -50,12 +50,12 @@
 		1DA143109DD492C574A0A16D4BC51525 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF5EDE2F4744AD99273F04D4982CBC0 /* PromiseKit.framework */; };
 		1DFF509428538C85B2CB337683BDCA85 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F785E1F670B80F454A9DD59F9B4339 /* SDWebImageCompat.m */; };
 		1E419627F1EA30E384B16930BD78DE27 /* Pods-TIGPlayerSDKExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AD9A0B4AB1CB127A08F0F6C7BFB15A /* Pods-TIGPlayerSDKExample-dummy.m */; };
-		1EB7F2085B33720DE19822AE54046129 /* TIGPlayerModeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F71CEBD505FCBDAEB72CF1C318CD869 /* TIGPlayerModeButton.swift */; };
+		1EB7F2085B33720DE19822AE54046129 /* TIGPlayerModeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB13744B37422DC6FED091F00F6FB8 /* TIGPlayerModeButton.swift */; };
 		1EE093F037BA720EA263029651095455 /* RLMQueryUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58494E877818C5D9A69296DCAD08B0C4 /* RLMQueryUtil.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		1F39DAD5541528E6CD9436C7D3EB7529 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF816F93955D9B5ABCBAF4DBA15B2EC /* Alamofire.framework */; };
 		1F3D5B73C47BFF4227A23C8F8413CFDF /* weak_realm_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35FFC0D8E06F47460EEA12A9F6B1083D /* weak_realm_notifier.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		1FB468FC3044DCFD9EE12DAD52954B3E /* sync_permission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C26DDD072C54DBCD1A59A20DEB31BABF /* sync_permission.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		20524F328913860ECDA9CEFC27CDF5AC /* TIGPlayerSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B877B8770CFD2FED81A5500E26ECBD /* TIGPlayerSDK.swift */; };
+		20524F328913860ECDA9CEFC27CDF5AC /* TIGPlayerSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7437D2164047073461B7463FE3F4CFED /* TIGPlayerSDK.swift */; };
 		21AF51AD72782ABE683B908DDB0B202E /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D9243CD6DA2E9CDC73BB4F6FAFC18B /* List.swift */; };
 		21AFFEDFDDB6F8B901E79FA287CCFA6F /* RLMSchema_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = EA846B2905AF5D2B37AEC25517D60F9C /* RLMSchema_Private.h */; };
 		2203109E14431EC034CED1BE4FC8B256 /* UIViewController+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D102CEB83F834F6B4C634F2A9EB18 /* UIViewController+AnyPromise.m */; };
@@ -66,10 +66,10 @@
 		240B391324690B9771F7B4EA12C435AE /* RLMRealmUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = D6E17F2A6822BB63E48CF446EC63DCE8 /* RLMRealmUtil.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		2594A1DACED836020EC1DA89D3AA25F8 /* RLMSchema_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EA846B2905AF5D2B37AEC25517D60F9C /* RLMSchema_Private.h */; };
 		25C237670E5A6110C242D8D7D06C43ED /* RLMRealmConfiguration+Sync.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DADEB905854801DB8BD39F7873477A /* RLMRealmConfiguration+Sync.h */; };
-		2678CBBAD4988D2196BA1B411529F013 /* TIGPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22CB4FA5039D8A90F02E616D7A9E703 /* TIGPlayerView.swift */; };
-		274BFB4EAF61F4870389386BDE49D084 /* TIGStockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45276CDCA0B39EC0F62EDF00FFD244D7 /* TIGStockButton.swift */; };
-		29EBA6DF572B12C4E76598DA29952040 /* TIGPlayerWipeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4B89E8971539B4437BEC839D410D3F /* TIGPlayerWipeButton.swift */; };
-		29FB490552D5F1A1D2E399DDAEC6E4F6 /* access_control.py in Sources */ = {isa = PBXBuildFile; fileRef = 41CF8E2C454ACEFCA16512BF4378641A /* access_control.py */; };
+		2678CBBAD4988D2196BA1B411529F013 /* TIGPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E44677ACEB22BB050B615ED7AC430 /* TIGPlayerView.swift */; };
+		274BFB4EAF61F4870389386BDE49D084 /* TIGStockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0218C63E2A5470484984340BD68ECC /* TIGStockButton.swift */; };
+		29EBA6DF572B12C4E76598DA29952040 /* TIGPlayerWipeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9190C101BD7D1BE6617C4E8DCFA47DDC /* TIGPlayerWipeButton.swift */; };
+		29FB490552D5F1A1D2E399DDAEC6E4F6 /* access_control.py in Sources */ = {isa = PBXBuildFile; fileRef = 4ABF730EF367CC0707C4A5422B0D824C /* access_control.py */; };
 		2A5C3F1995520AD9E180EE7C68209E28 /* realm_coordinator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B20EBD360F41D80B9C989A66A15C42F /* realm_coordinator.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		2A5E301B0C6084D6DCBB1724873D1BFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F5E7AB97E66128CD6BFADB23E765EE /* Foundation.framework */; };
 		2AA0230C7F6F9566D9CAC018DC02F611 /* RealmCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64591B3A8F84CFE47843BF1ECEBA2054 /* RealmCollection.swift */; };
@@ -77,8 +77,8 @@
 		2C52634F3ACC2FE53B056D166C5DAD13 /* PMKUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D389E8F294D20BEB0DF3D32D8C0B003D /* PMKUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C7E5AF8403D5E49597D7D908D48E955 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B34FC08E02E32B6219144744C54A1 /* Migration.swift */; };
 		2C7F3FA4D52D35A47DFBB51F1E45321F /* Realm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 755C74DD2A47C4FE121C8ACC5544F0FF /* Realm-dummy.m */; };
-		2D7CD8F7129126C4AAA05EEE5F350EC0 /* TIGPlayerControlBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C358CBC3172B6B59614FE751C3749F /* TIGPlayerControlBar.swift */; };
-		2E39CBF6F6D117A2FA1DD15970BA82F7 /* TIGPlayerWideControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9764AD63192D6F14670EFA03BE925952 /* TIGPlayerWideControlView.swift */; };
+		2D7CD8F7129126C4AAA05EEE5F350EC0 /* TIGPlayerControlBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7351AC4BA954853F348DEC05511FA36 /* TIGPlayerControlBar.swift */; };
+		2E39CBF6F6D117A2FA1DD15970BA82F7 /* TIGPlayerWideControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DD28277E11AE91A8B6BA419A051FC4 /* TIGPlayerWideControlView.swift */; };
 		2E3C4E80C36CA039A0A74EB28867F51B /* RLMSyncCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1E8F16FF7F2999E78C82A7A27280B0 /* RLMSyncCredentials.h */; };
 		2E77A7497D709AE69E5BD6C5C602527F /* RLMListBase.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 110DA777F3C03EE5F076F93FAF751E4F /* RLMListBase.h */; };
 		2E81C4C00867B27B293B31CD95DBFD28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AABF95EDB591EFFA8BC3CAB6F3B2A8 /* UIKit.framework */; };
@@ -93,7 +93,7 @@
 		33D2BAECCED8CBF28CABF60855347890 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD82573737ECBE882240005914A547 /* SDWebImageManager.m */; };
 		34FE09AEB90040F98EC931BEBC307515 /* RLMRealm_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D200DCE5E1AABE9F5E7A44D60414B0F /* RLMRealm_Private.h */; };
 		3569D52FC046E6CE1997145062625EAA /* RLMRealm.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5830D6B6FC13625F6EB1B1094C7A2B91 /* RLMRealm.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		35780813739A7DE1737288BF528DABA7 /* TIGObjectThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3AEB1852559F70379C627B94824B8 /* TIGObjectThumbnail.swift */; };
+		35780813739A7DE1737288BF528DABA7 /* TIGObjectThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0853A1DFF52ADF0CC61F4EEEF27B68 /* TIGObjectThumbnail.swift */; };
 		35BA53BE44A5FAEE1FB680E12A243846 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58C26FE2EE67AC527E625A82D027BD0 /* HexColorTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA8BB06F84691C44311078A1E4269 /* TaskDelegate.swift */; };
 		37502BE5DB2F976CF4761A498EF104C8 /* UIView+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957DA5E0EA4CF381E75CA08E33D651B8 /* UIView+Promise.swift */; };
@@ -110,7 +110,7 @@
 		3CC4D2F1B1F7A0A63ED208B38A6D1E00 /* join.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFFCF6111F293F10F926B0737765AF /* join.swift */; };
 		3DB1EEB45F1AF939E9C0F643B4EA9223 /* RLMTokenModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6A997AC842DA678F5C42BD3DD1A984 /* RLMTokenModels.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		3DF58C6FA8927E17EBBF8D6A09280230 /* sync_metadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 417039DAD86D91EA871B3EB3AEC8983D /* sync_metadata.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		3E9AFB121A442F3A1F87E668042D67DC /* TIGPlayer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F329721CB871C3A4F75417D0257F8013 /* TIGPlayer.xcassets */; };
+		3E9AFB121A442F3A1F87E668042D67DC /* TIGPlayer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58A6DAC245FC0AF7CE5B3ECC60C209B0 /* TIGPlayer.xcassets */; };
 		3EA34828D3E29FFCC5CAF3E583689680 /* RLMSyncSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = E248FAAD87CA9291D3A2CD1569D7A8AD /* RLMSyncSession.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		3EE8059F142776DE65DE2A919C741C35 /* RLMRealmConfiguration+Sync.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 57DADEB905854801DB8BD39F7873477A /* RLMRealmConfiguration+Sync.h */; };
 		3FD7184745748F90C8EF32E8E7D959D2 /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = E09A6FC9F20501A97E45C53B7BC64EC6 /* fwd.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -121,7 +121,7 @@
 		451B665C36F4228C83F91C7B829CAD7C /* sync_user.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55B1BCF6F84B9844B35571A266E140FE /* sync_user.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		455FF37283B0F863A94BA4A4F4AC1C9F /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35E74A2767FFAF1D9164A885FB0662 /* NSData+ImageContentType.m */; };
 		45EA3C748EB1A9CEE1230B3980BFBEFC /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23173300E7F06C5E876910F9D08B1194 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45EBECD899EA9D9E1539EEE3A533E310 /* TIGPlayerShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D72ADB00CAA34F687B62F71C3E87DA /* TIGPlayerShareButton.swift */; };
+		45EBECD899EA9D9E1539EEE3A533E310 /* TIGPlayerShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A4D90D5B22C1830E4511ECC8CE697F /* TIGPlayerShareButton.swift */; };
 		46B680B027E7CAF247B63BB65B51670B /* RLMObjectSchema.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF574034228A1CE6977995B5826778DC /* RLMObjectSchema.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		4732038E34805F236363B179F6AD784B /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832378456F0AE291F6441960F8172BF3 /* NSObject+Promise.swift */; };
 		474330831AC3B27F33DC87EB8146425D /* RLMAnalytics.mm in Sources */ = {isa = PBXBuildFile; fileRef = F04398BB946EF30214F145037FC7F93D /* RLMAnalytics.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -134,21 +134,21 @@
 		4A8CBB70A04226CD0A4F757E0398081A /* Process+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34BEB4DD409C2992DC7C9473B2E9718 /* Process+Promise.swift */; };
 		4A98EC2966753D592F8326548DA86A75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F5E7AB97E66128CD6BFADB23E765EE /* Foundation.framework */; };
 		4D3F9B944669F0096651C8707C19B613 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F5E7AB97E66128CD6BFADB23E765EE /* Foundation.framework */; };
-		4F16F0F2AAA5F13D699C935EEDB8135E /* TIGConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF8BD651AC7DD629ABA16F047DF64C /* TIGConstants.swift */; };
+		4F16F0F2AAA5F13D699C935EEDB8135E /* TIGConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6191DC9BBFF351579FEA2FE43B91C96F /* TIGConstants.swift */; };
 		50891C9C39DA1E7D980F4882AF0C948F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248FC97050A4491B5F72F9847AD297B /* SwiftyJSON.swift */; };
 		5114B74C6C02D5A52BD9DD5B69E6CFEE /* Realm.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 970DA4077A037D90CDC0236277E9579E /* Realm.h */; };
 		5160E160981D093A475EC10BFE73BCFD /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B99CBD26D86D839AF65E714EA6614080 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		516524502CEC3ED031B50747B99A49A1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF9D3D56E442BB8532C479500D18751 /* ImageIO.framework */; };
-		51DFADF2FCA7F213009741739D56207F /* TIGNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4D0CBAB392F60664F817DA35757C9 /* TIGNotification.swift */; };
+		51DFADF2FCA7F213009741739D56207F /* TIGNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7213742FB52931F1019F5A056E5F84 /* TIGNotification.swift */; };
 		5214718D135658ED91A29F96E6C370A1 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBE7562F38F68AF72AB5AECF485D8FA /* SDWebImageDownloaderOperation.m */; };
 		530D541F137DAB988212C73AF2EE6C9B /* RLMSyncPermissionOffer.h in Headers */ = {isa = PBXBuildFile; fileRef = C3693237F50BD6746771E7620A38F419 /* RLMSyncPermissionOffer.h */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22413A6F0BF5C755E418898F047E2017 /* Request.swift */; };
-		551AFDE136552A0C770741B6CE81EAE4 /* Timer+TIGEZPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB79A04D4DAE81FE98FC9B5CAA3C028 /* Timer+TIGEZPlayer.swift */; };
+		551AFDE136552A0C770741B6CE81EAE4 /* Timer+TIGEZPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791A16E11A6BBE2D926C3B4FA589B177 /* Timer+TIGEZPlayer.swift */; };
 		5539BF7A8344ACD36EB756DFC5DA74EC /* binding_callback_thread_observer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43A4FFBE38187FBBCB6CD32CA5663363 /* binding_callback_thread_observer.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		554024125BDDD8CFE0FA9F47CF450D38 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274C767FE8BAC22E11032D0EE6B4BE93 /* FromJSON.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		556D20A0829E911B03B434674287825E /* RLMSyncUtil_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EC5DA71AE8096020F54ED967C01429 /* RLMSyncUtil_Private.h */; };
 		55DB27E68C7EF6F518FC0CD7A5060FD8 /* sync_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51A4632DCC09D47C5B34968091DD5DF3 /* sync_file.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		5609BBB18A991005EF5FA0F0B6225C3C /* PersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0B95DD92A00D0AA77036D738307DD /* PersistentManager.swift */; };
+		5609BBB18A991005EF5FA0F0B6225C3C /* PersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86557E652E174672C9B2FDAB7347F8 /* PersistentManager.swift */; };
 		56C3F45EE651A920D59EC22E48837EBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F5E7AB97E66128CD6BFADB23E765EE /* Foundation.framework */; };
 		59624C520DFB918D411BBDB92F41578C /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D94DC3D02EF224B8AB3441C1DB27D /* Error.swift */; };
 		5B68FBD89BC6EF0345BE38D135A199A9 /* NSError+RLMSync.m in Sources */ = {isa = PBXBuildFile; fileRef = A694FA9DF935ABC67B0F1DFE74D3E2C5 /* NSError+RLMSync.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -159,7 +159,7 @@
 		5FE10F128FAB9CA92A0601D880A66236 /* RLMArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF090E2DBB39EA08F87AA6E4946B6CC /* RLMArray.h */; };
 		602AC58F800D184C8A061D39420E8CB7 /* RLMThreadSafeReference.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = F2CC4AA177703B4924A40470C5490440 /* RLMThreadSafeReference.h */; };
 		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ED36DBF43DD2964937C3AA4AF71CB7 /* DispatchQueue+Alamofire.swift */; };
-		621831B901144C6413E9CAD02EFCF907 /* TIGPlayerControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA5AE3B5C947E99A43E9803851EBDB /* TIGPlayerControlButton.swift */; };
+		621831B901144C6413E9CAD02EFCF907 /* TIGPlayerControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B1CCFFF190074D0DBF2A033FAD3EF8 /* TIGPlayerControlButton.swift */; };
 		62B702996CE6B225CE7837A40D048635 /* RLMRealmConfiguration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FA324B619B5F254075911A69629458E6 /* RLMRealmConfiguration_Private.h */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898BF0C8BE452903C95D881E21508F05 /* ServerTrustPolicy.swift */; };
 		638493ABDA2DD4E19E6EBB3525C06F03 /* RLMSyncPermissionValue.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1E282BDC51542E474748B699CC1A8E /* RLMSyncPermissionValue.h */; };
@@ -169,21 +169,21 @@
 		64C08047F018142FFAA2D6A8EAD6CEF0 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A90116289977CC13701DD14D8CF58F /* EnumOperators.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		64E54F4D93E1B4E9A77E05F8B149A159 /* RLMSchema.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58324676FDA4CC51BF5B8A6F613246DA /* RLMSchema.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		65C90AD2982A129B497AC009954E7468 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E57356BF9D3CDD2E8676663600D14DD /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		668D1BE7245B92F76F4BB6AD9ACE05A2 /* ArrayUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8349207909D2911FD5479F8E1C01A45 /* ArrayUtil.swift */; };
+		668D1BE7245B92F76F4BB6AD9ACE05A2 /* ArrayUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7B87066C9475C42B0E1A4EB77D7E9 /* ArrayUtil.swift */; };
 		6747029881DB1EAB507AC4FC3BBBC9DD /* results_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F810E45C1AFE2C7D905CEAFFAA530C43 /* results_notifier.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		67C12304EB27C7DB3DD82F6767473AF1 /* results.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 996CF715C31172627134496FEBEB2110 /* results.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		68D527E2D50493C3DD7E12C78CAA449A /* RLMSyncPermissionValue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF8BB46876175B05C81D4438246974 /* RLMSyncPermissionValue.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		68E512473D7479AF755B299A8D414630 /* TIGStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FA223DFF2E91BF400AA74A4229C5E /* TIGStockView.swift */; };
-		69BF3BA2ADDBADBEE61C64CE41841BAE /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3FC2816397C8C9E8C6CC6E78A5600F /* RealmManager.swift */; };
+		68E512473D7479AF755B299A8D414630 /* TIGStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B161F360A1CAF109359E6A5F427B39 /* TIGStockView.swift */; };
+		69BF3BA2ADDBADBEE61C64CE41841BAE /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8F7B2F89B28FD046BE653A3D156C1B /* RealmManager.swift */; };
 		6AED993DFA0F13121722AE58BBC937F0 /* RLMSyncConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA0137E925A0F66AAF9F9249FDF1C25 /* RLMSyncConfiguration.h */; };
 		6B1217E9472F794254B44B6CF5056609 /* keychain_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4397DEB8BBF8CD75346882211EF5E096 /* keychain_helper.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		6BFC8C27913F236295A76341DF9ADAF6 /* RLMSyncPermissionChange_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8D60C1B6967D68875A790A77C5458C /* RLMSyncPermissionChange_Private.h */; };
-		6CC391DC57B4820926AF5F9709230880 /* TIGObjectMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4776B15787EB2425B788962BB6C5A12 /* TIGObjectMarkView.swift */; };
+		6CC391DC57B4820926AF5F9709230880 /* TIGObjectMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3E1DCE4B1BBA1B9C4740BFA8EFA699 /* TIGObjectMarkView.swift */; };
 		6CDA0851552DAFD08B7029DD709473CB /* RLMSyncUtil.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 09F5CCB466117D1A3EECD31A7F4488AB /* RLMSyncUtil.h */; };
 		6D4763209A3F094E8162FD1A86751B8D /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE175304E7F2EFF7CAA0AE264C1B52AD /* MapError.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6E050821B65350755D6AE022037A699B /* RLMSyncConfiguration.mm in Sources */ = {isa = PBXBuildFile; fileRef = F65CA85365316C52051B7473E4B3BABA /* RLMSyncConfiguration.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		6E80962529E3F6196265D156EE68456A /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F5588AF64A3D117723D5D3210BA2AD /* Mode.swift */; };
-		6F095C4574AEEA4104ABB1058BBB30FC /* RealmMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B0C3065BB69515DBB32D1B654978FE /* RealmMapper.swift */; };
+		6E80962529E3F6196265D156EE68456A /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1422CF4F52A70C50398A2FFAABE5CF0B /* Mode.swift */; };
+		6F095C4574AEEA4104ABB1058BBB30FC /* RealmMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5976BB87DCF18D7ED40F691F5C4154C7 /* RealmMapper.swift */; };
 		6F6F3B4EF5D2FA7D0D196314F7C91377 /* afterlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2878E366F7D4440D26A27488A093B6B /* afterlife.swift */; };
 		702EE11B592D067866540B8F167FD12A /* RLMPlatform.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = FFF4AEB4F4A3460AF5036F42CF511142 /* RLMPlatform.h */; };
 		70C891E6E61B8E9999DEA03EDE44A21B /* RLMSyncManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9889DA3C216EA9754C8F3AC55554F207 /* RLMSyncManager_Private.h */; };
@@ -205,28 +205,28 @@
 		79ED1707D54E86B6019EBE43272364AB /* RLMAccessor.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 42276A60082C302F6B12FE8B9B52D865 /* RLMAccessor.h */; };
 		7A213AED599718156F8CAD9AFCFB57FA /* RLMObjectSchema_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 619727AB24F96E1350EEBCE8839B0EA4 /* RLMObjectSchema_Private.h */; };
 		7ABBA835764E6D856553156EC11354F0 /* RLMRealmConfiguration.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E95FC9B7E3C0695ED5499C2CB459B69 /* RLMRealmConfiguration.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		7B19ECE0915FF4DA5882E5C95E736C16 /* TIGPlayerThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448F330B5330D6A185A18B8EC2699E4 /* TIGPlayerThumbnail.swift */; };
+		7B19ECE0915FF4DA5882E5C95E736C16 /* TIGPlayerThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E6D9B28CDB9C21C961A389F8E1642 /* TIGPlayerThumbnail.swift */; };
 		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E6606516DD33891566625A42574958 /* SessionDelegate.swift */; };
 		7BE5D1EA4DA8D3D216BA21464D63A84C /* RLMOptionalBase.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 89E047137D837315BDF414829B23558A /* RLMOptionalBase.h */; };
 		7C0018F12EC3B7824CB7FB3EE9D6FE6F /* RLMRealmConfiguration_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = FA324B619B5F254075911A69629458E6 /* RLMRealmConfiguration_Private.h */; };
 		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90641B7166C7C50870E30C104A707284 /* Result.swift */; };
 		7F9984DB1CD443DDAC6C63D8B1A82D96 /* sync_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D5E6A590774B69AAB5C8CCC27B0ABAD /* sync_manager.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		7FCDC762B0BF88C41CE842D48F9C1C0A /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D93C66847BA9683F4F3CDE9C77131 /* NSURLSession+Promise.swift */; };
-		80A96AC3F54A7C0D315BCE7B2814F0D4 /* TIGPlayerTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C4F256DF73C0E2A9B18EE4C96FE7B0 /* TIGPlayerTitleLabel.swift */; };
+		80A96AC3F54A7C0D315BCE7B2814F0D4 /* TIGPlayerTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B40DAC8CA793768546EBDC9FB68B0 /* TIGPlayerTitleLabel.swift */; };
 		80DD3BF9141268B7FD837C9EAFD1207B /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EEBEE1D13D58D2FCD7608EB84D1818 /* DictionaryTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		816CFE3AB088A37B615C69D916EC76CA /* RLMMigration.h in Headers */ = {isa = PBXBuildFile; fileRef = 875AECACA3D81234C94F7430F3DDAC98 /* RLMMigration.h */; };
 		81A7589172743FEA928117C60B0AD35A /* RLMSyncPermissionOfferResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F08DCC4174BEE08A0FD66BBA8729FA5 /* RLMSyncPermissionOfferResponse.h */; };
 		81FE499F1802600C14494CEAAF3D3DA3 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBBF99463742B53EA8F50C0006A00F0 /* SDWebImagePrefetcher.m */; };
-		826D8F6CD5B02E1F2E7BC18A0A4D4224 /* TIGPlayerVideoshotPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16726A789DCA2BF15752FC1AA4E7B6AC /* TIGPlayerVideoshotPreview.swift */; };
+		826D8F6CD5B02E1F2E7BC18A0A4D4224 /* TIGPlayerVideoshotPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6D65F54F537D20DB64267CD3F9142 /* TIGPlayerVideoshotPreview.swift */; };
 		82CC59765FCF6BB742B83109450663A7 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3F69EFE657716F2CFDDDA06F190325 /* TransformOf.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		835D14760BBD8F71AA1400175D52EF5D /* RLMResults_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = C50BF11DEA52B057AA37ED6F5CA976AD /* RLMResults_Private.h */; };
 		856A4368C025C32220E583C4942F5192 /* RLMArray_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF22C80F35068CBEDD2344BF0613A40 /* RLMArray_Private.h */; };
 		860B279971D6C72BF8A52B3FB9547C9E /* GlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848F946D77503A1F432EB5B2C65EFB4 /* GlobalState.m */; };
-		865017610A3C2E2ECD3748A2164C85DB /* TIGPlayerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544E12C274047FFC93DED8E392F2DEF6 /* TIGPlayerUtils.swift */; };
+		865017610A3C2E2ECD3748A2164C85DB /* TIGPlayerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF06E007A2AC58943E8108057593FF5C /* TIGPlayerUtils.swift */; };
 		88DDD46FFAFB0EC87386B7E22C9B166E /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = CA92486F1ECDD91454E83397573A3DE1 /* UIImage+MultiFormat.m */; };
-		89412A362EEAE12007B1C015F0770643 /* TIGObjectMoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E58901CBAB45974124B67263E80ADC4 /* TIGObjectMoveView.swift */; };
+		89412A362EEAE12007B1C015F0770643 /* TIGObjectMoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3268AEC1E576E50D84D44ED4F6583 /* TIGObjectMoveView.swift */; };
 		89ADE963A36935F4DADF3FCBBBAF6489 /* RLMRealmConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 992DB14D6172BC458254668905ECB186 /* RLMRealmConfiguration.h */; };
-		89EE50002D18B10393880D50B08A6BC8 /* TIGPlayerWipeContainerRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D1941D884FA6198F5597ACB3F80E1 /* TIGPlayerWipeContainerRootViewController.swift */; };
+		89EE50002D18B10393880D50B08A6BC8 /* TIGPlayerWipeContainerRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579736821A65EC78AF8A9BFD2FD051A8 /* TIGPlayerWipeContainerRootViewController.swift */; };
 		89F41360AD1EB1AE38C3DABD9E83FAB9 /* RLMThreadSafeReference.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CC4AA177703B4924A40470C5490440 /* RLMThreadSafeReference.h */; };
 		8A393FFBE2383DE83B5861950C52AE18 /* wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7CB0165888F9D8F333C4BF4EB78848 /* wrap.swift */; };
 		8A5B2067383AFB025E96D6D1DFAA56AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F5E7AB97E66128CD6BFADB23E765EE /* Foundation.framework */; };
@@ -246,12 +246,12 @@
 		93DFC1A89E29651B77CB5C4E9A034A9E /* RLMNetworkClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B61CD0EB4432B67FD8A48F0449E2DAD /* RLMNetworkClient.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		940DFAA586F1742FE0BBB9A4732289F6 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20FBE17E2887B2C687DFCBF0E1DA14 /* Util.swift */; };
 		953668D2D19E9310D51296688A8FFCE3 /* RLMArray.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DB335F5D771F127E510B878644BAE22 /* RLMArray.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		95FE421AA2C6DE5AE2687957935A2465 /* TIGGradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8AC72BB2CFBA09CDFFDB7AC18FBEC7 /* TIGGradientColor.swift */; };
+		95FE421AA2C6DE5AE2687957935A2465 /* TIGGradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE0D20662C0F7351DABBF80685C082 /* TIGGradientColor.swift */; };
 		96A6A21C266625AFF719A7A8ED5AFC2F /* placeholder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2094D90C5CD0AAE9180A3FBE656492BD /* placeholder.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		97527AC12D1F7447657FB7212CEAF33D /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1547BA2579F3C761BC87AD46A5FE3595 /* UIButton+WebCache.m */; };
 		989C18A772940B4DFE48269D0B1ABBBB /* RLMCollection.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 4AEC719D1CD6A0D44AB8CD2BC3786C1F /* RLMCollection.h */; };
-		9969E1AE191338476970813651F9F8D0 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAFECA61A707DEBD8E998797055777B /* Content.swift */; };
-		99CE85DE71718E99A460CE4053B44D0D /* TIGObjectStockPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93CE8054BE69766A90FA11293A5E040 /* TIGObjectStockPointer.swift */; };
+		9969E1AE191338476970813651F9F8D0 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453209817B3EA1BCD7E098D84B01A11 /* Content.swift */; };
+		99CE85DE71718E99A460CE4053B44D0D /* TIGObjectStockPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65599FB9BA2ADD6DAF3BAE43D8813888 /* TIGObjectStockPointer.swift */; };
 		99D70FF8B6FE264D0235B92080B7A5F9 /* RLMThreadSafeReference.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED107BC1AB174E11C968B8B332B41283 /* RLMThreadSafeReference.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		9ACF7AA7F6CF6501C8B9B221379910DD /* Pods-TIGPlayerSDKExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7DFA69D0567AF1F18CD363D15AF4125 /* Pods-TIGPlayerSDKExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB06F018DE357B3C5A99FB169032D77 /* UIViewController+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58799C4014EE77C9BF732D76EC52B59 /* UIViewController+Promise.swift */; };
@@ -269,15 +269,15 @@
 		A2576B175E2FFDEC9ED7C4A9C62EDE3E /* RLMSyncPermissionOffer.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = C3693237F50BD6746771E7620A38F419 /* RLMSyncPermissionOffer.h */; };
 		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F8DFA6D8F6E6670FB7F92C0355A33A /* NetworkReachabilityManager.swift */; };
 		A4C95C686C63C3BE2768F6ED69C9BB9B /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF809D64A497FA7947EF23F78DB21B0 /* EnumTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A5093968721DC9C349B8102F1EC29FBC /* TIGPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69EDFBFD824561B26A4A3080DF1E5EA /* TIGPlayer.swift */; };
+		A5093968721DC9C349B8102F1EC29FBC /* TIGPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41F73F966167797930BF2D6F3E0B26 /* TIGPlayer.swift */; };
 		A554A5DEFE0A95205FCDAA1C5824708B /* Pods-TIGPlayerExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9AD01A127068CF7829D5BA58FF8F9C /* Pods-TIGPlayerExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5C34F9BF9CF46C97D3D11E83CF069F8 /* RLMOptionalBase.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 89E047137D837315BDF414829B23558A /* RLMOptionalBase.h */; };
 		A5EE867ED0FA65BA699827DA7DD4A721 /* collection_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5F865CA80441587B70C1CB4F2A81F07 /* collection_notifier.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		A86FBFD4E5E8DFAEF96292A50DEFE185 /* ModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E7FA7BA78EA8A60C1C32C3C8DC07A /* ModeManager.swift */; };
+		A86FBFD4E5E8DFAEF96292A50DEFE185 /* ModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D15E71DD0279FFE5B35BF918140BDD /* ModeManager.swift */; };
 		A956BA240C6DA54BFC50AA7309DA2032 /* RLMObject_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 6EC61DA70B77C3DA6920266D2BC5D787 /* RLMObject_Private.h */; };
 		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7BF2E46A07212B83602443A9AFE817 /* Alamofire-dummy.m */; };
 		AA04FCEBD683CB39D9576F5AB7EE334E /* RLMArray_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = AEF22C80F35068CBEDD2344BF0613A40 /* RLMArray_Private.h */; };
-		AAAEAF6434AC2070DE4E1C55592D7FD4 /* AVPlayerItem+TIGPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787677730688706D18AB69D72FA720A /* AVPlayerItem+TIGPlayer.swift */; };
+		AAAEAF6434AC2070DE4E1C55592D7FD4 /* AVPlayerItem+TIGPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA8645DC3ACD06E02B5FB58C71F44D6 /* AVPlayerItem+TIGPlayer.swift */; };
 		AAF237DAD200F55ABC96F636ACE61F06 /* RLMMigration.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 875AECACA3D81234C94F7430F3DDAC98 /* RLMMigration.h */; };
 		AC1BE68CF78FACB56D371F89ADBD1C22 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 207B54E3088C06D1F68F4D55F08761E2 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC96257C2CD8A5FFF27D042A2887E473 /* RLMSyncConfiguration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 15A35E5704B04D98EE92697C4AE01002 /* RLMSyncConfiguration_Private.h */; };
@@ -291,7 +291,7 @@
 		AFD5CE21D221AF77F79F21D3932BFEEA /* NSNotificationCenter+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E92CB76C32E0A30772F421A2758915D /* NSNotificationCenter+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0FF58604606BC57947A360062F94CC5 /* RLMListBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C267C4AC61087339CD0B0CD3D7323 /* RLMListBase.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		B176C2B97F380433054944409AE45FA0 /* uuid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07ACAFEDC53088AB13754E69C10AC2E7 /* uuid.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		B1C4116F067447AB6E19F4800F41C680 /* TIGPlayerMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284BF378F2AEAB0834155CDF909581C /* TIGPlayerMenuButton.swift */; };
+		B1C4116F067447AB6E19F4800F41C680 /* TIGPlayerMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDFD2A36A9971DEB8689BC071778E70 /* TIGPlayerMenuButton.swift */; };
 		B1D6D9F4650BF5248A403C0FE705045C /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBF467775ED0AFCD629520C8C42863F /* SDWebImageDownloader.m */; };
 		B275DEB6816A831DF7D29C72B59EBDC4 /* RLMMigration_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = CAA4DD66067D60D7FED1A48E19E0FE72 /* RLMMigration_Private.h */; };
 		B28F52FDFE69DBA9DF16D82171E779D9 /* collection_notifications.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2407828C861DBBD3ED7214EEA06660DB /* collection_notifications.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -301,7 +301,7 @@
 		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50DEDAD5B99F365D3E9507CD622AB40 /* MultipartFormData.swift */; };
 		B69135ED53D44A78C375BB279D596B09 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0EF8FBA116F9F2F35DCA799D469C8A /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6A983B760623157470FA6026BAFB3A0 /* RLMSyncCredentials.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = EC1E8F16FF7F2999E78C82A7A27280B0 /* RLMSyncCredentials.h */; };
-		B93EA57633A52D921482BCBF0DBADE73 /* TIGAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E0194E2405DB72A24362079681D46E /* TIGAnalytics.swift */; };
+		B93EA57633A52D921482BCBF0DBADE73 /* TIGAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787222300053E64E8E375058C964589 /* TIGAnalytics.swift */; };
 		B96CF21DB79AB15022FC193391163E78 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35595062813F0FFECEF3CA6F1E6673F5 /* Realm.swift */; };
 		B98E1B392CE735C526FB6FF982F678B2 /* RLMSyncManager.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 2478A2E70F9B2C44025B6DDCFD0D5477 /* RLMSyncManager.h */; };
 		BA56D5046AEF57CEA49037F1E053B93C /* RLMSyncPermissionChange_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = AB8D60C1B6967D68875A790A77C5458C /* RLMSyncPermissionChange_Private.h */; };
@@ -315,7 +315,7 @@
 		BF050CD2C003580141EC78FA1CAB5657 /* RLMSyncPermissionOffer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5B1AD0B30F4D6378B831CD1D2287A /* RLMSyncPermissionOffer_Private.h */; };
 		BF6661AFB81851DDEA1A1C7DB859258B /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E74665214816D15E2DB62F6D856A094 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C017CCDBDA651379FAEEC6CB62ECE6E7 /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F852B6163E734CF42467F59FF43C1D /* hang.m */; };
-		C0F79EA6F5CA5194FE6C267359739744 /* DictonaryUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FEFCCE0D71B4D75559336A555E8B21 /* DictonaryUtil.swift */; };
+		C0F79EA6F5CA5194FE6C267359739744 /* DictonaryUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D56F61AAAF50BABEA152E6CEDAEB125 /* DictonaryUtil.swift */; };
 		C1642D8DF0742455C23BECE7AB85C26C /* external_commit_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552836E32ACD2B6D382040FA6297FBAA /* external_commit_helper.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		C1BE112FA963E35D0B13FBA7CF8AC1AE /* Realm.h in Headers */ = {isa = PBXBuildFile; fileRef = 970DA4077A037D90CDC0236277E9579E /* Realm.h */; };
 		C326665A9F22A08DE1974297412BAA5C /* RLMUpdateChecker.mm in Sources */ = {isa = PBXBuildFile; fileRef = C920A1C4E365F71A26D88A778E8D53C8 /* RLMUpdateChecker.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -327,33 +327,33 @@
 		C6398F3D70FE8677267F1A3997741FFD /* RLMSyncPermissionResults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B3D8ADC3A37CB64870F837F301C6F39 /* RLMSyncPermissionResults.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		C700D6D61EB44AC295E3EBE9882D33EF /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = E452F0B4A0D64768D8908DDFD81BE513 /* UIImage+GIF.m */; };
 		C7711B7B4FE094138A3E6A755C53923F /* RLMSyncPermissionChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 26036DAC6CB5FD43C48D29E9A5DFDBC2 /* RLMSyncPermissionChange.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		C86C03326BBD4C4C05AB53BC5B42E18E /* TIGPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD690275CD20EE91AB7078FD2D1F907 /* TIGPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C86C03326BBD4C4C05AB53BC5B42E18E /* TIGPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA98181C3A9F842DBD66DF5A9B1D2FA /* TIGPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C88721162BCEDD2FA73F3C58D60B400E /* RLMObservation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F180A9E6D788AE8E81699818F43627F /* RLMObservation.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		C8C8F9170B2805D7E1FD50978E2904DA /* NSTask+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2BE7DEC70F1687D255AD8506FBC27F /* NSTask+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8D1D1931E186E47B2D72994C0DF9897 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FFCCE7BC57CE42CB290BCF2D1FE88 /* Info.plist */; };
-		C91496BC2AC8387FB747DF02540E2655 /* TIGStockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0841E3B3F4796DD1B9E41A592EA02E6B /* TIGStockListView.swift */; };
+		C8D1D1931E186E47B2D72994C0DF9897 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 2125F14572DD6315B7F2E5CF1A10054A /* Info.plist */; };
+		C91496BC2AC8387FB747DF02540E2655 /* TIGStockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5040D97792EA2D3250C4CC16E00B861 /* TIGStockListView.swift */; };
 		C970FA5146350C6DF36AF063373803B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F5E7AB97E66128CD6BFADB23E765EE /* Foundation.framework */; };
-		C98564371D466140DFB57B260CACE60A /* MetaPageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEF2051FCBA1E6663D20D150A2D70FB /* MetaPageManager.swift */; };
+		C98564371D466140DFB57B260CACE60A /* MetaPageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B210E9D4B771B97BA82FE06DC8076A /* MetaPageManager.swift */; };
 		C9C2342B144BE9253EAFF91587C6BEFF /* RLMArrayLinkView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA554EB26DB8DB82F7BA1978905AF5 /* RLMArrayLinkView.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		CA3BA0608DBD2231896A13663C5FF0A9 /* RLMProperty_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 07CDC5E590D4877E5568469740D2586C /* RLMProperty_Private.h */; };
-		CB26F195B073D8A75A1AB1353CF41722 /* TIGObjectAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E74B5D824681D3A70A66BA82C8F93D4 /* TIGObjectAreaView.swift */; };
+		CB26F195B073D8A75A1AB1353CF41722 /* TIGObjectAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641C75730B62D90C07D71DACDB8DC9A /* TIGObjectAreaView.swift */; };
 		CB45CE9A84D2CA662C540B86E951E67D /* RLMSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = B3375B89F092ECBC3FEA5D20A108528C /* RLMSchema.h */; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF07F99FA5ACA4F05E0A5BC2058A8F5 /* Response.swift */; };
 		CB92A2FB5C39D7DD22DE6BA9D5C45A99 /* RLMResults_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C50BF11DEA52B057AA37ED6F5CA976AD /* RLMResults_Private.h */; };
 		CBB202F38AD64B15ABBF1A5D364EDE34 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433C01196D9D35E8B9E9E07D4544EAD /* AnyPromise.m */; };
 		CC53118F4CF294F2910E532897E7D171 /* RLMSyncSession.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = CAAC2D5401C5DE20743DE0D63AA2EE68 /* RLMSyncSession.h */; };
-		CC95218103F019612B57E3260CA87347 /* TIGPlayerTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6CBEEE5F8560D2F21C21879BC38012 /* TIGPlayerTransport.swift */; };
-		CDB6D13724CF29F67E24B108809DC960 /* AVPlayer+TIGPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6456905CCFF5B47B7FB7F65A6A21860 /* AVPlayer+TIGPlayer.swift */; };
+		CC95218103F019612B57E3260CA87347 /* TIGPlayerTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F35D79CC381F00BDA4EFF63E834B15 /* TIGPlayerTransport.swift */; };
+		CDB6D13724CF29F67E24B108809DC960 /* AVPlayer+TIGPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8007A60AFDF9017E1A727CBD6833633 /* AVPlayer+TIGPlayer.swift */; };
 		CDE86D056408EE63811B107679BDD6BE /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC503786BC7FD0B5F4BCC3630B3A12 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFBA64872B0CF138B2459DADEC36EB00 /* RLMSyncPermission_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DD78C9FA456C4F0904766CF686CA1622 /* RLMSyncPermission_Private.h */; };
 		D06B291FC0F806CBFEA2C3D3AB9B4687 /* RLMObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BD57BCBF8DC0460B16F1FCC50E3ECCBF /* RLMObject.h */; };
-		D11A297F321DE09920103CD5C325B437 /* TIGPlayerTimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF109EB96D305A4457F225B483CDD6E1 /* TIGPlayerTimeLabel.swift */; };
+		D11A297F321DE09920103CD5C325B437 /* TIGPlayerTimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A0DC0C95B81810893D28190458C84 /* TIGPlayerTimeLabel.swift */; };
 		D12D78D40C415A27FD2BD524906AB36E /* RLMSyncUser.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 61A06A6C55ED54520E18E32CD651521B /* RLMSyncUser.h */; };
 		D22C52E7DD3F30419225A6EB1AA23662 /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5867EF634C260650B6048F9A9EC2CB95 /* object.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		D3FFF8772525E1001D828A758597FBAA /* RLMSyncPermissionResults.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = E921BC3E09590E2DD8FE0045ACED4F06 /* RLMSyncPermissionResults.h */; };
 		D4803E9139853FE137A1D116B213050D /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB056FE33C1FFAAFD27C680342125D3 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4A43A02E65C513C45611B71662E1889 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD52B286E83ACC02F498AA25240FA0E /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5A392D9726D90CA805E000FCC267F7F /* TIGPlayerWipeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810619225F93A8AE5C674A5D8BDEB55 /* TIGPlayerWipeContainer.swift */; };
+		D5A392D9726D90CA805E000FCC267F7F /* TIGPlayerWipeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76EDDE00B94950457A1D22262D03000 /* TIGPlayerWipeContainer.swift */; };
 		D66D5A39677148770CEDCEB05AB9579E /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BE02E2E1891DD68E3236E7AB34B106 /* SwiftyJSON-dummy.m */; };
 		D6BDD3780B2ADACC34783B96C5ADB2CD /* RLMSyncConfiguration.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = FBA0137E925A0F66AAF9F9249FDF1C25 /* RLMSyncConfiguration.h */; };
 		D6C0F3DF3321BA8640E8955E1ACE3545 /* RLMObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3C20A5B6CCEEF05249406CAA3104812 /* RLMObject.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -362,17 +362,17 @@
 		D9938A8222001655F1AD16D3A48BAFE1 /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = 2598C59EA5AB07760188B79D6086CCEF /* dispatch_promise.m */; };
 		D9B8D8F59C69CA5371F741BC65474115 /* RLMSyncPermission.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 8E12D1E75A4098A62A6A8D0F22543B52 /* RLMSyncPermission.h */; };
 		D9EF5623C421AF86D548B8D2D41B00E1 /* RLMSyncManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC069956CD293D8F10120F7A482489D9 /* RLMSyncManager.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		DA3F84E7CDC8EDD2B41463522FAA4D51 /* TIGObjectRenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755A66170FD3AA4B1B2C3125D87CB523 /* TIGObjectRenderView.swift */; };
+		DA3F84E7CDC8EDD2B41463522FAA4D51 /* TIGObjectRenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E4D526FFCCC24915D4AC153A310DE /* TIGObjectRenderView.swift */; };
 		DA8070AA9696822F0242CC298668AFF7 /* ObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3177A7C106DEAE78714789EC3D43A9CC /* ObjectMapper-dummy.m */; };
 		DB16BA7FF7677EB77FF201C169EBA7F5 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15A5C0338633D1A2CA4E4571C06C96 /* DataTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DB29F12F8540E9FCD9D5FBA1C107E751 /* PMKFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A179AB600C63E8DB51CE429BB0E9BC /* PMKFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB2F1C1188B0B65471BF4B9AB0DC92E9 /* UIView+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = E1251D747BA3ABB37DFEFCD9695F9BAF /* UIView+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC7B9733ECE05AF4A9BC2E1D8DB754CC /* TIGPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A648B8A973B28C34118BB8792404500C /* TIGPlayer-dummy.m */; };
+		DC7B9733ECE05AF4A9BC2E1D8DB754CC /* TIGPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A934581130BF1CE74CF871146E4F84 /* TIGPlayer-dummy.m */; };
 		DD24CA00C4CA98203B6B61771D605BF7 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694010A4E2F54A16B06CF493F20D8A08 /* ImmutableMappable.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DDB4838AA2CF4940F576EB8BF47B1ACD /* RLMSyncErrorResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28746A8138E512020BE846FD881D8248 /* RLMSyncErrorResponseModel.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		DEA04661400519F17051837AE716868E /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FDF3DD8A330A0F65C4245A0F9D57C9 /* Realm.framework */; };
 		DF10B74DAD2CFA3392369651FA4E1388 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401FBB5A7AFEBD417064E6B4238E87B /* Operators.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		DFF8EE3D4C0B4C023C1CC05933FB7FBF /* RippleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F151F654E3CDDEC1F42A943AC9E47 /* RippleGenerator.swift */; };
+		DFF8EE3D4C0B4C023C1CC05933FB7FBF /* RippleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA0F4976A62DC3FAA25BCAB9D10DAD7 /* RippleGenerator.swift */; };
 		E061F80E6526A6B6ABD8C6F72AEBE3A4 /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E6D17DFD5E3ECAAA2050B9D29A7B60 /* PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0CBFD38A5408B925188989A41F3CB94 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C741E49F4B1D172CA1298D817BADBB19 /* TransformType.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E21FE6CECC6DA6CA9230F6520281C002 /* RLMListBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 110DA777F3C03EE5F076F93FAF751E4F /* RLMListBase.h */; };
@@ -380,10 +380,10 @@
 		E326C02B1DAA49098B247405F9D6E002 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7827F8E9F245209619603C5B6ED13509 /* SDWebImage-dummy.m */; };
 		E331827F3F2B62E841A2764C9D23C601 /* Promise+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9ADB94F96B727434BE132CCB74DB95 /* Promise+Properties.swift */; };
 		E3813E93B2B9F0E204E21015E38924FF /* RLMPredicateUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84B499E1218A1AEFEDFA429ACB8A799C /* RLMPredicateUtil.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		E40B0F78FF1FC5C5D07EAE364E953C30 /* TIGObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0625D4965DE99D64201BB81A77FB2F5B /* TIGObjectView.swift */; };
+		E40B0F78FF1FC5C5D07EAE364E953C30 /* TIGObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B67C08BE05F58301588630A261E52B /* TIGObjectView.swift */; };
 		E4596F5A2B2423362915CC14CD68B811 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3500E7CF834812D4C694C0515E69629 /* SwiftyJSON.framework */; };
-		E473D89D32E37A9874BB3B67DA412C4C /* TIGPlayerLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6A2AA21BD0CC2FB1062969FAECB06 /* TIGPlayerLoading.swift */; };
-		E49CADAB47207EFDBAAEDCD6E60F4765 /* TIGLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9647BB91C787543E4034AFADB8FB9E84 /* TIGLog.swift */; };
+		E473D89D32E37A9874BB3B67DA412C4C /* TIGPlayerLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B0FFD9FEBB83ED36840ED54D62749 /* TIGPlayerLoading.swift */; };
+		E49CADAB47207EFDBAAEDCD6E60F4765 /* TIGLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FE7615B10ED01753077BBD628BB3A6 /* TIGLog.swift */; };
 		E63D32940686C1BC43EF9ACF40C4581F /* RLMObjectBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 425F017E668056487DEF8D14DB0AA463 /* RLMObjectBase.h */; };
 		E658968A72BFAFC85DEC476EE49DEE1B /* RLMSyncSession.h in Headers */ = {isa = PBXBuildFile; fileRef = CAAC2D5401C5DE20743DE0D63AA2EE68 /* RLMSyncSession.h */; };
 		E666B392E936ED12D2F32635006A0772 /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ABFF1D5878EC4B18A127137AB49566 /* PromiseKit-dummy.m */; };
@@ -396,7 +396,7 @@
 		EB3C2B96273CC7027F648EDA30673AB6 /* RLMProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 01DFF62362DF894F5AEC67F3B9D4301F /* RLMProperty.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		EBA5BD84274302840D7FCDD1A64ED9D4 /* RLMSwiftSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0677D8A3AC3333EDB17B4A590625B2 /* RLMSwiftSupport.m */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		ED26AE10DD45C0D93386CC3B62BDF43D /* LinkingObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F93A4B9B4EE82E749DE48A860F2CE6 /* LinkingObjects.swift */; };
-		ED630F17F60B0A89FC483B8AA5494F6C /* RectUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1034B4EA6078F68682CE3FD25D6ABF28 /* RectUtil.swift */; };
+		ED630F17F60B0A89FC483B8AA5494F6C /* RectUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3EF1998452E7A3100CBEE0A50113B1 /* RectUtil.swift */; };
 		EE6D3A6F40CAC314FBA48FFCE8BDD0EE /* RLMObjectSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = DADF7A092A1FB437A0CC47F9373F67A3 /* RLMObjectSchema.h */; };
 		EEC032CB21F3D9E23A5FF63F391CDB86 /* RLMObjectStore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34D3894893026FCA1C5FEB9013803986 /* RLMObjectStore.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		EEE5022E619D76F7633E9D704C22E69C /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB738D0AB1F120B9547081CE7F23904 /* Promise.swift */; };
@@ -405,29 +405,29 @@
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2446C88B87A0CECD79BB901559C86979 /* Notifications.swift */; };
 		EFF5EFCFB93799527C14A2C27874BD1D /* RLMRealmConfiguration+Sync.mm in Sources */ = {isa = PBXBuildFile; fileRef = 404B7BE7EC65AE356E7B8AD74A738A6A /* RLMRealmConfiguration+Sync.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		F0BE6FD4C256E93CBCB31150A1A489EB /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF27CC0D55CC5F27CDA12FC7B379305 /* CustomDateFormatTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F206CAA19618DAC6AC71601E7DC34016 /* TIGPlayerWideControlView.xib in Sources */ = {isa = PBXBuildFile; fileRef = B388E4D7E7763366549C0378F373BBAF /* TIGPlayerWideControlView.xib */; };
-		F2D4AB3C351203892D55E3AE2BF213C8 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B83CB738B3C10A163921FCBD6C89839 /* DeviceInfo.swift */; };
+		F206CAA19618DAC6AC71601E7DC34016 /* TIGPlayerWideControlView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2439ACB1D4E6BF93F8B5A43961EE3E18 /* TIGPlayerWideControlView.xib */; };
+		F2D4AB3C351203892D55E3AE2BF213C8 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E071C2DC65B4318AB35B670C21F87AD /* DeviceInfo.swift */; };
 		F3CEF12526D1B04BC8B39482083860FA /* ObjectSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54F976D1EE35A9321AC5F8CE2AA13E9 /* ObjectSchema.swift */; };
 		F3D548E00E836F8BFFA483328649A881 /* RLMProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7298F906ABCF1823677EE3ABCC81ED /* RLMProperty.h */; };
-		F3E32C4ABBE9C0CB4298B1C4424227C9 /* TIGPlayerWipeView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1C12014FBD322ED073EDB5CC8F8B2B32 /* TIGPlayerWipeView.xib */; };
+		F3E32C4ABBE9C0CB4298B1C4424227C9 /* TIGPlayerWipeView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7DFB7E07AD7404AD891B56B30A6ADA7F /* TIGPlayerWipeView.xib */; };
 		F4ED4C32BD137D94A5EF27B5792FAEB3 /* RLMSyncPermissionResults.h in Headers */ = {isa = PBXBuildFile; fileRef = E921BC3E09590E2DD8FE0045ACED4F06 /* RLMSyncPermissionResults.h */; };
 		F50F53FCE3B54AC94D95B752255474A9 /* RLMObject.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = BD57BCBF8DC0460B16F1FCC50E3ECCBF /* RLMObject.h */; };
 		F6444AA7FDB1D98EEA52362E0E0880FD /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = F68B68BB6938EEBC0F0B7835447C6E1F /* AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F68E65EC519B621547486F80BF6BEAA4 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF09628395E755107A1E090CAA11E5 /* ApiClient.swift */; };
+		F68E65EC519B621547486F80BF6BEAA4 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D4978296D88B89A350B30A245722B1 /* ApiClient.swift */; };
 		F6B5ACA10D1828BF53808E3FB958E407 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA472E3FBB1241C2F4C0171AAF8678F /* Property.swift */; };
 		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B215708008ED695B3BAF7E683F44557B /* ResponseSerialization.swift */; };
 		F7D802F3489FF9657BDEF62FD9D9BEF1 /* RLMRealm_Dynamic.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 97CC42C7847E3C9855108C4A879E48D2 /* RLMRealm_Dynamic.h */; };
 		F7E4A8B1FDE10B2D716FD17B7C0931D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C70BB1EFB6194EF8CA1648FDA507B3 /* QuartzCore.framework */; };
 		F811CF314671DEFFD2069C7142C5A741 /* schema.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7694BB3E1F672CCC65496AD1C51C00B3 /* schema.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F69E1D44BD6185138A6D756B0B20B /* Alamofire.swift */; };
-		F8CCCF6BC9526F526140455A64C3CA87 /* TIGPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B78A2BEF3B8A5AE499B3A70C5555B82 /* TIGPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F989B4FAEBECD42CA46A8FFFAA5C3C55 /* TIGStockListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A671F30E9A98CAC61B8ABEAB0D8BD /* TIGStockListCell.swift */; };
+		F8CCCF6BC9526F526140455A64C3CA87 /* TIGPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2373707616371D9C5F8FDD615F014C /* TIGPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F989B4FAEBECD42CA46A8FFFAA5C3C55 /* TIGStockListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3828E06485F95D50D75C286BA8A312E /* TIGStockListCell.swift */; };
 		F9EA153FF8A5AFA307083BCB852FC522 /* RLMListBase.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 110DA777F3C03EE5F076F93FAF751E4F /* RLMListBase.h */; };
 		F9EB49D9D6AC0EA662DEE43EAF966B5A /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CDEC0E170642804242F79DFDDA73EB /* Map.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FB4370B9B77CA2893660A52660C6FF56 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B9B4D7251F8C7D41A73374E116387 /* ToJSON.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FB89845E65CFB6141E832DB64AC1FD4B /* list_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E2C15680034BB553D4FCD0FC60C5FC4 /* list_notifier.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		FB90434A5DDAFF1F9BC91DC3482E8D5B /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F69662A328A810BA2BE39AD83249FC8 /* NSTask+AnyPromise.m */; };
-		FC2077FDE13E04524179D67898AE2F7C /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94326A0C7C501681344A6B383B3A974 /* Meta.swift */; };
+		FC2077FDE13E04524179D67898AE2F7C /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0F0FC3BAEBC07AE39C462C3F43BBB /* Meta.swift */; };
 		FC3C2AF9C9472D3E450E22FA03BD7F39 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF1E8847566B67B76166B164E2B2929 /* RealmSwift.framework */; };
 		FD13C530B8D866AA83003027489BE222 /* Zalgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48C6EFD89CBE6B47D0C43AF6C5A38B8 /* Zalgo.swift */; };
 		FDC6708BC486F4C89FBEF766A3B263BD /* shared_realm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9F21FF3D5498B1E92F52AC418CF4B1 /* shared_realm.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.7.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -745,52 +745,44 @@
 		010F87ED44DABF40EA4E5465E4925DF4 /* RLMMigration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMMigration.mm; path = Realm/RLMMigration.mm; sourceTree = "<group>"; };
 		01DFF62362DF894F5AEC67F3B9D4301F /* RLMProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMProperty.mm; path = Realm/RLMProperty.mm; sourceTree = "<group>"; };
 		02E812FF0F506B3241D21EB142C8D085 /* Mappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mappable.swift; path = Sources/Mappable.swift; sourceTree = "<group>"; };
+		037B870ACE8D382FEA81789166C298F2 /* TIGPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TIGPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		03E68C2809A077907777C84836F3A35C /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = Sources/URLTransform.swift; sourceTree = "<group>"; };
 		04A2556C4708A1D5F5FB056673AD8FB9 /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
-		04DF09628395E755107A1E090CAA11E5 /* ApiClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
-		0625D4965DE99D64201BB81A77FB2F5B /* TIGObjectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectView.swift; sourceTree = "<group>"; };
 		06407C7BECD1C595B5291CE824ABE3CB /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
 		07ACAFEDC53088AB13754E69C10AC2E7 /* uuid.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = uuid.cpp; path = Realm/ObjectStore/src/util/uuid.cpp; sourceTree = "<group>"; };
 		07CDC5E590D4877E5568469740D2586C /* RLMProperty_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMProperty_Private.h; path = include/RLMProperty_Private.h; sourceTree = "<group>"; };
 		07EAA62FB1813377F7FA4A0AB256E1A6 /* object_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object_notifier.cpp; path = Realm/ObjectStore/src/impl/object_notifier.cpp; sourceTree = "<group>"; };
-		0841E3B3F4796DD1B9E41A592EA02E6B /* TIGStockListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGStockListView.swift; sourceTree = "<group>"; };
 		08A290C657D20E94CEB6D9D4E597D22D /* RLMAuthResponseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMAuthResponseModel.m; path = Realm/RLMAuthResponseModel.m; sourceTree = "<group>"; };
 		0941A512F373DC0A1538F51EBFE85FB8 /* Pods-TIGPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIGPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
 		09F1E7273C598925DBDCFACDE0DFB028 /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
 		09F5CCB466117D1A3EECD31A7F4488AB /* RLMSyncUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUtil.h; path = include/RLMSyncUtil.h; sourceTree = "<group>"; };
 		0A6AD2F7AB830205F26230117EA9A90F /* RLMSyncPermissionOfferResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncPermissionOfferResponse.m; path = Realm/RLMSyncPermissionOfferResponse.m; sourceTree = "<group>"; };
 		0B20EBD360F41D80B9C989A66A15C42F /* realm_coordinator.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = realm_coordinator.cpp; path = Realm/ObjectStore/src/impl/realm_coordinator.cpp; sourceTree = "<group>"; };
-		0B6CBEEE5F8560D2F21C21879BC38012 /* TIGPlayerTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerTransport.swift; sourceTree = "<group>"; };
 		0BE60ABBEC36DA21CC2DCC3784C9C245 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromiseKit.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2B34FC08E02E32B6219144744C54A1 /* Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migration.swift; path = RealmSwift/Migration.swift; sourceTree = "<group>"; };
 		0E57356BF9D3CDD2E8676663600D14DD /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		0F7C267C4AC61087339CD0B0CD3D7323 /* RLMListBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMListBase.mm; path = Realm/RLMListBase.mm; sourceTree = "<group>"; };
-		0FD690275CD20EE91AB7078FD2D1F907 /* TIGPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIGPlayer.h; path = TIGPlayer/TIGPlayer.h; sourceTree = "<group>"; };
-		1034B4EA6078F68682CE3FD25D6ABF28 /* RectUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RectUtil.swift; sourceTree = "<group>"; };
 		110DA777F3C03EE5F076F93FAF751E4F /* RLMListBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMListBase.h; path = include/RLMListBase.h; sourceTree = "<group>"; };
-		1193AC08AFA3FF38B208399BE6B356D7 /* TIGPlayerWipeContainerRootViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TIGPlayerWipeContainerRootViewController.xib; sourceTree = "<group>"; };
-		11D09194F1C288BA2FF46BAACC5DF072 /* TIGPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TIGPlayer.modulemap; sourceTree = "<group>"; };
+		11EE0D20662C0F7351DABBF80685C082 /* TIGGradientColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGGradientColor.swift; sourceTree = "<group>"; };
 		12E2381CBE57F1C3D5E60CE600BA53CB /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
 		133BF5B2C50AB89D7AFDA130A4F56DF8 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		138340193E4AF5817CC3D05A3F89F514 /* Pods_TIGPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TIGPlayer.framework; path = "Pods-TIGPlayer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		140D4EE5F30D9A25D3599F4611D67803 /* PromiseKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.xcconfig; sourceTree = "<group>"; };
+		1422CF4F52A70C50398A2FFAABE5CF0B /* Mode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
 		14AC3EFABA28F967E0517B9648EB3DB1 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = Sources/ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		14B1CCFFF190074D0DBF2A033FAD3EF8 /* TIGPlayerControlButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerControlButton.swift; sourceTree = "<group>"; };
 		14DCB2E84F1C80DE6754451A6722B680 /* after.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = after.m; path = Sources/after.m; sourceTree = "<group>"; };
 		1547BA2579F3C761BC87AD46A5FE3595 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		1581F82B6335DAA0038FF389084EEEFF /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
 		15A35E5704B04D98EE92697C4AE01002 /* RLMSyncConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncConfiguration_Private.h; path = include/RLMSyncConfiguration_Private.h; sourceTree = "<group>"; };
-		16726A789DCA2BF15752FC1AA4E7B6AC /* TIGPlayerVideoshotPreview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerVideoshotPreview.swift; sourceTree = "<group>"; };
-		16C358CBC3172B6B59614FE751C3749F /* TIGPlayerControlBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerControlBar.swift; sourceTree = "<group>"; };
-		1787677730688706D18AB69D72FA720A /* AVPlayerItem+TIGPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AVPlayerItem+TIGPlayer.swift"; sourceTree = "<group>"; };
 		1848F946D77503A1F432EB5B2C65EFB4 /* GlobalState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GlobalState.m; path = Sources/GlobalState.m; sourceTree = "<group>"; };
 		18ABFF1D5878EC4B18A127137AB49566 /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
-		19FE79903214D0EB3C7BA4D588F82C3C /* Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1A4F6396568AF9168B176CFBEB898A0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B0425290E586EB01B921A6B013B1906 /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
 		1B8D919620027D4763C787DD3A958D30 /* librealmcore-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "librealmcore-ios.a"; path = "core/librealmcore-ios.a"; sourceTree = "<group>"; };
-		1C12014FBD322ED073EDB5CC8F8B2B32 /* TIGPlayerWipeView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TIGPlayerWipeView.xib; sourceTree = "<group>"; };
 		1C3C87E252A03C43D7E7590EEB4632D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D3C3549D9CF0D93BD989B24217ABBF5 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		1D56F61AAAF50BABEA152E6CEDAEB125 /* DictonaryUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DictonaryUtil.swift; sourceTree = "<group>"; };
 		1E333E73D2913A247D9932746F4FF7CC /* Pods-TIGPlayerSDKExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIGPlayerSDKExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1E74665214816D15E2DB62F6D856A094 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
 		1E92CB76C32E0A30772F421A2758915D /* NSNotificationCenter+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"; sourceTree = "<group>"; };
@@ -798,15 +790,18 @@
 		1EC4645A8A66D437906BB23AB3929A70 /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = Sources/DateTransform.swift; sourceTree = "<group>"; };
 		1F424FD9DAFEC2F749FEE98882339AB3 /* ObjectiveCSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectiveCSupport.swift; path = RealmSwift/ObjectiveCSupport.swift; sourceTree = "<group>"; };
 		1F67A216F96C3692062020856D5BED16 /* Pods-TIGPlayerExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TIGPlayerExample.modulemap"; sourceTree = "<group>"; };
+		1FA98181C3A9F842DBD66DF5A9B1D2FA /* TIGPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIGPlayer.h; path = TIGPlayer/TIGPlayer.h; sourceTree = "<group>"; };
 		1FD63C493675B406B5E218F5096D656A /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
 		207B54E3088C06D1F68F4D55F08761E2 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		2094D90C5CD0AAE9180A3FBE656492BD /* placeholder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = placeholder.cpp; path = Realm/ObjectStore/src/placeholder.cpp; sourceTree = "<group>"; };
+		2125F14572DD6315B7F2E5CF1A10054A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = TIGPlayer/Info.plist; sourceTree = "<group>"; };
 		22413A6F0BF5C755E418898F047E2017 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		22A72EC70AFC7DFE244504F673C38738 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23173300E7F06C5E876910F9D08B1194 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		23718DCAD7012134ADC36C61FFC84BFC /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		238B7471451223CE6C379E5D61782CDC /* Pods_TIGPlayerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TIGPlayerExample.framework; path = "Pods-TIGPlayerExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2407828C861DBBD3ED7214EEA06660DB /* collection_notifications.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_notifications.cpp; path = Realm/ObjectStore/src/collection_notifications.cpp; sourceTree = "<group>"; };
+		2439ACB1D4E6BF93F8B5A43961EE3E18 /* TIGPlayerWideControlView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TIGPlayerWideControlView.xib; sourceTree = "<group>"; };
 		2446C88B87A0CECD79BB901559C86979 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		2478A2E70F9B2C44025B6DDCFD0D5477 /* RLMSyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncManager.h; path = include/RLMSyncManager.h; sourceTree = "<group>"; };
 		24FC8E1316ED973C3EB4549457C960BF /* list.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list.cpp; path = Realm/ObjectStore/src/list.cpp; sourceTree = "<group>"; };
@@ -822,15 +817,13 @@
 		27BA7676DA3532CC230B4E3519DBB443 /* Pods-TIGPlayerExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIGPlayerExample-dummy.m"; sourceTree = "<group>"; };
 		28746A8138E512020BE846FD881D8248 /* RLMSyncErrorResponseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncErrorResponseModel.m; path = Realm/RLMSyncErrorResponseModel.m; sourceTree = "<group>"; };
 		291B703159027C3D5DF0CF8E849192D7 /* URLDataPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLDataPromise.swift; path = Extensions/Foundation/Sources/URLDataPromise.swift; sourceTree = "<group>"; };
-		2984E18826ADA6454C58F3543220D626 /* TIGPlayerWipeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerWipeView.swift; sourceTree = "<group>"; };
 		2B02AE2C66B122477093CB92C6DA1A9C /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		2B61CD0EB4432B67FD8A48F0449E2DAD /* RLMNetworkClient.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMNetworkClient.mm; path = Realm/RLMNetworkClient.mm; sourceTree = "<group>"; };
 		2B6A81C89576162AB9EAA165D4F75458 /* RLMAccessor.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMAccessor.mm; path = Realm/RLMAccessor.mm; sourceTree = "<group>"; };
-		2BAFECA61A707DEBD8E998797055777B /* Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		2C54B1B90F5AB1FC84B12FFDE75AB6C6 /* Pods-TIGPlayerSDKExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIGPlayerSDKExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		2D07912B302AF214A4ABDD0434CD537D /* TIGPlayerFloatingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerFloatingButton.swift; sourceTree = "<group>"; };
 		2D7CB0165888F9D8F333C4BF4EB78848 /* wrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = wrap.swift; path = Sources/wrap.swift; sourceTree = "<group>"; };
 		2F180A9E6D788AE8E81699818F43627F /* RLMObservation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObservation.mm; path = Realm/RLMObservation.mm; sourceTree = "<group>"; };
+		2F41F73F966167797930BF2D6F3E0B26 /* TIGPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayer.swift; sourceTree = "<group>"; };
 		30BFD97DE31315B4F5343B9F2C233C2F /* RLMObjectBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectBase.mm; path = Realm/RLMObjectBase.mm; sourceTree = "<group>"; };
 		30EEBEE1D13D58D2FCD7608EB84D1818 /* DictionaryTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryTransform.swift; path = Sources/DictionaryTransform.swift; sourceTree = "<group>"; };
 		3177A7C106DEAE78714789EC3D43A9CC /* ObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjectMapper-dummy.m"; sourceTree = "<group>"; };
@@ -838,13 +831,12 @@
 		31E2987A905219F566262340A84E8D1E /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromiseKit.modulemap; sourceTree = "<group>"; };
 		32212425F8E17A2AB02549F49173E4FD /* Object.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Object.swift; path = RealmSwift/Object.swift; sourceTree = "<group>"; };
 		32BE02E2E1891DD68E3236E7AB34B106 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		32E0194E2405DB72A24362079681D46E /* TIGAnalytics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGAnalytics.swift; sourceTree = "<group>"; };
 		3384B23A3184392013B2885E10551771 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealmSwift.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A90116289977CC13701DD14D8CF58F /* EnumOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumOperators.swift; path = Sources/EnumOperators.swift; sourceTree = "<group>"; };
 		343C580953ABC3D49EA56A076DF6281A /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
 		34D3894893026FCA1C5FEB9013803986 /* RLMObjectStore.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectStore.mm; path = Realm/RLMObjectStore.mm; sourceTree = "<group>"; };
 		35595062813F0FFECEF3CA6F1E6673F5 /* Realm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Realm.swift; path = RealmSwift/Realm.swift; sourceTree = "<group>"; };
-		35FEFCCE0D71B4D75559336A555E8B21 /* DictonaryUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DictonaryUtil.swift; sourceTree = "<group>"; };
+		35991D15137F294530183061F75938AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35FFC0D8E06F47460EEA12A9F6B1083D /* weak_realm_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = weak_realm_notifier.cpp; path = Realm/ObjectStore/src/impl/weak_realm_notifier.cpp; sourceTree = "<group>"; };
 		3607073115B588208BCCA5BBCB62C55B /* RLMSyncPermissionChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionChange.h; path = include/RLMSyncPermissionChange.h; sourceTree = "<group>"; };
 		3648CF123AC936873FD8DE7041FED567 /* PMKAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMKAlertController.swift; path = Extensions/UIKit/Sources/PMKAlertController.swift; sourceTree = "<group>"; };
@@ -857,7 +849,7 @@
 		3B6A7FCB6E41C34DC5D2949CF359E52B /* Pods-TIGPlayerExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIGPlayerExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3B883082BFFF61A87D66E70970060E20 /* RLMSyncPermissionOfferResponse_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionOfferResponse_Private.h; path = include/RLMSyncPermissionOfferResponse_Private.h; sourceTree = "<group>"; };
 		3BF07F99FA5ACA4F05E0A5BC2058A8F5 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		3C3F151F654E3CDDEC1F42A943AC9E47 /* RippleGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RippleGenerator.swift; sourceTree = "<group>"; };
+		3CA0F4976A62DC3FAA25BCAB9D10DAD7 /* RippleGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RippleGenerator.swift; sourceTree = "<group>"; };
 		3DA472E3FBB1241C2F4C0171AAF8678F /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = RealmSwift/Property.swift; sourceTree = "<group>"; };
 		3DCC1ACEBD977E446483AE3A2E82980B /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = RealmSwift/Schema.swift; sourceTree = "<group>"; };
 		3E2C15680034BB553D4FCD0FC60C5FC4 /* list_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list_notifier.cpp; path = Realm/ObjectStore/src/impl/list_notifier.cpp; sourceTree = "<group>"; };
@@ -866,32 +858,30 @@
 		3F116FF17F018E222E6830CCB9C59A53 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		404B7BE7EC65AE356E7B8AD74A738A6A /* RLMRealmConfiguration+Sync.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "RLMRealmConfiguration+Sync.mm"; path = "Realm/RLMRealmConfiguration+Sync.mm"; sourceTree = "<group>"; };
 		40846C49BA466CEFE5E5F4389EF4DD63 /* collection_change_builder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_change_builder.cpp; path = Realm/ObjectStore/src/impl/collection_change_builder.cpp; sourceTree = "<group>"; };
-		40EADF85CEE705F887DD3DD5E05B36B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		40B433E1773A51AB09254C66B938B38C /* TIGPlayerWipeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerWipeView.swift; sourceTree = "<group>"; };
 		417039DAD86D91EA871B3EB3AEC8983D /* sync_metadata.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_metadata.cpp; path = Realm/ObjectStore/src/sync/impl/sync_metadata.cpp; sourceTree = "<group>"; };
-		41CF8E2C454ACEFCA16512BF4378641A /* access_control.py */ = {isa = PBXFileReference; includeInIndex = 1; name = access_control.py; path = TIGPlayer/access_control.py; sourceTree = "<group>"; };
 		41FDF3DD8A330A0F65C4245A0F9D57C9 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42276A60082C302F6B12FE8B9B52D865 /* RLMAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMAccessor.h; path = include/RLMAccessor.h; sourceTree = "<group>"; };
 		425F017E668056487DEF8D14DB0AA463 /* RLMObjectBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase.h; path = include/RLMObjectBase.h; sourceTree = "<group>"; };
+		42DD28277E11AE91A8B6BA419A051FC4 /* TIGPlayerWideControlView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerWideControlView.swift; sourceTree = "<group>"; };
 		4397DEB8BBF8CD75346882211EF5E096 /* keychain_helper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = keychain_helper.cpp; path = Realm/ObjectStore/src/impl/apple/keychain_helper.cpp; sourceTree = "<group>"; };
 		43A4FFBE38187FBBCB6CD32CA5663363 /* binding_callback_thread_observer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = binding_callback_thread_observer.cpp; path = Realm/ObjectStore/src/binding_callback_thread_observer.cpp; sourceTree = "<group>"; };
 		43BE6DB29C8A00D9862AE11A85739D86 /* ThreadSafeReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadSafeReference.swift; path = RealmSwift/ThreadSafeReference.swift; sourceTree = "<group>"; };
 		43CDEC0E170642804242F79DFDDA73EB /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Sources/Map.swift; sourceTree = "<group>"; };
-		43F5588AF64A3D117723D5D3210BA2AD /* Mode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
 		44532184680A8D62E52FA1396D63344A /* Pods-TIGPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIGPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		44F2C992CEEC53F467D0226564C56B9B /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
-		45276CDCA0B39EC0F62EDF00FFD244D7 /* TIGStockButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGStockButton.swift; sourceTree = "<group>"; };
 		467144F60C5A8E9F260A33146E6FAD14 /* RLMSyncUser.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncUser.mm; path = Realm/RLMSyncUser.mm; sourceTree = "<group>"; };
 		474A0E5CD31E14EB02F75D1C87CE4B3B /* RLMResults.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMResults.mm; path = Realm/RLMResults.mm; sourceTree = "<group>"; };
-		491D1941D884FA6198F5597ACB3F80E1 /* TIGPlayerWipeContainerRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerWipeContainerRootViewController.swift; sourceTree = "<group>"; };
+		49B210E9D4B771B97BA82FE06DC8076A /* MetaPageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MetaPageManager.swift; sourceTree = "<group>"; };
 		49D8DE4A087BD2F49F093ED84AE424E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6CBFF3C703A94B9124835BD1424CB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4A6EE598961A858414DB06782A9D2BB5 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABF730EF367CC0707C4A5422B0D824C /* access_control.py */ = {isa = PBXFileReference; includeInIndex = 1; name = access_control.py; path = TIGPlayer/access_control.py; sourceTree = "<group>"; };
 		4AEC719D1CD6A0D44AB8CD2BC3786C1F /* RLMCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMCollection.h; path = include/RLMCollection.h; sourceTree = "<group>"; };
 		4AF34E1B803EF8B02009E1963339F23F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		4B1E6D9B28CDB9C21C961A389F8E1642 /* TIGPlayerThumbnail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerThumbnail.swift; sourceTree = "<group>"; };
 		4B2BE7DEC70F1687D255AD8506FBC27F /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTask+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.h"; sourceTree = "<group>"; };
-		4D69AF60C25D16F405F678511BA18116 /* TIGPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIGPlayer.xcconfig; sourceTree = "<group>"; };
-		4D8FFCCE7BC57CE42CB290BCF2D1FE88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = TIGPlayer/Info.plist; sourceTree = "<group>"; };
 		4F08DCC4174BEE08A0FD66BBA8729FA5 /* RLMSyncPermissionOfferResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionOfferResponse.h; path = include/RLMSyncPermissionOfferResponse.h; sourceTree = "<group>"; };
-		4FFA028AC2F5C1BE453D43A708360CAA /* TIGPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TIGPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		508949B4F50876A76883CC2C8CCC7C45 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		515C3DD4977332FF6E69097ADA86B78E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A4632DCC09D47C5B34968091DD5DF3 /* sync_file.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_file.cpp; path = Realm/ObjectStore/src/sync/impl/sync_file.cpp; sourceTree = "<group>"; };
@@ -899,13 +889,12 @@
 		528529A62B550DCFCC7DC8DBA11183B5 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
 		52F2EF8527F2255CAC823507BB1D0A89 /* Promise+AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+AnyPromise.swift"; path = "Sources/Promise+AnyPromise.swift"; sourceTree = "<group>"; };
 		53C4BE1B4112CD65E25157E6A8C266B6 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
-		544E12C274047FFC93DED8E392F2DEF6 /* TIGPlayerUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerUtils.swift; sourceTree = "<group>"; };
 		549A160455FE80AD90DD688A529E41F5 /* TIGPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TIGPlayer.framework; path = TIGPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		549FA223DFF2E91BF400AA74A4229C5E /* TIGStockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGStockView.swift; sourceTree = "<group>"; };
 		552836E32ACD2B6D382040FA6297FBAA /* external_commit_helper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = external_commit_helper.cpp; path = Realm/ObjectStore/src/impl/apple/external_commit_helper.cpp; sourceTree = "<group>"; };
 		553BAFFE6558298A285AB356A699BE67 /* Pods-TIGPlayerSDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIGPlayerSDKExample.release.xcconfig"; sourceTree = "<group>"; };
 		55B1BCF6F84B9844B35571A266E140FE /* sync_user.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_user.cpp; path = Realm/ObjectStore/src/sync/sync_user.cpp; sourceTree = "<group>"; };
 		56F5E7AB97E66128CD6BFADB23E765EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		579736821A65EC78AF8A9BFD2FD051A8 /* TIGPlayerWipeContainerRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerWipeContainerRootViewController.swift; sourceTree = "<group>"; };
 		57AABF95EDB591EFFA8BC3CAB6F3B2A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		57DAC04482EE5E0885EF3BC5A3D1E828 /* SortDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SortDescriptor.swift; path = RealmSwift/SortDescriptor.swift; sourceTree = "<group>"; };
 		57DADEB905854801DB8BD39F7873477A /* RLMRealmConfiguration+Sync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RLMRealmConfiguration+Sync.h"; path = "include/RLMRealmConfiguration+Sync.h"; sourceTree = "<group>"; };
@@ -913,100 +902,104 @@
 		58324676FDA4CC51BF5B8A6F613246DA /* RLMSchema.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSchema.mm; path = Realm/RLMSchema.mm; sourceTree = "<group>"; };
 		58494E877818C5D9A69296DCAD08B0C4 /* RLMQueryUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMQueryUtil.mm; path = Realm/RLMQueryUtil.mm; sourceTree = "<group>"; };
 		5867EF634C260650B6048F9A9EC2CB95 /* object.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object.cpp; path = Realm/ObjectStore/src/object.cpp; sourceTree = "<group>"; };
+		58A6DAC245FC0AF7CE5B3ECC60C209B0 /* TIGPlayer.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TIGPlayer.xcassets; path = TIGPlayer/TIGPlayer.xcassets; sourceTree = "<group>"; };
 		592EB5B4D2FFF46D01191356EC134574 /* thread_safe_reference.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = thread_safe_reference.cpp; path = Realm/ObjectStore/src/thread_safe_reference.cpp; sourceTree = "<group>"; };
+		5976BB87DCF18D7ED40F691F5C4154C7 /* RealmMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RealmMapper.swift; sourceTree = "<group>"; };
 		59F93A4B9B4EE82E749DE48A860F2CE6 /* LinkingObjects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkingObjects.swift; path = RealmSwift/LinkingObjects.swift; sourceTree = "<group>"; };
 		5A0AE0AC21F1EB6CE9B263FD44043EB5 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
-		5A8AC72BB2CFBA09CDFFDB7AC18FBEC7 /* TIGGradientColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGGradientColor.swift; sourceTree = "<group>"; };
 		5AF9D3D56E442BB8532C479500D18751 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		5B78A2BEF3B8A5AE499B3A70C5555B82 /* TIGPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIGPlayer-umbrella.h"; sourceTree = "<group>"; };
+		5D9E44677ACEB22BB050B615ED7AC430 /* TIGPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerView.swift; sourceTree = "<group>"; };
 		5ECE47317D3381CBD0EB3922516DCBE0 /* RLMConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMConstants.h; path = include/RLMConstants.h; sourceTree = "<group>"; };
 		5F5D102CEB83F834F6B4C634F2A9EB18 /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
 		5FF809D64A497FA7947EF23F78DB21B0 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = Sources/EnumTransform.swift; sourceTree = "<group>"; };
 		5FFD82573737ECBE882240005914A547 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
-		606E7FA7BA78EA8A60C1C32C3C8DC07A /* ModeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModeManager.swift; sourceTree = "<group>"; };
 		612BEA6D79D93BE666528A95EF602F5B /* object_store.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object_store.cpp; path = Realm/ObjectStore/src/object_store.cpp; sourceTree = "<group>"; };
+		6191DC9BBFF351579FEA2FE43B91C96F /* TIGConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGConstants.swift; sourceTree = "<group>"; };
 		619727AB24F96E1350EEBCE8839B0EA4 /* RLMObjectSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectSchema_Private.h; path = include/RLMObjectSchema_Private.h; sourceTree = "<group>"; };
 		61A06A6C55ED54520E18E32CD651521B /* RLMSyncUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUser.h; path = include/RLMSyncUser.h; sourceTree = "<group>"; };
 		62B85B84754C69AB96C8A0505362FE61 /* Pods-TIGPlayerExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIGPlayerExample-resources.sh"; sourceTree = "<group>"; };
+		62F3268AEC1E576E50D84D44ED4F6583 /* TIGObjectMoveView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectMoveView.swift; sourceTree = "<group>"; };
 		64591B3A8F84CFE47843BF1ECEBA2054 /* RealmCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmCollection.swift; path = RealmSwift/RealmCollection.swift; sourceTree = "<group>"; };
+		65599FB9BA2ADD6DAF3BAE43D8813888 /* TIGObjectStockPointer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectStockPointer.swift; sourceTree = "<group>"; };
 		66466847AE6D9A3CB49A86B04070653F /* Pods-TIGPlayerSDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIGPlayerSDKExample.debug.xcconfig"; sourceTree = "<group>"; };
+		66A7B87066C9475C42B0E1A4EB77D7E9 /* ArrayUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArrayUtil.swift; sourceTree = "<group>"; };
 		66F47C265607E56AE1A24194B1C25F3D /* RLMUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMUtil.mm; path = Realm/RLMUtil.mm; sourceTree = "<group>"; };
 		671AD393EDE82D15DB454285B1688F64 /* RealmConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmConfiguration.swift; path = RealmSwift/RealmConfiguration.swift; sourceTree = "<group>"; };
+		6787222300053E64E8E375058C964589 /* TIGAnalytics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGAnalytics.swift; sourceTree = "<group>"; };
 		694010A4E2F54A16B06CF493F20D8A08 /* ImmutableMappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImmutableMappable.swift; path = Sources/ImmutableMappable.swift; sourceTree = "<group>"; };
 		6A0314B6A1531CDA43C686E85D1A2204 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
-		6B83CB738B3C10A163921FCBD6C89839 /* DeviceInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		6B9A0C9B8BA4DC7933509C4FC6DF2B2C /* TIGPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIGPlayer-prefix.pch"; sourceTree = "<group>"; };
 		6BF1E8847566B67B76166B164E2B2929 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5CCF18B62330402DD5CAB891617EE8 /* ObjectMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-prefix.pch"; sourceTree = "<group>"; };
 		6CF090E2DBB39EA08F87AA6E4946B6CC /* RLMArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMArray.h; path = include/RLMArray.h; sourceTree = "<group>"; };
 		6D874AA8200358103719BE9F70503139 /* Pods-TIGPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TIGPlayer.modulemap"; sourceTree = "<group>"; };
-		6EA6A2AA21BD0CC2FB1062969FAECB06 /* TIGPlayerLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerLoading.swift; sourceTree = "<group>"; };
 		6EC61DA70B77C3DA6920266D2BC5D787 /* RLMObject_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject_Private.h; path = include/RLMObject_Private.h; sourceTree = "<group>"; };
 		6F69662A328A810BA2BE39AD83249FC8 /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTask+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.m"; sourceTree = "<group>"; };
-		6FD4D0CBAB392F60664F817DA35757C9 /* TIGNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGNotification.swift; sourceTree = "<group>"; };
 		717DC5C4B9597F907917A128EE9F91B5 /* RealmSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealmSwift-prefix.pch"; sourceTree = "<group>"; };
+		71A934581130BF1CE74CF871146E4F84 /* TIGPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TIGPlayer-dummy.m"; sourceTree = "<group>"; };
+		7437D2164047073461B7463FE3F4CFED /* TIGPlayerSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerSDK.swift; sourceTree = "<group>"; };
 		7535313AD7BD3B9A0BCC0F20934DECB5 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
-		755A66170FD3AA4B1B2C3125D87CB523 /* TIGObjectRenderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectRenderView.swift; sourceTree = "<group>"; };
 		755C74DD2A47C4FE121C8ACC5544F0FF /* Realm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Realm-dummy.m"; sourceTree = "<group>"; };
 		7591E93C78081E237F075AB95B7B428F /* Pods-TIGPlayerExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIGPlayerExample-frameworks.sh"; sourceTree = "<group>"; };
-		75B877B8770CFD2FED81A5500E26ECBD /* TIGPlayerSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerSDK.swift; sourceTree = "<group>"; };
 		7694BB3E1F672CCC65496AD1C51C00B3 /* schema.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = schema.cpp; path = Realm/ObjectStore/src/schema.cpp; sourceTree = "<group>"; };
+		76B704B208E035216FC9D861390647E6 /* TIGPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIGPlayer.xcconfig; sourceTree = "<group>"; };
 		77FA797CCAF994BBEF372E5E9621606D /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
 		7827F8E9F245209619603C5B6ED13509 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		791A16E11A6BBE2D926C3B4FA589B177 /* Timer+TIGEZPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Timer+TIGEZPlayer.swift"; sourceTree = "<group>"; };
 		79509308F01AFE80B8AF3ABD17D628F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		798FF8DE8DC0343D588A7E36D35F7DF3 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
 		79DD8BBB044AC97ED1CF930F2AD3903D /* SwiftVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftVersion.swift; path = RealmSwift/SwiftVersion.swift; sourceTree = "<group>"; };
 		7A42D8090F505F86A032ECA565FFF941 /* Realm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Realm.xcconfig; sourceTree = "<group>"; };
 		7AC4CB2E4D8C896AFEE197F0521DE2CA /* index_set.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = index_set.cpp; path = Realm/ObjectStore/src/index_set.cpp; sourceTree = "<group>"; };
+		7B0218C63E2A5470484984340BD68ECC /* TIGStockButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGStockButton.swift; sourceTree = "<group>"; };
 		7B14C4F1EA2700F84DAEC02A3A35F212 /* Pods-TIGPlayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIGPlayer-resources.sh"; sourceTree = "<group>"; };
 		7B9ADB94F96B727434BE132CCB74DB95 /* Promise+Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Properties.swift"; path = "Sources/Promise+Properties.swift"; sourceTree = "<group>"; };
-		7C7A671F30E9A98CAC61B8ABEAB0D8BD /* TIGStockListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGStockListCell.swift; sourceTree = "<group>"; };
+		7C3E1DCE4B1BBA1B9C4740BFA8EFA699 /* TIGObjectMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectMarkView.swift; sourceTree = "<group>"; };
+		7C4B0FFD9FEBB83ED36840ED54D62749 /* TIGPlayerLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerLoading.swift; sourceTree = "<group>"; };
 		7C8E6BAA3CB8E11B4209A4B94DA56C9D /* RealmSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RealmSwift.modulemap; sourceTree = "<group>"; };
 		7D5E6A590774B69AAB5C8CCC27B0ABAD /* sync_manager.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_manager.cpp; path = Realm/ObjectStore/src/sync/sync_manager.cpp; sourceTree = "<group>"; };
+		7DFB7E07AD7404AD891B56B30A6ADA7F /* TIGPlayerWipeView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TIGPlayerWipeView.xib; sourceTree = "<group>"; };
 		7ECF8BB46876175B05C81D4438246974 /* RLMSyncPermissionValue.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncPermissionValue.mm; path = Realm/RLMSyncPermissionValue.mm; sourceTree = "<group>"; };
 		7F0BD6C549130B8548A81DF5ED4489BA /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RealmSwift/Optional.swift; sourceTree = "<group>"; };
 		7FBC021737D401207D87C84EB9A4CB0C /* RLMOptionalBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMOptionalBase.mm; path = Realm/RLMOptionalBase.mm; sourceTree = "<group>"; };
 		7FF816F93955D9B5ABCBAF4DBA15B2EC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80C4F256DF73C0E2A9B18EE4C96FE7B0 /* TIGPlayerTitleLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerTitleLabel.swift; sourceTree = "<group>"; };
 		832378456F0AE291F6441960F8172BF3 /* NSObject+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Promise.swift"; path = "Extensions/Foundation/Sources/NSObject+Promise.swift"; sourceTree = "<group>"; };
 		83894629A36D9AD87E9CAFF1EEF46AB6 /* Pods-TIGPlayerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIGPlayerExample.release.xcconfig"; sourceTree = "<group>"; };
-		8448F330B5330D6A185A18B8EC2699E4 /* TIGPlayerThumbnail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerThumbnail.swift; sourceTree = "<group>"; };
 		849C583FB401342E30AD5D59B205DFFA /* RLMResults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMResults.h; path = include/RLMResults.h; sourceTree = "<group>"; };
 		84B499E1218A1AEFEDFA429ACB8A799C /* RLMPredicateUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMPredicateUtil.mm; path = Realm/RLMPredicateUtil.mm; sourceTree = "<group>"; };
+		85B67C08BE05F58301588630A261E52B /* TIGObjectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectView.swift; sourceTree = "<group>"; };
 		86F785E1F670B80F454A9DD59F9B4339 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		86F8DFA6D8F6E6670FB7F92C0355A33A /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		87237838079E479F0C740F92A77522F1 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		875AECACA3D81234C94F7430F3DDAC98 /* RLMMigration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMMigration.h; path = include/RLMMigration.h; sourceTree = "<group>"; };
-		8810619225F93A8AE5C674A5D8BDEB55 /* TIGPlayerWipeContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerWipeContainer.swift; sourceTree = "<group>"; };
 		88DB9B7E53558ED4892FA7C54691D033 /* RLMSyncPermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncPermission.m; path = Realm/RLMSyncPermission.m; sourceTree = "<group>"; };
+		896B40DAC8CA793768546EBDC9FB68B0 /* TIGPlayerTitleLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerTitleLabel.swift; sourceTree = "<group>"; };
 		898BF0C8BE452903C95D881E21508F05 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		89E047137D837315BDF414829B23558A /* RLMOptionalBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMOptionalBase.h; path = include/RLMOptionalBase.h; sourceTree = "<group>"; };
 		8A20FBE17E2887B2C687DFCBF0E1DA14 /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = RealmSwift/Util.swift; sourceTree = "<group>"; };
-		8ADA5AE3B5C947E99A43E9803851EBDB /* TIGPlayerControlButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerControlButton.swift; sourceTree = "<group>"; };
 		8D200DCE5E1AABE9F5E7A44D60414B0F /* RLMRealm_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm_Private.h; path = include/RLMRealm_Private.h; sourceTree = "<group>"; };
 		8D5B9B4D7251F8C7D41A73374E116387 /* ToJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToJSON.swift; path = Sources/ToJSON.swift; sourceTree = "<group>"; };
 		8DC65BCBB459BA8A7139733C151D6CEF /* CALayer+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+AnyPromise.h"; path = "Extensions/QuartzCore/Sources/CALayer+AnyPromise.h"; sourceTree = "<group>"; };
 		8E12D1E75A4098A62A6A8D0F22543B52 /* RLMSyncPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermission.h; path = include/RLMSyncPermission.h; sourceTree = "<group>"; };
-		8E58901CBAB45974124B67263E80ADC4 /* TIGObjectMoveView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectMoveView.swift; sourceTree = "<group>"; };
 		8EA847DAF3C7D446644013B7C1B91BDE /* RLMClassInfo.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMClassInfo.mm; path = Realm/RLMClassInfo.mm; sourceTree = "<group>"; };
 		8EB738D0AB1F120B9547081CE7F23904 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
-		8F71CEBD505FCBDAEB72CF1C318CD869 /* TIGPlayerModeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerModeButton.swift; sourceTree = "<group>"; };
 		8FF27CC0D55CC5F27CDA12FC7B379305 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = Sources/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
 		90641B7166C7C50870E30C104A707284 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		90976AF2469F08F1E6BCBBB6A8677659 /* TransformOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOperators.swift; path = Sources/TransformOperators.swift; sourceTree = "<group>"; };
+		9190C101BD7D1BE6617C4E8DCFA47DDC /* TIGPlayerWipeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerWipeButton.swift; sourceTree = "<group>"; };
 		9248FC97050A4491B5F72F9847AD297B /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		92D06EBA9ACE1E42FC1B8F5271294CF0 /* transact_log_handler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = transact_log_handler.cpp; path = Realm/ObjectStore/src/impl/transact_log_handler.cpp; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4D90D5B22C1830E4511ECC8CE697F /* TIGPlayerShareButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerShareButton.swift; sourceTree = "<group>"; };
 		93AD9A0B4AB1CB127A08F0F6C7BFB15A /* Pods-TIGPlayerSDKExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIGPlayerSDKExample-dummy.m"; sourceTree = "<group>"; };
 		943255CE369BD7C83E5DF142608F3DB7 /* RLMObjectStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectStore.h; path = include/RLMObjectStore.h; sourceTree = "<group>"; };
 		9433C01196D9D35E8B9E9E07D4544EAD /* AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnyPromise.m; path = Sources/AnyPromise.m; sourceTree = "<group>"; };
 		94424529132DA207F9DE8B9C698BC96D /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjectMapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		954F69E1D44BD6185138A6D756B0B20B /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		957DA5E0EA4CF381E75CA08E33D651B8 /* UIView+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Promise.swift"; path = "Extensions/UIKit/Sources/UIView+Promise.swift"; sourceTree = "<group>"; };
-		9647BB91C787543E4034AFADB8FB9E84 /* TIGLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGLog.swift; sourceTree = "<group>"; };
 		96E5B1AD0B30F4D6378B831CD1D2287A /* RLMSyncPermissionOffer_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionOffer_Private.h; path = include/RLMSyncPermissionOffer_Private.h; sourceTree = "<group>"; };
 		970DA4077A037D90CDC0236277E9579E /* Realm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Realm.h; path = include/Realm.h; sourceTree = "<group>"; };
 		9729E082269A679852A55B2278218D8F /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9764AD63192D6F14670EFA03BE925952 /* TIGPlayerWideControlView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerWideControlView.swift; sourceTree = "<group>"; };
 		97CC42C7847E3C9855108C4A879E48D2 /* RLMRealm_Dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm_Dynamic.h; path = include/RLMRealm_Dynamic.h; sourceTree = "<group>"; };
 		9874E30303B78604273CA4139345E8F7 /* PMKQuartzCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKQuartzCore.h; path = Extensions/QuartzCore/Sources/PMKQuartzCore.h; sourceTree = "<group>"; };
 		9889DA3C216EA9754C8F3AC55554F207 /* RLMSyncManager_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncManager_Private.h; path = include/RLMSyncManager_Private.h; sourceTree = "<group>"; };
@@ -1020,10 +1013,13 @@
 		9BEA554EB26DB8DB82F7BA1978905AF5 /* RLMArrayLinkView.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMArrayLinkView.mm; path = Realm/RLMArrayLinkView.mm; sourceTree = "<group>"; };
 		9D0F4C34748F4E672F20445689453727 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
 		9D6A14E6DD9A6B6F30B7B0882EC56BA3 /* Realm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Realm-prefix.pch"; sourceTree = "<group>"; };
+		9D86557E652E174672C9B2FDAB7347F8 /* PersistentManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PersistentManager.swift; sourceTree = "<group>"; };
 		9DB335F5D771F127E510B878644BAE22 /* RLMArray.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMArray.mm; path = Realm/RLMArray.mm; sourceTree = "<group>"; };
+		9E071C2DC65B4318AB35B670C21F87AD /* DeviceInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		9E3EF1998452E7A3100CBEE0A50113B1 /* RectUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RectUtil.swift; sourceTree = "<group>"; };
 		9E6A997AC842DA678F5C42BD3DD1A984 /* RLMTokenModels.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMTokenModels.m; path = Realm/RLMTokenModels.m; sourceTree = "<group>"; };
-		9E74B5D824681D3A70A66BA82C8F93D4 /* TIGObjectAreaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectAreaView.swift; sourceTree = "<group>"; };
 		9E88C07F910BFA6ABF7470AFE2B2700B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		9E8F7B2F89B28FD046BE653A3D156C1B /* RealmManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		9FBF467775ED0AFCD629520C8C42863F /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
 		A01490CDB404C64284FBCE6734D50E7E /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Realm.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A228CE2FD9257EA8FAE3B06FCD102A59 /* ObjectMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectMapper.xcconfig; sourceTree = "<group>"; };
@@ -1031,37 +1027,41 @@
 		A34BEB4DD409C2992DC7C9473B2E9718 /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
 		A3E6D17DFD5E3ECAAA2050B9D29A7B60 /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
 		A401FBB5A7AFEBD417064E6B4238E87B /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
+		A5040D97792EA2D3250C4CC16E00B861 /* TIGStockListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGStockListView.swift; sourceTree = "<group>"; };
 		A50DEDAD5B99F365D3E9507CD622AB40 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		A5D15E71DD0279FFE5B35BF918140BDD /* ModeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModeManager.swift; sourceTree = "<group>"; };
 		A5FC5DC86AE66273230FC674E9DB1FF2 /* RLMCollection.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMCollection.mm; path = Realm/RLMCollection.mm; sourceTree = "<group>"; };
-		A648B8A973B28C34118BB8792404500C /* TIGPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TIGPlayer-dummy.m"; sourceTree = "<group>"; };
 		A694FA9DF935ABC67B0F1DFE74D3E2C5 /* NSError+RLMSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+RLMSync.m"; path = "Realm/NSError+RLMSync.m"; sourceTree = "<group>"; };
 		A6EC5DA71AE8096020F54ED967C01429 /* RLMSyncUtil_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUtil_Private.h; path = include/RLMSyncUtil_Private.h; sourceTree = "<group>"; };
 		A707BAEBC204AAA4E64C045ADFA82697 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
 		A7AFFCF6111F293F10F926B0737765AF /* join.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = join.swift; path = Sources/join.swift; sourceTree = "<group>"; };
+		A7B161F360A1CAF109359E6A5F427B39 /* TIGStockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGStockView.swift; sourceTree = "<group>"; };
 		A800DB73A572EB7FD835361A45D3C598 /* DispatchQueue+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Promise.swift"; path = "Sources/DispatchQueue+Promise.swift"; sourceTree = "<group>"; };
-		A94326A0C7C501681344A6B383B3A974 /* Meta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		A9D4978296D88B89A350B30A245722B1 /* ApiClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		AAA8645DC3ACD06E02B5FB58C71F44D6 /* AVPlayerItem+TIGPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AVPlayerItem+TIGPlayer.swift"; sourceTree = "<group>"; };
 		AB8D60C1B6967D68875A790A77C5458C /* RLMSyncPermissionChange_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionChange_Private.h; path = include/RLMSyncPermissionChange_Private.h; sourceTree = "<group>"; };
 		AC79D388A28D5EECF6DF2ADC915A30E7 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		AD6A0DC0C95B81810893D28190458C84 /* TIGPlayerTimeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerTimeLabel.swift; sourceTree = "<group>"; };
 		AE5724D2B427363BFA1C4C3081101A54 /* NSURLSession+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"; sourceTree = "<group>"; };
 		AE6C1E2865EF4D7B7DE261D8BAB53C0D /* Pods-TIGPlayerSDKExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIGPlayerSDKExample-frameworks.sh"; sourceTree = "<group>"; };
 		AEBB19F5F9612F56D3E658C50D950E7C /* RealmSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealmSwift.xcconfig; sourceTree = "<group>"; };
 		AEF22C80F35068CBEDD2344BF0613A40 /* RLMArray_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMArray_Private.h; path = include/RLMArray_Private.h; sourceTree = "<group>"; };
 		AF0F7902F089472E50DF96425E6DBB52 /* NSError+RLMSync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+RLMSync.h"; path = "include/NSError+RLMSync.h"; sourceTree = "<group>"; };
-		AF109EB96D305A4457F225B483CDD6E1 /* TIGPlayerTimeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerTimeLabel.swift; sourceTree = "<group>"; };
-		B0B0C3065BB69515DBB32D1B654978FE /* RealmMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RealmMapper.swift; sourceTree = "<group>"; };
 		B215708008ED695B3BAF7E683F44557B /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		B31DA474A9D3913290027B5F598E4091 /* Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B3375B89F092ECBC3FEA5D20A108528C /* RLMSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema.h; path = include/RLMSchema.h; sourceTree = "<group>"; };
-		B388E4D7E7763366549C0378F373BBAF /* TIGPlayerWideControlView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TIGPlayerWideControlView.xib; sourceTree = "<group>"; };
 		B3C20A5B6CCEEF05249406CAA3104812 /* RLMObject.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObject.mm; path = Realm/RLMObject.mm; sourceTree = "<group>"; };
+		B453209817B3EA1BCD7E098D84B01A11 /* Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		B4C70BB1EFB6194EF8CA1648FDA507B3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		B4E2CD76E9EAE52C7D3E9900A4E3CF20 /* Pods-TIGPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TIGPlayer-umbrella.h"; sourceTree = "<group>"; };
 		B5022D7B7E7DB4041CBF23E637C89BF1 /* Pods-TIGPlayerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIGPlayerExample.debug.xcconfig"; sourceTree = "<group>"; };
 		B54F976D1EE35A9321AC5F8CE2AA13E9 /* ObjectSchema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSchema.swift; path = RealmSwift/ObjectSchema.swift; sourceTree = "<group>"; };
 		B58799C4014EE77C9BF732D76EC52B59 /* UIViewController+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewController+Promise.swift"; sourceTree = "<group>"; };
+		B641C75730B62D90C07D71DACDB8DC9A /* TIGObjectAreaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectAreaView.swift; sourceTree = "<group>"; };
 		B76B782678C4D01AB9F95809DE23AE0F /* RLMSyncSessionRefreshHandle.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncSessionRefreshHandle.mm; path = Realm/RLMSyncSessionRefreshHandle.mm; sourceTree = "<group>"; };
+		B76EDDE00B94950457A1D22262D03000 /* TIGPlayerWipeContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerWipeContainer.swift; sourceTree = "<group>"; };
 		B77317A5F9840220EDDECF3E6A7277FB /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		B7A2E3A8FE90C0B88656FFC645E8001C /* Pods-TIGPlayerExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIGPlayerExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		B8349207909D2911FD5479F8E1C01A45 /* ArrayUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArrayUtil.swift; sourceTree = "<group>"; };
 		B912338B97282789533BBDAAEAC946DB /* Realm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Realm.modulemap; sourceTree = "<group>"; };
 		B99CBD26D86D839AF65E714EA6614080 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
 		B9B903FD2500F3D4962A61ACEBFA906F /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotificationCenter+Promise.swift"; path = "Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
@@ -1069,38 +1069,38 @@
 		BAC993F7ABDAD29AA9C2EDF3E2CCD7CD /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		BB072F12E4D23C7382A720A20E97C035 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
 		BBA2D90FE943A5F7A0237C49741A37A1 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/State.swift; sourceTree = "<group>"; };
+		BBDFD2A36A9971DEB8689BC071778E70 /* TIGPlayerMenuButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerMenuButton.swift; sourceTree = "<group>"; };
 		BBEEC5A11A924EB16E775E050D570594 /* Results.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Results.swift; path = RealmSwift/Results.swift; sourceTree = "<group>"; };
 		BC9AD01A127068CF7829D5BA58FF8F9C /* Pods-TIGPlayerExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TIGPlayerExample-umbrella.h"; sourceTree = "<group>"; };
+		BD0853A1DFF52ADF0CC61F4EEEF27B68 /* TIGObjectThumbnail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectThumbnail.swift; sourceTree = "<group>"; };
 		BD57BCBF8DC0460B16F1FCC50E3ECCBF /* RLMObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject.h; path = include/RLMObject.h; sourceTree = "<group>"; };
 		BDBE7562F38F68AF72AB5AECF485D8FA /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
-		BE8467C2336510DACF8F0E321529D77E /* TIGPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIGPlayer-prefix.pch"; sourceTree = "<group>"; };
+		BF06E007A2AC58943E8108057593FF5C /* TIGPlayerUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerUtils.swift; sourceTree = "<group>"; };
 		BF574034228A1CE6977995B5826778DC /* RLMObjectSchema.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectSchema.mm; path = Realm/RLMObjectSchema.mm; sourceTree = "<group>"; };
+		BFC0F0FC3BAEBC07AE39C462C3F43BBB /* Meta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
 		C0D63E3D4EEA4DED43E79A5F7B63A939 /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
-		C0D72ADB00CAA34F687B62F71C3E87DA /* TIGPlayerShareButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerShareButton.swift; sourceTree = "<group>"; };
+		C1432BB3C814A53235F4C9DD4DF1A3EF /* TIGPlayerFloatingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerFloatingButton.swift; sourceTree = "<group>"; };
 		C20553CFCDBCE499F571B0BBC4219FF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C26DDD072C54DBCD1A59A20DEB31BABF /* sync_permission.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_permission.cpp; path = Realm/ObjectStore/src/sync/sync_permission.cpp; sourceTree = "<group>"; };
-		C2D3AEB1852559F70379C627B94824B8 /* TIGObjectThumbnail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectThumbnail.swift; sourceTree = "<group>"; };
 		C3693237F50BD6746771E7620A38F419 /* RLMSyncPermissionOffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionOffer.h; path = include/RLMSyncPermissionOffer.h; sourceTree = "<group>"; };
 		C47A2753B48CFBC0DCB54558BABBAB3F /* RLMRealm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm.h; path = include/RLMRealm.h; sourceTree = "<group>"; };
+		C4FE7615B10ED01753077BBD628BB3A6 /* TIGLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGLog.swift; sourceTree = "<group>"; };
 		C50BF11DEA52B057AA37ED6F5CA976AD /* RLMResults_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMResults_Private.h; path = include/RLMResults_Private.h; sourceTree = "<group>"; };
-		C69EDFBFD824561B26A4A3080DF1E5EA /* TIGPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayer.swift; sourceTree = "<group>"; };
 		C6F852B6163E734CF42467F59FF43C1D /* hang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = hang.m; path = Sources/hang.m; sourceTree = "<group>"; };
 		C741E49F4B1D172CA1298D817BADBB19 /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Sources/TransformType.swift; sourceTree = "<group>"; };
 		C74B237DEAA9B25BC85408CFFE41286A /* NSURLSession+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.m"; sourceTree = "<group>"; };
 		C757CABC039EE70F237AD4B02853428B /* Pods-TIGPlayerSDKExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TIGPlayerSDKExample.modulemap"; sourceTree = "<group>"; };
 		C920A1C4E365F71A26D88A778E8D53C8 /* RLMUpdateChecker.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMUpdateChecker.mm; path = Realm/RLMUpdateChecker.mm; sourceTree = "<group>"; };
-		C93CE8054BE69766A90FA11293A5E040 /* TIGObjectStockPointer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectStockPointer.swift; sourceTree = "<group>"; };
-		CA3FC2816397C8C9E8C6CC6E78A5600F /* RealmManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		CA6D93C66847BA9683F4F3CDE9C77131 /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
 		CA92486F1ECDD91454E83397573A3DE1 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		CAA4DD66067D60D7FED1A48E19E0FE72 /* RLMMigration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMMigration_Private.h; path = include/RLMMigration_Private.h; sourceTree = "<group>"; };
 		CAAC2D5401C5DE20743DE0D63AA2EE68 /* RLMSyncSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncSession.h; path = include/RLMSyncSession.h; sourceTree = "<group>"; };
 		CB4345C581B6E13054911EFDCD8C640A /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = Sources/Mapper.swift; sourceTree = "<group>"; };
-		CB4B89E8971539B4437BEC839D410D3F /* TIGPlayerWipeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerWipeButton.swift; sourceTree = "<group>"; };
-		CCC0B95DD92A00D0AA77036D738307DD /* PersistentManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PersistentManager.swift; sourceTree = "<group>"; };
+		CC7213742FB52931F1019F5A056E5F84 /* TIGNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGNotification.swift; sourceTree = "<group>"; };
 		CD427E7777DCA072E4784387E68A8911 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD6FAD379223513FD1F380FE0F6EF107 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		CE0EF8FBA116F9F2F35DCA799D469C8A /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		CF2373707616371D9C5F8FDD615F014C /* TIGPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIGPlayer-umbrella.h"; sourceTree = "<group>"; };
 		CFA7431C2EBB32F463D7ADC46666A5CD /* RLMObjectBase_Dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase_Dynamic.h; path = include/RLMObjectBase_Dynamic.h; sourceTree = "<group>"; };
 		D0CC503786BC7FD0B5F4BCC3630B3A12 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
 		D0D9243CD6DA2E9CDC73BB4F6FAFC18B /* List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = List.swift; path = RealmSwift/List.swift; sourceTree = "<group>"; };
@@ -1108,18 +1108,21 @@
 		D1EE189B9D4D09360F8896C0409ECABC /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
 		D2878E366F7D4440D26A27488A093B6B /* afterlife.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = afterlife.swift; path = Extensions/Foundation/Sources/afterlife.swift; sourceTree = "<group>"; };
 		D3039B57577E1C350241E3598C31F317 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		D3828E06485F95D50D75C286BA8A312E /* TIGStockListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGStockListCell.swift; sourceTree = "<group>"; };
 		D389E8F294D20BEB0DF3D32D8C0B003D /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
 		D3A179AB600C63E8DB51CE429BB0E9BC /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
 		D41E61ED6979F5E3457F99076EF2EB1D /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
 		D42C33BE5AB3869940FDFE41DD1080EF /* RLMSyncCredentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncCredentials.m; path = Realm/RLMSyncCredentials.m; sourceTree = "<group>"; };
-		D4776B15787EB2425B788962BB6C5A12 /* TIGObjectMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectMarkView.swift; sourceTree = "<group>"; };
 		D48C6EFD89CBE6B47D0C43AF6C5A38B8 /* Zalgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zalgo.swift; path = Sources/Zalgo.swift; sourceTree = "<group>"; };
 		D51310905F3BC67B2935CBB5268A8C0B /* Pods-TIGPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIGPlayer-dummy.m"; sourceTree = "<group>"; };
 		D5F865CA80441587B70C1CB4F2A81F07 /* collection_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_notifier.cpp; path = Realm/ObjectStore/src/impl/collection_notifier.cpp; sourceTree = "<group>"; };
 		D66A47E06A220C3F194559E9E0A527B8 /* RLMSyncUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncUtil.mm; path = Realm/RLMSyncUtil.mm; sourceTree = "<group>"; };
 		D6E17F2A6822BB63E48CF446EC63DCE8 /* RLMRealmUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMRealmUtil.mm; path = Realm/RLMRealmUtil.mm; sourceTree = "<group>"; };
 		D6ED36DBF43DD2964937C3AA4AF71CB7 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		D7FF8BD651AC7DD629ABA16F047DF64C /* TIGConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGConstants.swift; sourceTree = "<group>"; };
+		D7351AC4BA954853F348DEC05511FA36 /* TIGPlayerControlBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerControlBar.swift; sourceTree = "<group>"; };
+		D8007A60AFDF9017E1A727CBD6833633 /* AVPlayer+TIGPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AVPlayer+TIGPlayer.swift"; sourceTree = "<group>"; };
+		D80E4D526FFCCC24915D4AC153A310DE /* TIGObjectRenderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGObjectRenderView.swift; sourceTree = "<group>"; };
+		D9AFBC49CEED744A2AB613857D4E0382 /* TIGPlayerWipeContainerRootViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TIGPlayerWipeContainerRootViewController.xib; sourceTree = "<group>"; };
 		DADF7A092A1FB437A0CC47F9373F67A3 /* RLMObjectSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectSchema.h; path = include/RLMObjectSchema.h; sourceTree = "<group>"; };
 		DBBFA8BB06F84691C44311078A1E4269 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		DC069956CD293D8F10120F7A482489D9 /* RLMSyncManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncManager.mm; path = Realm/RLMSyncManager.mm; sourceTree = "<group>"; };
@@ -1130,6 +1133,7 @@
 		DD78C9FA456C4F0904766CF686CA1622 /* RLMSyncPermission_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermission_Private.h; path = include/RLMSyncPermission_Private.h; sourceTree = "<group>"; };
 		DE0677D8A3AC3333EDB17B4A590625B2 /* RLMSwiftSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSwiftSupport.m; path = Realm/RLMSwiftSupport.m; sourceTree = "<group>"; };
 		DE175304E7F2EFF7CAA0AE264C1B52AD /* MapError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapError.swift; path = Sources/MapError.swift; sourceTree = "<group>"; };
+		DFD6D65F54F537D20DB64267CD3F9142 /* TIGPlayerVideoshotPreview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerVideoshotPreview.swift; sourceTree = "<group>"; };
 		E09A6FC9F20501A97E45C53B7BC64EC6 /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = Sources/fwd.h; sourceTree = "<group>"; };
 		E0A9DB853459844ABE77BAA5C41E1B46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E10F6ADF9363703D667C4AD3DAF590F2 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
@@ -1139,8 +1143,8 @@
 		E3500E7CF834812D4C694C0515E69629 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E452F0B4A0D64768D8908DDFD81BE513 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
 		E58C26FE2EE67AC527E625A82D027BD0 /* HexColorTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = Sources/HexColorTransform.swift; sourceTree = "<group>"; };
+		E5E84430857F866DA133F0947858D58D /* TIGPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TIGPlayer.modulemap; sourceTree = "<group>"; };
 		E6447C7E88F2DFAE77FBF00A6963B8C3 /* ObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjectMapper.modulemap; sourceTree = "<group>"; };
-		E6456905CCFF5B47B7FB7F65A6A21860 /* AVPlayer+TIGPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AVPlayer+TIGPlayer.swift"; sourceTree = "<group>"; };
 		E67300BA01911590992D8D0A2D109493 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E745EC854AED50395E66243475744ADA /* Pods_TIGPlayerSDKExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TIGPlayerSDKExample.framework; path = "Pods-TIGPlayerSDKExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74B2615FB46F518207862B2D80F31F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1148,6 +1152,7 @@
 		E7EF5FBC2AB67114ED7ED2885DF8801A /* Aliases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aliases.swift; path = RealmSwift/Aliases.swift; sourceTree = "<group>"; };
 		E921BC3E09590E2DD8FE0045ACED4F06 /* RLMSyncPermissionResults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionResults.h; path = include/RLMSyncPermissionResults.h; sourceTree = "<group>"; };
 		E9A88381E5D4D33527146528AD1DD2EE /* RealmSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealmSwift-umbrella.h"; sourceTree = "<group>"; };
+		E9F35D79CC381F00BDA4EFF63E834B15 /* TIGPlayerTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerTransport.swift; sourceTree = "<group>"; };
 		EA846B2905AF5D2B37AEC25517D60F9C /* RLMSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema_Private.h; path = include/RLMSchema_Private.h; sourceTree = "<group>"; };
 		EB4DB46A2287A5D83846C1A0453F3490 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		EC1E8F16FF7F2999E78C82A7A27280B0 /* RLMSyncCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncCredentials.h; path = include/RLMSyncCredentials.h; sourceTree = "<group>"; };
@@ -1158,13 +1163,10 @@
 		EFBBF99463742B53EA8F50C0006A00F0 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
 		F03C52A604338573342A95097617F2B1 /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
 		F04398BB946EF30214F145037FC7F93D /* RLMAnalytics.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMAnalytics.mm; path = Realm/RLMAnalytics.mm; sourceTree = "<group>"; };
+		F0FB13744B37422DC6FED091F00F6FB8 /* TIGPlayerModeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerModeButton.swift; sourceTree = "<group>"; };
 		F113D64C933738FA26AE479E0D20ED39 /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
-		F22CB4FA5039D8A90F02E616D7A9E703 /* TIGPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerView.swift; sourceTree = "<group>"; };
-		F284BF378F2AEAB0834155CDF909581C /* TIGPlayerMenuButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TIGPlayerMenuButton.swift; sourceTree = "<group>"; };
 		F2CC4AA177703B4924A40470C5490440 /* RLMThreadSafeReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMThreadSafeReference.h; path = include/RLMThreadSafeReference.h; sourceTree = "<group>"; };
-		F329721CB871C3A4F75417D0257F8013 /* TIGPlayer.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TIGPlayer.xcassets; path = TIGPlayer/TIGPlayer.xcassets; sourceTree = "<group>"; };
 		F5A7DFC8A721864667B01E836956B47C /* RealmSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealmSwift-dummy.m"; sourceTree = "<group>"; };
-		F5C02B1C464CF8823A6910E43599AB45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5E17B8265863B305E06C73F93EBC694 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
 		F65CA85365316C52051B7473E4B3BABA /* RLMSyncConfiguration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncConfiguration.mm; path = Realm/RLMSyncConfiguration.mm; sourceTree = "<group>"; };
 		F68B68BB6938EEBC0F0B7835447C6E1F /* AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyPromise.h; path = Sources/AnyPromise.h; sourceTree = "<group>"; };
@@ -1174,14 +1176,12 @@
 		FA324B619B5F254075911A69629458E6 /* RLMRealmConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealmConfiguration_Private.h; path = include/RLMRealmConfiguration_Private.h; sourceTree = "<group>"; };
 		FA7BF2E46A07212B83602443A9AFE817 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		FA8F11A32DC130203A4979A17AC60412 /* RLMSyncPermissionOffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncPermissionOffer.m; path = Realm/RLMSyncPermissionOffer.m; sourceTree = "<group>"; };
-		FAB79A04D4DAE81FE98FC9B5CAA3C028 /* Timer+TIGEZPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Timer+TIGEZPlayer.swift"; sourceTree = "<group>"; };
 		FACC66C82711E90C8CCEB00BE52764EE /* ObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-umbrella.h"; sourceTree = "<group>"; };
 		FB203AD224B027B39D16BFF8AF47D72A /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		FB7567E84FC2B7E5C9D1C76337EAE548 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		FBA0137E925A0F66AAF9F9249FDF1C25 /* RLMSyncConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncConfiguration.h; path = include/RLMSyncConfiguration.h; sourceTree = "<group>"; };
 		FC1E282BDC51542E474748B699CC1A8E /* RLMSyncPermissionValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermissionValue.h; path = include/RLMSyncPermissionValue.h; sourceTree = "<group>"; };
 		FDD52B286E83ACC02F498AA25240FA0E /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		FFEF2051FCBA1E6663D20D150A2D70FB /* MetaPageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MetaPageManager.swift; sourceTree = "<group>"; };
 		FFF4AEB4F4A3460AF5036F42CF511142 /* RLMPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMPlatform.h; path = include/RLMPlatform.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1394,20 +1394,6 @@
 			path = "../Target Support Files/ObjectMapper";
 			sourceTree = "<group>";
 		};
-		3D7F47C191A7467EEFD9203BD651E9E0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5C02B1C464CF8823A6910E43599AB45 /* Info.plist */,
-				11D09194F1C288BA2FF46BAACC5DF072 /* TIGPlayer.modulemap */,
-				4D69AF60C25D16F405F678511BA18116 /* TIGPlayer.xcconfig */,
-				A648B8A973B28C34118BB8792404500C /* TIGPlayer-dummy.m */,
-				BE8467C2336510DACF8F0E321529D77E /* TIGPlayer-prefix.pch */,
-				5B78A2BEF3B8A5AE499B3A70C5555B82 /* TIGPlayer-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/TIGPlayer";
-			sourceTree = "<group>";
-		};
 		4708015A4D5C149AEEECABB728107DBC /* Fabric */ = {
 			isa = PBXGroup;
 			children = (
@@ -1455,16 +1441,13 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		7044AE22B6628D2FB398D9A2FD30DB7F /* Model */ = {
+		6ECD02BDE1D639FDB51A36A1395D555A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2BAFECA61A707DEBD8E998797055777B /* Content.swift */,
-				19FE79903214D0EB3C7BA4D588F82C3C /* Item.swift */,
-				A94326A0C7C501681344A6B383B3A974 /* Meta.swift */,
-				43F5588AF64A3D117723D5D3210BA2AD /* Mode.swift */,
+				4A6CBFF3C703A94B9124835BD1424CB1 /* README.md */,
+				037B870ACE8D382FEA81789166C298F2 /* TIGPlayer.podspec */,
 			);
-			name = Model;
-			path = TIGPlayer/Model;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		722F9FB274E55C7443EA3A5C1F556940 /* Targets Support Files */ = {
@@ -1475,6 +1458,38 @@
 				CCE96DD84A906093048DE755F2B1ACCF /* Pods-TIGPlayerSDKExample */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		73C0C4499799279BBF82DE6D1A7D46C3 /* Skin */ = {
+			isa = PBXGroup;
+			children = (
+				B641C75730B62D90C07D71DACDB8DC9A /* TIGObjectAreaView.swift */,
+				7C3E1DCE4B1BBA1B9C4740BFA8EFA699 /* TIGObjectMarkView.swift */,
+				62F3268AEC1E576E50D84D44ED4F6583 /* TIGObjectMoveView.swift */,
+				D80E4D526FFCCC24915D4AC153A310DE /* TIGObjectRenderView.swift */,
+				65599FB9BA2ADD6DAF3BAE43D8813888 /* TIGObjectStockPointer.swift */,
+				BD0853A1DFF52ADF0CC61F4EEEF27B68 /* TIGObjectThumbnail.swift */,
+				85B67C08BE05F58301588630A261E52B /* TIGObjectView.swift */,
+				D7351AC4BA954853F348DEC05511FA36 /* TIGPlayerControlBar.swift */,
+				14B1CCFFF190074D0DBF2A033FAD3EF8 /* TIGPlayerControlButton.swift */,
+				C1432BB3C814A53235F4C9DD4DF1A3EF /* TIGPlayerFloatingButton.swift */,
+				BBDFD2A36A9971DEB8689BC071778E70 /* TIGPlayerMenuButton.swift */,
+				F0FB13744B37422DC6FED091F00F6FB8 /* TIGPlayerModeButton.swift */,
+				AD6A0DC0C95B81810893D28190458C84 /* TIGPlayerTimeLabel.swift */,
+				896B40DAC8CA793768546EBDC9FB68B0 /* TIGPlayerTitleLabel.swift */,
+				DFD6D65F54F537D20DB64267CD3F9142 /* TIGPlayerVideoshotPreview.swift */,
+				42DD28277E11AE91A8B6BA419A051FC4 /* TIGPlayerWideControlView.swift */,
+				2439ACB1D4E6BF93F8B5A43961EE3E18 /* TIGPlayerWideControlView.xib */,
+				9190C101BD7D1BE6617C4E8DCFA47DDC /* TIGPlayerWipeButton.swift */,
+				40B433E1773A51AB09254C66B938B38C /* TIGPlayerWipeView.swift */,
+				7DFB7E07AD7404AD891B56B30A6ADA7F /* TIGPlayerWipeView.xib */,
+				7B0218C63E2A5470484984340BD68ECC /* TIGStockButton.swift */,
+				D3828E06485F95D50D75C286BA8A312E /* TIGStockListCell.swift */,
+				A5040D97792EA2D3250C4CC16E00B861 /* TIGStockListView.swift */,
+				A7B161F360A1CAF109359E6A5F427B39 /* TIGStockView.swift */,
+			);
+			name = Skin;
+			path = TIGPlayer/Skin;
 			sourceTree = "<group>";
 		};
 		75D44DA811050539E309061B8F5E64FE /* Foundation */ = {
@@ -1514,7 +1529,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC6DA27A086163F322FC5C926E92FC2C /* Development Pods */,
+				F9C2B8F2A4243CBF361CFE4BBF7867A1 /* Development Pods */,
 				FE64A60D37077265A3950D5287A40CEF /* Frameworks */,
 				B87A2F8357BC0DFB94764A05FE1CDDC6 /* Pods */,
 				200EEE68DD65145D21693CD675A1368D /* Products */,
@@ -1522,13 +1537,17 @@
 			);
 			sourceTree = "<group>";
 		};
-		80869B930998112F7662BD76774A69E3 /* Pod */ = {
+		7E9DAE981278BF4A2338E20B8CCED182 /* Componet */ = {
 			isa = PBXGroup;
 			children = (
-				40EADF85CEE705F887DD3DD5E05B36B3 /* README.md */,
-				4FFA028AC2F5C1BE453D43A708360CAA /* TIGPlayer.podspec */,
+				7C4B0FFD9FEBB83ED36840ED54D62749 /* TIGPlayerLoading.swift */,
+				93A4D90D5B22C1830E4511ECC8CE697F /* TIGPlayerShareButton.swift */,
+				B76EDDE00B94950457A1D22262D03000 /* TIGPlayerWipeContainer.swift */,
+				579736821A65EC78AF8A9BFD2FD051A8 /* TIGPlayerWipeContainerRootViewController.swift */,
+				D9AFBC49CEED744A2AB613857D4E0382 /* TIGPlayerWipeContainerRootViewController.xib */,
 			);
-			name = Pod;
+			name = Componet;
+			path = TIGPlayer/Componet;
 			sourceTree = "<group>";
 		};
 		80E90ACD35E8441BB9B482E4BF3528CF /* Realm */ = {
@@ -1640,19 +1659,6 @@
 			path = Realm;
 			sourceTree = "<group>";
 		};
-		824BC40A5D594F72D755622A6C018BDB /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				C69EDFBFD824561B26A4A3080DF1E5EA /* TIGPlayer.swift */,
-				75B877B8770CFD2FED81A5500E26ECBD /* TIGPlayerSDK.swift */,
-				8448F330B5330D6A185A18B8EC2699E4 /* TIGPlayerThumbnail.swift */,
-				0B6CBEEE5F8560D2F21C21879BC38012 /* TIGPlayerTransport.swift */,
-				F22CB4FA5039D8A90F02E616D7A9E703 /* TIGPlayerView.swift */,
-			);
-			name = Core;
-			path = TIGPlayer/Core;
-			sourceTree = "<group>";
-		};
 		8ABEFAFD99B394C813EC06C25310DC82 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1666,25 +1672,6 @@
 			name = "Support Files";
 			path = "../Target Support Files/PromiseKit";
 			sourceTree = "<group>";
-		};
-		8AFDEF5C36A1BEE85755174727A37BE7 /* TIGPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				41CF8E2C454ACEFCA16512BF4378641A /* access_control.py */,
-				4D8FFCCE7BC57CE42CB290BCF2D1FE88 /* Info.plist */,
-				0FD690275CD20EE91AB7078FD2D1F907 /* TIGPlayer.h */,
-				CE19E7BFE7531F330C3681DCC37C54B7 /* Componet */,
-				824BC40A5D594F72D755622A6C018BDB /* Core */,
-				7044AE22B6628D2FB398D9A2FD30DB7F /* Model */,
-				80869B930998112F7662BD76774A69E3 /* Pod */,
-				AB173823127757460F7E81BC3BE425F7 /* Resources */,
-				E92B570C51B624C11DD0A7E3D2605688 /* Skin */,
-				3D7F47C191A7467EEFD9203BD651E9E0 /* Support Files */,
-				C591A5260131360D456EB3E4F532E914 /* Utiles */,
-			);
-			name = TIGPlayer;
-			path = "/Users/hiro-kobayashi/Desktop/tig_ios";
-			sourceTree = "<absolute>";
 		};
 		8DB343D1AA809A0841A402794BA8E8C5 /* Support Files */ = {
 			isa = PBXGroup;
@@ -1746,14 +1733,6 @@
 			path = "Target Support Files/Pods-TIGPlayer";
 			sourceTree = "<group>";
 		};
-		AB173823127757460F7E81BC3BE425F7 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F329721CB871C3A4F75417D0257F8013 /* TIGPlayer.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		B4D9A9FAC34695DF2B79F8E9AE31F99F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1802,14 +1781,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		BC6DA27A086163F322FC5C926E92FC2C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8AFDEF5C36A1BEE85755174727A37BE7 /* TIGPlayer */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		BCBD5714C3235477FAB8AAD6377BEE66 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
@@ -1848,32 +1819,17 @@
 			name = Headers;
 			sourceTree = "<group>";
 		};
-		C591A5260131360D456EB3E4F532E914 /* Utiles */ = {
+		C4A7CB4B856C3B1D6E004550C6692E71 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				04DF09628395E755107A1E090CAA11E5 /* ApiClient.swift */,
-				B8349207909D2911FD5479F8E1C01A45 /* ArrayUtil.swift */,
-				E6456905CCFF5B47B7FB7F65A6A21860 /* AVPlayer+TIGPlayer.swift */,
-				1787677730688706D18AB69D72FA720A /* AVPlayerItem+TIGPlayer.swift */,
-				6B83CB738B3C10A163921FCBD6C89839 /* DeviceInfo.swift */,
-				35FEFCCE0D71B4D75559336A555E8B21 /* DictonaryUtil.swift */,
-				FFEF2051FCBA1E6663D20D150A2D70FB /* MetaPageManager.swift */,
-				606E7FA7BA78EA8A60C1C32C3C8DC07A /* ModeManager.swift */,
-				CCC0B95DD92A00D0AA77036D738307DD /* PersistentManager.swift */,
-				CA3FC2816397C8C9E8C6CC6E78A5600F /* RealmManager.swift */,
-				B0B0C3065BB69515DBB32D1B654978FE /* RealmMapper.swift */,
-				1034B4EA6078F68682CE3FD25D6ABF28 /* RectUtil.swift */,
-				3C3F151F654E3CDDEC1F42A943AC9E47 /* RippleGenerator.swift */,
-				32E0194E2405DB72A24362079681D46E /* TIGAnalytics.swift */,
-				D7FF8BD651AC7DD629ABA16F047DF64C /* TIGConstants.swift */,
-				5A8AC72BB2CFBA09CDFFDB7AC18FBEC7 /* TIGGradientColor.swift */,
-				9647BB91C787543E4034AFADB8FB9E84 /* TIGLog.swift */,
-				6FD4D0CBAB392F60664F817DA35757C9 /* TIGNotification.swift */,
-				544E12C274047FFC93DED8E392F2DEF6 /* TIGPlayerUtils.swift */,
-				FAB79A04D4DAE81FE98FC9B5CAA3C028 /* Timer+TIGEZPlayer.swift */,
+				2F41F73F966167797930BF2D6F3E0B26 /* TIGPlayer.swift */,
+				7437D2164047073461B7463FE3F4CFED /* TIGPlayerSDK.swift */,
+				4B1E6D9B28CDB9C21C961A389F8E1642 /* TIGPlayerThumbnail.swift */,
+				E9F35D79CC381F00BDA4EFF63E834B15 /* TIGPlayerTransport.swift */,
+				5D9E44677ACEB22BB050B615ED7AC430 /* TIGPlayerView.swift */,
 			);
-			name = Utiles;
-			path = TIGPlayer/Utiles;
+			name = Core;
+			path = TIGPlayer/Core;
 			sourceTree = "<group>";
 		};
 		C70BA0473C1EA6E65540BAE03C2007DF /* Frameworks */ = {
@@ -1882,6 +1838,34 @@
 				A707BAEBC204AAA4E64C045ADFA82697 /* Fabric.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB030A8329DA0132046D0ADC1FD6C323 /* Utiles */ = {
+			isa = PBXGroup;
+			children = (
+				A9D4978296D88B89A350B30A245722B1 /* ApiClient.swift */,
+				66A7B87066C9475C42B0E1A4EB77D7E9 /* ArrayUtil.swift */,
+				D8007A60AFDF9017E1A727CBD6833633 /* AVPlayer+TIGPlayer.swift */,
+				AAA8645DC3ACD06E02B5FB58C71F44D6 /* AVPlayerItem+TIGPlayer.swift */,
+				9E071C2DC65B4318AB35B670C21F87AD /* DeviceInfo.swift */,
+				1D56F61AAAF50BABEA152E6CEDAEB125 /* DictonaryUtil.swift */,
+				49B210E9D4B771B97BA82FE06DC8076A /* MetaPageManager.swift */,
+				A5D15E71DD0279FFE5B35BF918140BDD /* ModeManager.swift */,
+				9D86557E652E174672C9B2FDAB7347F8 /* PersistentManager.swift */,
+				9E8F7B2F89B28FD046BE653A3D156C1B /* RealmManager.swift */,
+				5976BB87DCF18D7ED40F691F5C4154C7 /* RealmMapper.swift */,
+				9E3EF1998452E7A3100CBEE0A50113B1 /* RectUtil.swift */,
+				3CA0F4976A62DC3FAA25BCAB9D10DAD7 /* RippleGenerator.swift */,
+				6787222300053E64E8E375058C964589 /* TIGAnalytics.swift */,
+				6191DC9BBFF351579FEA2FE43B91C96F /* TIGConstants.swift */,
+				11EE0D20662C0F7351DABBF80685C082 /* TIGGradientColor.swift */,
+				C4FE7615B10ED01753077BBD628BB3A6 /* TIGLog.swift */,
+				CC7213742FB52931F1019F5A056E5F84 /* TIGNotification.swift */,
+				BF06E007A2AC58943E8108057593FF5C /* TIGPlayerUtils.swift */,
+				791A16E11A6BBE2D926C3B4FA589B177 /* Timer+TIGEZPlayer.swift */,
+			);
+			name = Utiles;
+			path = TIGPlayer/Utiles;
 			sourceTree = "<group>";
 		};
 		CCE96DD84A906093048DE755F2B1ACCF /* Pods-TIGPlayerSDKExample */ = {
@@ -1900,19 +1884,6 @@
 			);
 			name = "Pods-TIGPlayerSDKExample";
 			path = "Target Support Files/Pods-TIGPlayerSDKExample";
-			sourceTree = "<group>";
-		};
-		CE19E7BFE7531F330C3681DCC37C54B7 /* Componet */ = {
-			isa = PBXGroup;
-			children = (
-				6EA6A2AA21BD0CC2FB1062969FAECB06 /* TIGPlayerLoading.swift */,
-				C0D72ADB00CAA34F687B62F71C3E87DA /* TIGPlayerShareButton.swift */,
-				8810619225F93A8AE5C674A5D8BDEB55 /* TIGPlayerWipeContainer.swift */,
-				491D1941D884FA6198F5597ACB3F80E1 /* TIGPlayerWipeContainerRootViewController.swift */,
-				1193AC08AFA3FF38B208399BE6B356D7 /* TIGPlayerWipeContainerRootViewController.xib */,
-			);
-			name = Componet;
-			path = TIGPlayer/Componet;
 			sourceTree = "<group>";
 		};
 		D5364C6EB3192EE7BFCF477FC90E4028 /* UIKit */ = {
@@ -2023,36 +1994,16 @@
 			path = PromiseKit;
 			sourceTree = "<group>";
 		};
-		E92B570C51B624C11DD0A7E3D2605688 /* Skin */ = {
+		E9BF6DA1B3BD642F82977C3B955A671D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9E74B5D824681D3A70A66BA82C8F93D4 /* TIGObjectAreaView.swift */,
-				D4776B15787EB2425B788962BB6C5A12 /* TIGObjectMarkView.swift */,
-				8E58901CBAB45974124B67263E80ADC4 /* TIGObjectMoveView.swift */,
-				755A66170FD3AA4B1B2C3125D87CB523 /* TIGObjectRenderView.swift */,
-				C93CE8054BE69766A90FA11293A5E040 /* TIGObjectStockPointer.swift */,
-				C2D3AEB1852559F70379C627B94824B8 /* TIGObjectThumbnail.swift */,
-				0625D4965DE99D64201BB81A77FB2F5B /* TIGObjectView.swift */,
-				16C358CBC3172B6B59614FE751C3749F /* TIGPlayerControlBar.swift */,
-				8ADA5AE3B5C947E99A43E9803851EBDB /* TIGPlayerControlButton.swift */,
-				2D07912B302AF214A4ABDD0434CD537D /* TIGPlayerFloatingButton.swift */,
-				F284BF378F2AEAB0834155CDF909581C /* TIGPlayerMenuButton.swift */,
-				8F71CEBD505FCBDAEB72CF1C318CD869 /* TIGPlayerModeButton.swift */,
-				AF109EB96D305A4457F225B483CDD6E1 /* TIGPlayerTimeLabel.swift */,
-				80C4F256DF73C0E2A9B18EE4C96FE7B0 /* TIGPlayerTitleLabel.swift */,
-				16726A789DCA2BF15752FC1AA4E7B6AC /* TIGPlayerVideoshotPreview.swift */,
-				9764AD63192D6F14670EFA03BE925952 /* TIGPlayerWideControlView.swift */,
-				B388E4D7E7763366549C0378F373BBAF /* TIGPlayerWideControlView.xib */,
-				CB4B89E8971539B4437BEC839D410D3F /* TIGPlayerWipeButton.swift */,
-				2984E18826ADA6454C58F3543220D626 /* TIGPlayerWipeView.swift */,
-				1C12014FBD322ED073EDB5CC8F8B2B32 /* TIGPlayerWipeView.xib */,
-				45276CDCA0B39EC0F62EDF00FFD244D7 /* TIGStockButton.swift */,
-				7C7A671F30E9A98CAC61B8ABEAB0D8BD /* TIGStockListCell.swift */,
-				0841E3B3F4796DD1B9E41A592EA02E6B /* TIGStockListView.swift */,
-				549FA223DFF2E91BF400AA74A4229C5E /* TIGStockView.swift */,
+				B453209817B3EA1BCD7E098D84B01A11 /* Content.swift */,
+				B31DA474A9D3913290027B5F598E4091 /* Item.swift */,
+				BFC0F0FC3BAEBC07AE39C462C3F43BBB /* Meta.swift */,
+				1422CF4F52A70C50398A2FFAABE5CF0B /* Mode.swift */,
 			);
-			name = Skin;
-			path = TIGPlayer/Skin;
+			name = Model;
+			path = TIGPlayer/Model;
 			sourceTree = "<group>";
 		};
 		EBCED956B70927CA0772000F00B734E6 /* Frameworks */ = {
@@ -2093,6 +2044,55 @@
 			);
 			name = ObjectMapper;
 			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		F374E45B4C3E7C3E12D5D7F7146E275A /* TIGPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4ABF730EF367CC0707C4A5422B0D824C /* access_control.py */,
+				2125F14572DD6315B7F2E5CF1A10054A /* Info.plist */,
+				1FA98181C3A9F842DBD66DF5A9B1D2FA /* TIGPlayer.h */,
+				7E9DAE981278BF4A2338E20B8CCED182 /* Componet */,
+				C4A7CB4B856C3B1D6E004550C6692E71 /* Core */,
+				E9BF6DA1B3BD642F82977C3B955A671D /* Model */,
+				6ECD02BDE1D639FDB51A36A1395D555A /* Pod */,
+				FD37BCD79032762B23A5AB7C50157C22 /* Resources */,
+				73C0C4499799279BBF82DE6D1A7D46C3 /* Skin */,
+				FB217BDF5C3FFCE0FF01811D9A5B3350 /* Support Files */,
+				CB030A8329DA0132046D0ADC1FD6C323 /* Utiles */,
+			);
+			name = TIGPlayer;
+			path = "/Users/hiro-kobayashi/toy_demo/tig_ios";
+			sourceTree = "<absolute>";
+		};
+		F9C2B8F2A4243CBF361CFE4BBF7867A1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F374E45B4C3E7C3E12D5D7F7146E275A /* TIGPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FB217BDF5C3FFCE0FF01811D9A5B3350 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35991D15137F294530183061F75938AE /* Info.plist */,
+				E5E84430857F866DA133F0947858D58D /* TIGPlayer.modulemap */,
+				76B704B208E035216FC9D861390647E6 /* TIGPlayer.xcconfig */,
+				71A934581130BF1CE74CF871146E4F84 /* TIGPlayer-dummy.m */,
+				6B9A0C9B8BA4DC7933509C4FC6DF2B2C /* TIGPlayer-prefix.pch */,
+				CF2373707616371D9C5F8FDD615F014C /* TIGPlayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/TIGPlayer";
+			sourceTree = "<group>";
+		};
+		FD37BCD79032762B23A5AB7C50157C22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				58A6DAC245FC0AF7CE5B3ECC60C209B0 /* TIGPlayer.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		FE64A60D37077265A3950D5287A40CEF /* Frameworks */ = {
@@ -3273,7 +3273,7 @@
 		};
 		537C0C2221B48CFBE173C2F5FECC8B86 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D69AF60C25D16F405F678511BA18116 /* TIGPlayer.xcconfig */;
+			baseConfigurationReference = 76B704B208E035216FC9D861390647E6 /* TIGPlayer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3595,7 +3595,7 @@
 		};
 		AE1C01FEFD887DE593EB4AC7EF5C65D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D69AF60C25D16F405F678511BA18116 /* TIGPlayer.xcconfig */;
+			baseConfigurationReference = 76B704B208E035216FC9D861390647E6 /* TIGPlayer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

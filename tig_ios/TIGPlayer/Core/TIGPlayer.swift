@@ -323,10 +323,10 @@ open class TIGPlayer: NSObject, UIWebViewDelegate {
     }
     
     /// Shareボタンの表示
-    open var showShareButton = true{
+    open var showShareButton = false{
         didSet{
             if self.controlViewForWide != nil {
-                (self.controlViewForWide as? TIGPlayerWideControlView)?.showShareButton = showShareButton
+//                (self.controlViewForWide as? TIGPlayerWideControlView)?.showShareButton = showShareButton
             }
         }
     }
@@ -490,7 +490,7 @@ open class TIGPlayer: NSObject, UIWebViewDelegate {
         self.webViewNaviBar.isHidden = true
         self.webViewNaviBar.isUserInteractionEnabled = false
         
-        self.contentView!.addSubview(self.webViewNaviBar)
+//        self.contentView!.addSubview(self.webViewNaviBar)
     }
     
     /// web view初期生成
@@ -606,7 +606,7 @@ open class TIGPlayer: NSObject, UIWebViewDelegate {
         self.state = .stopped
 
         self.myWebView.removeFromSuperview()
-        self.webViewNaviBar.removeFromSuperview()
+//        self.webViewNaviBar.removeFromSuperview()
 
         self.player?.pause()
         self.freeWhenRetuningToMenu()
@@ -826,7 +826,7 @@ open class TIGPlayer: NSObject, UIWebViewDelegate {
                     
                     (self.controlViewForWide as? TIGPlayerWideControlView)?.tigMode = self.tigMode
                     (self.controlViewForWide as? TIGPlayerWideControlView)?.enableToggleMode = self.enableToggleMode
-                    (self.controlViewForWide as? TIGPlayerWideControlView)?.showShareButton = self.showShareButton
+//                    (self.controlViewForWide as? TIGPlayerWideControlView)?.showShareButton = self.showShareButton
                     (self.controlViewForWide as? TIGPlayerWideControlView)?.enableWipe = self.enableWipe
                 }
             }
@@ -847,7 +847,7 @@ open class TIGPlayer: NSObject, UIWebViewDelegate {
                 
                 (self.controlViewForWide as? TIGPlayerWideControlView)?.tigMode = self.tigMode
                 (self.controlViewForWide as? TIGPlayerWideControlView)?.enableToggleMode = self.enableToggleMode
-                (self.controlViewForWide as? TIGPlayerWideControlView)?.showShareButton = self.showShareButton
+//                (self.controlViewForWide as? TIGPlayerWideControlView)?.showShareButton = self.showShareButton
                 (self.controlViewForWide as? TIGPlayerWideControlView)?.enableWipe = self.enableWipe
             }
         }
@@ -1025,38 +1025,38 @@ extension TIGPlayer {
     ///
     /// - Parameter notifiaction: notifiaction
     @objc fileprivate  func deviceOrientationDidChange(_ notifiaction: Notification){
-        if let contentView = self.contentView{
-            if #available(iOS 11.0, *) {
-                if deviceInfo.isIpohneX{
-                    self.webViewNaviBar.frame = CGRect.init(x: 0,
-                                                            y: self.contentView!.safeAreaInsets.top,
-                                                            width: contentView.bounds.width,
-                                                            height: 44)
-                }else{
-                    self.webViewNaviBar.frame = CGRect.init(x: 0,
-                                                            y: 0,
-                                                            width: contentView.bounds.width,
-                                                            height: 44)
-                }
-            } else {
-                // Fallback on earlier versions
-                self.webViewNaviBar.frame = CGRect.init(x: 0,
-                                                        y: 0,
-                                                        width: contentView.bounds.width,
-                                                        height: 44)
-            }
-
-            self.openInSafariButton.frame = CGRect.init(x: self.webViewNaviBar.frame.width - 120 - 15,
-                                                        y: 5,
-                                                        width: 120,
-                                                        height: 34)
-            
-            self.myWebView.frame = CGRect.init(x: contentView.frame.origin.x,
-                                               y: self.webViewNaviBar.frame.origin.y + self.webViewNaviBar.frame.height,
-                                               width: contentView.frame.width,
-                                               height: contentView.frame.height)
-        }
-        (self.controlView as? TIGPlayerDelegate)?.player(self, orientationDidChange: deviceInfo.orientation)
+//        if let contentView = self.contentView{
+//            if #available(iOS 11.0, *) {
+//                if deviceInfo.isIpohneX{
+//                    self.webViewNaviBar.frame = CGRect.init(x: 0,
+//                                                            y: self.contentView!.safeAreaInsets.top,
+//                                                            width: contentView.bounds.width,
+//                                                            height: 44)
+//                }else{
+//                    self.webViewNaviBar.frame = CGRect.init(x: 0,
+//                                                            y: 0,
+//                                                            width: contentView.bounds.width,
+//                                                            height: 44)
+//                }
+//            } else {
+//                // Fallback on earlier versions
+//                self.webViewNaviBar.frame = CGRect.init(x: 0,
+//                                                        y: 0,
+//                                                        width: contentView.bounds.width,
+//                                                        height: 44)
+//            }
+//
+//            self.openInSafariButton.frame = CGRect.init(x: self.webViewNaviBar.frame.width - 120 - 15,
+//                                                        y: 5,
+//                                                        width: 120,
+//                                                        height: 34)
+//
+//            self.myWebView.frame = CGRect.init(x: contentView.frame.origin.x,
+//                                               y: contentView.frame.origin.y,
+//                                               width: contentView.frame.width,
+//                                               height: contentView.frame.height)
+//        }
+//        (self.controlView as? TIGPlayerDelegate)?.player(self, orientationDidChange: deviceInfo.orientation)
     }
 }
 
