@@ -29,6 +29,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // status bar style
 //        UIApplication.shared.statusBarStyle = .lightContent
+        //アプリの起動毎に切り替わる
+        self.userDefault.set(UUID().uuidString, forKey: "usid")
         return true
     }
     
@@ -84,7 +86,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 }
             }
         }
-        //analytics集計
     }
     
     /// URL Schemeに設定されたURLを受け取る

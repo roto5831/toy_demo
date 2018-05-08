@@ -41,6 +41,19 @@ open class TIGAnalytics: UIWebView,UIWebViewDelegate {
     /// ロード中か
     var isWebViewLoading = false
     
+    /// usid
+    let usid = UserDefaults.standard.string(forKey: "usid")
+    
+    //現在時刻
+    var currentTimeStr:String{
+        get{
+            let now = Date()
+            let formatter = DateFormatter()
+            formatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
+            return formatter.string(from:now)
+        }
+    }
+    
     /// 画面に表示しないのでframeは常に0
     ///
     /// - Parameter frame: frame
@@ -50,15 +63,6 @@ open class TIGAnalytics: UIWebView,UIWebViewDelegate {
         self.delegate = self
     }
     
-    
-    /// 画面に表示しないのでframeは常に0
-    ///
-    /// - Parameter frame: frame
-    init(){
-        super.init(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
-        self.frame = CGRect(x: 0, y: 0, width: 0, height: 0)
-        self.delegate = self
-    }
     
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -156,7 +160,8 @@ open class TIGAnalytics: UIWebView,UIWebViewDelegate {
     
     /// playEvent
     func sendPlayEvent() {
-        self.evaluatingJavaScript(from: "tigAnalytics.playEvent()")
+        let usid = self.usid ?? ""
+        self.evaluatingJavaScript(from: "tigAnalytics.playEvent('\(usid)', '\(self.currentTimeStr)')")
     }
     
     /// tapEvent
@@ -181,7 +186,9 @@ open class TIGAnalytics: UIWebView,UIWebViewDelegate {
         else{
             return
         }
-        self.evaluatingJavaScript(from: "tigAnalytics.tapEvent('\(x)', '\(y)', '\(time)', '\(playState)', '\(modeType)', '\(itemId)')")
+        let usid = self.usid ?? ""
+        print(usid)
+        self.evaluatingJavaScript(from: "tigAnalytics.tapEvent('\(usid)', '\(self.currentTimeStr)','\(x)', '\(y)', '\(time)', '\(playState)', '\(modeType)', '\(itemId)')")
     }
     
     
@@ -207,7 +214,8 @@ open class TIGAnalytics: UIWebView,UIWebViewDelegate {
         else{
             return
         }
-        self.evaluatingJavaScript(from: "tigAnalytics.stockEvent('\(x)', '\(y)', '\(time)', '\(playState)', '\(modeType)', '\(itemId)')")
+        let usid = self.usid ?? ""
+        self.evaluatingJavaScript(from: "tigAnalytics.stockEvent('\(usid)', '\(self.currentTimeStr)','\(x)', '\(y)', '\(time)', '\(playState)', '\(modeType)', '\(itemId)')")
     }
     
     /// linkoutEvent
@@ -226,7 +234,8 @@ open class TIGAnalytics: UIWebView,UIWebViewDelegate {
         else{
             return
         }
-        self.evaluatingJavaScript(from: "tigAnalytics.linkOutEvent('\(scene)','\(itemId)','\(url)')")
+        let usid = self.usid ?? ""
+        self.evaluatingJavaScript(from: "tigAnalytics.linkOutEvent('\(usid)', '\(self.currentTimeStr)','\(scene)','\(itemId)','\(url)')")
     }
     
     
@@ -235,8 +244,8 @@ open class TIGAnalytics: UIWebView,UIWebViewDelegate {
     /// - Parameter currentTime: currentTime
     func sendStopEvent(currentTime: NSDecimalNumber) {
         let time = makeTimeString(currentTime)
-        
-        self.evaluatingJavaScript(from: "tigAnalytics.stopEvent('\(time)')")
+        let usid = self.usid ?? ""
+        self.evaluatingJavaScript(from: "tigAnalytics.stopEvent('\(usid)', '\(self.currentTimeStr)','\(time)')")
     }
     
     /// JavaScriptの実行
