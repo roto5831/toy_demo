@@ -16,7 +16,11 @@ open class Router{
     
     open static var workerToolHost:String{
         get{
-            return  "http://dev.tigmedia.jp/"
+            #if DEBUG
+                return  "https://segatoysnext-dev.ixit.jp/"
+            #else
+                return  "https://segatoysnext.ixit.jp/"
+            #endif
         }
     }
     
@@ -27,9 +31,9 @@ open class Router{
             case .meta:
                 if TIGSDK_Config.metaDomain.isEmpty {
                     #if DEBUG
-                        domain = "api-md.dev.tigmedia.jp/"
+                        domain = "segatoysnext-dev.api.ixit.jp/md/"
                     #else
-                        domain = "api-md.tigmedia.jp/"
+                        domain = "segatoysnext.api.ixit.jp/md/"
                     #endif
                 } else {
                     domain = TIGSDK_Config.metaDomain
@@ -37,9 +41,9 @@ open class Router{
             case .metaNext:
                 if TIGSDK_Config.metaNextDomain.isEmpty {
                     #if DEBUG
-                        domain = "api-mn.dev.tigmedia.jp/"
+                        domain = "segatoysnext-dev.api.ixit.jp/mn/"
                     #else
-                        domain = "api-mn.tigmedia.jp/"
+                        domain = "segatoysnext.api.ixit.jp/mn/"
                     #endif
                 } else {
                     domain = TIGSDK_Config.metaNextDomain
@@ -47,9 +51,9 @@ open class Router{
             case .contentsItem:
                 if TIGSDK_Config.contentsItemDomain.isEmpty {
                     #if DEBUG
-                        domain = "api-ci.dev.tigmedia.jp/"
+                        domain = "segatoysnext-dev.api.ixit.jp/ci/"
                     #else
-                        domain = "api-ci.tigmedia.jp/"
+                        domain = "segatoysnext.api.ixit.jp/ci/"
                     #endif
                 } else {
                     domain = TIGSDK_Config.contentsItemDomain
@@ -57,9 +61,9 @@ open class Router{
             case .contentsList:
                 if TIGSDK_Config.contentsListDomain.isEmpty {
                     #if DEBUG
-                        domain = "api-cl.dev.tigmedia.jp/"
+                        domain = "segatoysnext-dev.api.ixit.jp/cl/"
                     #else
-                        domain = "api-cl.tigmedia.jp/"
+                        domain = "segatoysnext.api.ixit.jp/cl/"
                     #endif
                 } else {
                     domain = TIGSDK_Config.contentsListDomain
@@ -71,9 +75,9 @@ open class Router{
                 return "https://\(domain)"
             }else{
                 #if DEBUG
-                    return "https://api-cl.dev.tigmedia.jp/"
+                    return "https://segatoysnext-dev.api.ixit.jp/cl/"
                 #else
-                    return "https://api-cl.tigmedia.jp/"
+                    return "https://segatoysnext.api.ixit.jp/cl/"
                 #endif
             }
         }

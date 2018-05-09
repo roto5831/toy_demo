@@ -18,15 +18,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         #if DEBUG
-            TIGSDK_Config.metaDomain = "api-md.dev.tigmedia.jp/";
-            TIGSDK_Config.metaNextDomain = "api-mn.dev.tigmedia.jp/";
-            TIGSDK_Config.contentsItemDomain = "api-ci.dev.tigmedia.jp/";
-            TIGSDK_Config.contentsListDomain = "api-cl.dev.tigmedia.jp/";
+            TIGSDK_Config.metaDomain = "segatoysnext-dev.api.ixit.jp/md/";
+            TIGSDK_Config.metaNextDomain = "segatoysnext-dev.api.ixit.jp/mn/";
+            TIGSDK_Config.contentsItemDomain = "segatoysnext-dev.api.ixit.jp/ci/";
+            TIGSDK_Config.contentsListDomain = "segatoysnext-dev.api.ixit.jp/cl/";
         #else
-            TIGSDK_Config.metaDomain = "api-md.tigmedia.jp/";
-            TIGSDK_Config.metaNextDomain = "api-mn.tigmedia.jp/";
-            TIGSDK_Config.contentsItemDomain = "api-ci.tigmedia.jp/";
-            TIGSDK_Config.contentsListDomain = "api-cl.tigmedia.jp/";
+            TIGSDK_Config.metaDomain = "segatoysnext.api.ixit.jp/md/";
+            TIGSDK_Config.metaNextDomain = "segatoysnext.api.ixit.jp/mn/";
+            TIGSDK_Config.contentsItemDomain = "segatoysnext.api.ixit.jp/ci/";
+            TIGSDK_Config.contentsListDomain = "segatoysnext.api.ixit.jp/cl/";
         #endif
         
         return true
